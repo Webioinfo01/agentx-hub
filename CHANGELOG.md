@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-18 — issue router points at awescholar
+
+- The `agentx-hub-cli` repository is deprecated (absorbed into
+  [awescholar](https://github.com/wehuman01/awescholar) v0.2.6) and its
+  issue tracker will go read-only on archive. The issue-template contact
+  link now routes CLI problems to awescholar instead.
+
 ## 2026-09-17 — snapshot-apply drops superseded paper placeholders
 
 - **`hemaguide` / `hemaguide-2` was a false duplicate.** An import first

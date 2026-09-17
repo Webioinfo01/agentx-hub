@@ -4433,6 +4433,38 @@
       "retiredStars": null
     },
     {
+      "slug": "paper2agent",
+      "name": "Paper2Agent",
+      "repo": "jmiao24/Paper2Agent",
+      "githubUrl": "https://github.com/jmiao24/Paper2Agent",
+      "homepage": null,
+      "paper": "https://doi.org/10.1038/s41586-026-11044-y",
+      "paperMeta": {
+        "title": "Reimagining research papers as interactive and reliable AI agents",
+        "venue": "Nature",
+        "year": "2026.09",
+        "doi": "10.1038/s41586-026-11044-y",
+        "paperUrl": "https://doi.org/10.1038/s41586-026-11044-y",
+        "authors": "Jiacheng Miao, Joe R. Davis, Yaohui Zhang, Jonathan K. Pritchard, James Zou",
+        "firstAuthor": "Jiacheng Miao",
+        "citations": 1
+      },
+      "category": "platforms",
+      "tags": [
+        "Stanford",
+        "MCP"
+      ],
+      "language": "Python",
+      "stars": 2902,
+      "pushedAt": "2026-09-17T16:56:07Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "description": "Paper2Agent is a multi-agent AI system that automatically transforms research papers into interactive AI agents.",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null
+    },
+    {
       "slug": "paper_claw-pigeondan1",
       "name": "paper_claw (PigeonDan1)",
       "repo": "PigeonDan1/paper_claw",
@@ -6019,7 +6051,7 @@
     }
   ],
   "counts": {
-    "total": 208,
+    "total": 209,
     "gone": 1
   }
 }

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: agentx-hub-cli issues
+    url: https://github.com/Webioinfo01/agentx-hub-cli/issues
+    about: Problems with the command-line tool go to the CLI repository.

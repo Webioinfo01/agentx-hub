@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a problem with the AgentX website, API or registry data.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Website
+        - API
+        - Registry data
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL or API endpoint
+      placeholder: https://…/api/agents?…

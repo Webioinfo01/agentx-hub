@@ -1,0 +1,41 @@
+name: Agent suggestion
+description: Suggest a research AI agent that should be listed in the registry.
+labels: ["agent-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Agent name
+      placeholder: e.g. AgentLaboratory
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository
+      description: Canonical repo URL for the agent.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - autonomous-research
+        - literature-writing
+        - bio-omics
+        - chem-drug
+        - clinical-health
+        - platforms
+        - orchestration
+        - benchmarks
+        - safety-security
+        - others
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should it be listed?
+      description: What it does, paper or docs links, and how it is used in research.

@@ -1,46 +1,171 @@
-# AgentX
+<div align="center">
+  <img src="./src/app/icon.svg" alt="AgentX" width="120">
+  <h1>AgentX: Verified Registry of Research AI Agents</h1>
+  <p><strong>Discover, compare and review scientific research AI agents.</strong></p>
+  <p>A community directory with verified-run reviews and live GitHub metrics.</p>
+  <p>
+    <strong>English</strong> ·
+    <a href="./README_cn.md">简体中文</a>
+  </p>
+  <p>
+    <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/agents-183-0EA5E9?style=flat-square" alt="Agents tracked">
+    <img src="https://img.shields.io/badge/categories-9-7C3AED?style=flat-square" alt="Categories">
+    <img src="https://img.shields.io/badge/paper--backed-56-22C55E?style=flat-square" alt="Paper-backed agents">
+    <img src="https://img.shields.io/badge/updated-2026.09-334155?style=flat-square" alt="Last updated">
+  </p>
+</div>
 
-A community registry of research AI agents — directory, side-by-side
-comparison, and verified run reviews written by researchers who actually
-ran the tools.
+> Discover, compare and review scientific research AI agents.
 
-This repository is the **public hub for AgentX users**. It hosts the issue
-tracker and documentation; the source code itself is in closed development
-and is not published here.
+AgentX is a community website that tracks scientific research AI agents: a
+curated directory with live GitHub metrics, verified-run reviews from
+researchers who actually used the tools, side-by-side comparison, and monthly
+ecosystem reports. Listing is free and editorial — based on fit, not stars.
 
-## What you can do here
+## Using the site
 
-- **Suggest an agent** that should be listed —
-  [open an agent suggestion](../../issues/new?template=agent-suggestion.yml)
-  (the website's "Contribute" page links here too).
-- **Report a bug** in the website or the public API —
-  [open a bug report](../../issues/new?template=bug.yml).
-- **Report wrong or outdated data** — comment on an existing issue or open
-  a bug report with the `data` label.
+- **Browse** (`/agents`) — 180+ agents across 9 user-intent categories with
+  live GitHub metrics (stars, last push, language, license), search /
+  filter / sort; 🔥 New badge for agents added within the last 7 days
+- **Compare** (`/compare`) — up to 4 agents side by side, including review
+  scores and companion papers
+- **Review** — share your experience; verified-run reviews shape every
+  agent's score (rules below)
+- **Monthly reports** (`/reports`) — additions, repository activity and
+  review flow per month, computed live from registry data
+- **Same-name disambiguation** (`/samename`) — curated groups for the
+  ScienceClaw / MedClaw / autoresearch name collisions
 
-## Public API
+## How reviews work
 
-The registry is served through a read-only HTTP API (JSON):
+| | General comment | Verified Run review |
+|---|---|---|
+| Requires | ≥10 chars | ≥30 chars + evidence URL + 5 ratings (1–5) |
+| Counts toward score | no | yes (after approval) |
+| Evidence | — | repo / gist / PR / run log link |
 
-| Endpoint | Description |
-|---|---|
-| `GET /api/agents?q=&category=&status=&limit=` | Search and list agents |
-| `GET /api/agents/{slug}` | One agent with metrics and papers |
-| `GET /api/agents/{slug}/reviews` | Verified run reviews for an agent |
+Evidence hosted under the reviewer's own GitHub account
+(`https://github.com/<login>/…`) is auto-accepted as **self-attested**.
+Anything else lands in **pending** until a maintainer checks it. The five
+rating dimensions: usefulness, scientific accuracy, evidence quality,
+reliability, ease of use.
 
-`POST /api/agents/{slug}/reviews` accepts review submissions after signing
-in. All list endpoints are paginated with `limit` / `offset` and need no
-authentication.
+## Adding an agent
 
-## CLI
+The registry grows through suggestions and curated imports. Listing is
+free, editorial, and based on fit — not stars, sponsorship, or who asks
+loudest.
 
-Registry maintainers drive the validated add-and-refresh pipeline with
-[`agentx-hub-cli`](https://github.com/Webioinfo01/agentx-hub-cli)
-(`npm install -g agentx-hub-cli`). CLI-specific problems go to
-[its own issue tracker](https://github.com/Webioinfo01/agentx-hub-cli/issues).
+### Suggest an agent (anyone)
+
+Open an issue with the basics: name, repo URL, category suggestion, paper
+link if there is one, and one line on why it fits. No template gymnastics;
+a maintainer reads every one.
+
+[**Suggest an agent on GitHub →**](https://github.com/Webioinfo01/agentx-hub/issues/new?title=Agent+suggestion%3A+%3Cname%3E)
+
+What qualifies:
+
+- **A research purpose.** The agent does or assists scientific work —
+  literature, bio-omics, chemistry, drug discovery, clinical workflows,
+  autonomous research, orchestration around research agents.
+- **A public repo or a paper.** A GitHub repository we can fetch metrics
+  from, or a companion publication with a usable link. Closed SaaS without
+  either cannot be tracked honestly.
+- **Objective facts only.** Descriptions come from the repo itself; tags
+  carry institutions and venues, not marketing claims. Contested names get
+  disambiguated (the `/samename` page), never silently merged.
+
+### What happens next
+
+1. **Fit check** — a maintainer checks the criteria above and replies in
+   the issue: accepted, or what is missing.
+2. **Record created** — the repo goes through the validated add pipeline:
+   category and tag policy checks, one live GitHub fetch for metrics and
+   description. Nothing is hand-typed.
+3. **Listed as new** — the agent appears with a New badge for its first
+   7 days, then tracks pushes, stars and reviews like every other record.
+
+Maintainers add records through a validated CLI — the registry snapshot
+is never hand-edited. The operator verbs ship as this repo's
+`pnpm agentx <verb>` and as the standalone
+[`@webioinfo/agentx-cli`](https://github.com/Webioinfo01/agentx-cli) npm
+package. The full pipeline, categories and tag policy are documented in
+[docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md).
+
+## Public API and skills
+
+- `GET /api/agents` — directory + rating summaries (`q`, `category`,
+  `status`, `limit` filters)
+- `GET /api/agents/[slug]` — one agent record with its rating summary
+- `GET /api/agents/[slug]/reviews` — reviews for one agent
+- `GET /llms.txt` — plain-text registry index (llms.txt convention)
+- `POST /api/agents/[slug]/reviews` — create review (auth required)
+- `POST /api/reviews/[id]/vote` — helpful / not helpful (auth required)
+
+Read-only endpoints are CORS-enabled; `/developers` on the site renders
+the full reference with examples.
+
+`skills/` ships three agent skills (search, recommend, compare) that wrap
+the public API for coding agents — no keys, no auth:
+
+```bash
+npx skills add webioinfo01/agentx-hub -g -y
+```
+
+See `skills/README.md` for per-skill install and the `AGENTX_API_BASE`
+override.
+
+## Where the data comes from
+
+- **[claw4science.org](https://claw4science.org/)** — the first ~160
+  entries were imported from its publicly documented API (facts only: repo
+  URLs, project names, categories). The import is historical; this
+  directory is no longer synced from claw4science, categories and
+  membership are curated here.
+- **[Awesome AI Meets Biology](https://github.com/Webioinfo01/Awesome-AI-Meets-Biology)** —
+  curated academic bio-agents imported from the survey
+  ([Huang et al. 2026, *Genomics Communications*](https://doi.org/10.48130/gcomm-0026-0005)),
+  with paper links pointing to peer-reviewed versions where they exist.
+- **[awescholar](https://github.com/Webioinfo01/awescholar)** — one of the
+  site's maintenance tools: companion-paper metadata (title, venue, year,
+  team, DOI) resolved through its CLI against Semantic Scholar.
+- **GitHub API** — stars, last-push time, language, license and repo
+  descriptions, refreshed daily.
+
+Every listing's provenance is recorded in the snapshot; the site's
+`/data-sources` page details what is taken from each source and what stays
+ours. This project is independent and not affiliated with any listed
+agent.
+
+## Roadmap
+
+- Agent execution sandbox (run agents from the browser)
+- Multi-agent orchestration on a single task
+- Verified Run badge automation via CI logs
+
+## Citation
+
+If you find this repository useful in your research, please cite our paper:
+
+Huang S, Lang M, Chen Z, Yang C, Huang X, et al. 2026. From foundation models to autonomous agents in biology. Genomics Communications 3: e006 doi: 10.48130/gcomm-0026-0005
+
+## Development
+
+Local setup, the maintainer add pipeline, scripts, testing and
+architecture live in [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md).
 
 ## License
 
-Registry data is published under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — attribute to
-"AgentX Registry".
+- **Code** (`src/`, `scripts/`, `skills/`, `prisma/`) — MPL-2.0, see
+  [LICENSE](./LICENSE). MPL is file-level: modifications to these files
+  must stay open; combining them with your own code is fine.
+- **Registry data** (`data/`), monthly reports and documentation —
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attributed to
+  "AgentX Registry, https://github.com/Webioinfo01/agentx-hub".
+- **Reviews** — CC BY 4.0, attributed to the reviewer's GitHub account;
+  the license granted on submission is described in the site's Terms page
+  (`/terms`).

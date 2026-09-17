@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: >-
+  If you use AgentX or its registry data, please cite it as below.
+  The platform paper is in preparation; until it is published, citing the
+  team's research-agent survey (preferred-citation) is the way to credit
+  this work.
+title: 'AgentX: Verified Registry of Research AI Agents'
+type: software
+authors:
+  - name: Webioinfo01
+repository-code: 'https://github.com/Webioinfo01/agentx-hub'
+abstract: >-
+  A community registry of scientific research AI agents: a curated
+  directory with live GitHub metrics, verified-run reviews from
+  researchers, side-by-side comparison and monthly ecosystem reports,
+  with a free public API.
+keywords:
+  - ai-agents
+  - scientific-research
+  - registry
+  - reviews
+license: MPL-2.0
+preferred-citation:
+  type: article
+  title: 'From foundation models to autonomous agents in biology'
+  journal: Genomics Communications
+  volume: 3
+  year: 2026
+  doi: 10.48130/gcomm-0026-0005
+  authors:
+    - family-names: Huang
+      given-names: Shenghui
+    - family-names: Lang
+      given-names: Mei
+    - family-names: Chen
+      given-names: Zihan
+    - family-names: Yang
+      given-names: Chenxu
+    - family-names: Huang
+      given-names: Xiaoying
+    - family-names: Mohtashaminia
+      given-names: Zeynab
+    - family-names: Peng
+      given-names: Yuzhong

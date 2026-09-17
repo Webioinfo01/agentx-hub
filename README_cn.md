@@ -11,9 +11,9 @@
     <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/agents-183-0EA5E9?style=flat-square" alt="Agents tracked">
-    <img src="https://img.shields.io/badge/categories-9-7C3AED?style=flat-square" alt="Categories">
-    <img src="https://img.shields.io/badge/paper--backed-56-22C55E?style=flat-square" alt="Paper-backed agents">
+    <img src="https://img.shields.io/badge/agents-208-0EA5E9?style=flat-square" alt="Agents tracked">
+    <img src="https://img.shields.io/badge/categories-10-7C3AED?style=flat-square" alt="Categories">
+    <img src="https://img.shields.io/badge/paper--backed-87-22C55E?style=flat-square" alt="Paper-backed agents">
     <img src="https://img.shields.io/badge/updated-2026.09-334155?style=flat-square" alt="Last updated">
   </p>
 </div>
@@ -24,7 +24,7 @@ AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标�
 
 ## 使用网站
 
-- **浏览**（`/agents`）—— 180+ 个 agent，按 9 类用户意图分类；实时 GitHub 指标（star、最近推送、语言、许可证）；搜索 / 筛选 / 排序；新收录 7 天内带 🔥 New 标
+- **浏览**（`/agents`）—— 200+ 个 agent，按 10 类用户意图分类；实时 GitHub 指标（star、最近推送、语言、许可证）；搜索 / 筛选 / 排序；新收录 7 天内带 🔥 New 标
 - **对比**（`/compare`）—— 最多 4 个 agent 并排比较，含评价得分和配套论文
 - **评价** —— 分享你的使用经验；Verified Run 实测评价决定每个 agent 的得分（规则见下）
 - **月度报告**（`/reports`）—— 每月新增、仓库活跃度、评价动态，全部由注册表数据实时计算
@@ -62,7 +62,7 @@ AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标�
 2. **创建记录** —— 仓库走验证过的添加流水线：分类与标签策略检查，一次实时 GitHub 抓取获取指标和描述。没有任何手工录入。
 3. **以新收录上线** —— agent 带 New 标展示 7 天，之后与所有记录一样追踪推送、star 和评价。
 
-维护者通过验证过的 CLI 添加记录 —— 注册表快照永不手工编辑。操作动词既有本仓库的 `pnpm agentx <verb>`，也有独立的 npm 包 [`@webioinfo/agentx-cli`](https://github.com/Webioinfo01/agentx-cli)。完整流水线、分类和标签策略见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）。
+维护者通过验证过的 CLI 添加记录 —— 注册表快照永不手工编辑。操作命令由 Python CLI [`awescholar`](https://github.com/wehuman01/awescholar) 提供（`awescholar updater add --agentx`、`awescholar verify --agentx` 等）。完整流水线、分类和标签策略见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）。
 
 ## 公开 API 与技能
 

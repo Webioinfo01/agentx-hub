@@ -11,9 +11,9 @@
     <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/agents-183-0EA5E9?style=flat-square" alt="Agents tracked">
-    <img src="https://img.shields.io/badge/categories-9-7C3AED?style=flat-square" alt="Categories">
-    <img src="https://img.shields.io/badge/paper--backed-56-22C55E?style=flat-square" alt="Paper-backed agents">
+    <img src="https://img.shields.io/badge/agents-208-0EA5E9?style=flat-square" alt="Agents tracked">
+    <img src="https://img.shields.io/badge/categories-10-7C3AED?style=flat-square" alt="Categories">
+    <img src="https://img.shields.io/badge/paper--backed-87-22C55E?style=flat-square" alt="Paper-backed agents">
     <img src="https://img.shields.io/badge/updated-2026.09-334155?style=flat-square" alt="Last updated">
   </p>
 </div>
@@ -27,7 +27,7 @@ ecosystem reports. Listing is free and editorial — based on fit, not stars.
 
 ## Using the site
 
-- **Browse** (`/agents`) — 180+ agents across 9 user-intent categories with
+- **Browse** (`/agents`) — 200+ agents across 10 user-intent categories with
   live GitHub metrics (stars, last push, language, license), search /
   filter / sort; 🔥 New badge for agents added within the last 7 days
 - **Compare** (`/compare`) — up to 4 agents side by side, including review
@@ -90,10 +90,10 @@ What qualifies:
    7 days, then tracks pushes, stars and reviews like every other record.
 
 Maintainers add records through a validated CLI — the registry snapshot
-is never hand-edited. The operator verbs ship as this repo's
-`pnpm agentx <verb>` and as the standalone
-[`@webioinfo/agentx-cli`](https://github.com/Webioinfo01/agentx-cli) npm
-package. The full pipeline, categories and tag policy are documented in
+is never hand-edited. The operator commands ship as the Python
+[`awescholar`](https://github.com/wehuman01/awescholar) CLI
+(`awescholar updater add --agentx`, `awescholar verify --agentx`, …).
+The full pipeline, categories and tag policy are documented in
 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md).
 
 ## Public API and skills

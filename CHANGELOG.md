@@ -14,12 +14,13 @@
 - **Local `dev.db` cleaned for the existing pair:** paper stub removed,
   `hemaguide-2` renamed to `hemaguide` to match the snapshot.
 
-## 2026-09-17 — `agentx` goes standalone: @webioinfo/agentx-cli
+## 2026-09-17 — `agentx` goes standalone: agentx-hub-cli
 
 - **The operator verbs now install with npm.** `add`, `validate`,
   `snapshot`, `enrich-papers` and `refresh-citations` ship as the
-  open-source [Webioinfo01/agentx-cli](https://github.com/Webioinfo01/agentx-cli)
-  package (`npm i -g @webioinfo/agentx-cli`). `agentx <verb> --root <dir>`
+  open-source [Webioinfo01/agentx-hub-cli](https://github.com/Webioinfo01/agentx-hub-cli)
+  package (`npm i -g agentx-hub-cli`; the scoped `@webioinfo/agentx-cli`
+  spelling was renamed away the same day). `agentx <verb> --root <dir>`
   maintains any checkout of `data/agents-snapshot.json` without this repo's
   scripts; pointed at this repo, its `validate` returns the same verdict as
   the CI gate (208-agent snapshot: identical output).

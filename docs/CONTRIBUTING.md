@@ -22,6 +22,10 @@ than any listing. For code, read on.
 pnpm install
 cp .env.example .env
 
+# Database: Neon Postgres (see .env.example) — DATABASE_URL is the pooled
+# connection the app uses, DIRECT_URL the direct one migrations run through.
+pnpm exec prisma migrate deploy  # apply the committed baseline
+
 # Auth (optional for browsing; required to post reviews)
 # create at github.com/settings/developers, callback:
 #   http://localhost:3000/api/auth/callback/github
@@ -29,7 +33,6 @@ echo 'AUTH_SECRET=$(openssl rand -base64 32)' >> .env
 echo 'AUTH_GITHUB_ID=…' >> .env
 echo 'AUTH_GITHUB_SECRET=…' >> .env
 
-pnpm exec prisma migrate dev   # create dev.db
 pnpm db:apply-snapshot         # load the committed agent snapshot
 pnpm snapshot                  # optional: refresh live metrics now
 pnpm db:seed:demo              # optional: seed demo reviews (marked as seed)
@@ -40,7 +43,7 @@ Environment variables (see `.env.example` for the full annotated list):
 
 | Variable | Required | What it does |
 |---|---|---|
-| `DATABASE_URL` | yes | SQLite file path (swap Prisma `provider` to `postgres` for production) |
+| `DATABASE_URL` / `DIRECT_URL` | yes | Neon Postgres: pooled connection at runtime, direct connection for migrations |
 | `AUTH_SECRET` / `AUTH_GITHUB_ID` / `AUTH_GITHUB_SECRET` | to sign in | GitHub OAuth, JWT sessions (next-auth v5) |
 | `AUTH_TRUST_HOST` | outside Vercel | Trust the host header |
 | `GITHUB_TOKEN` | optional | GitHub API 60 req/h anonymous vs 5,000 with a token |
@@ -51,8 +54,9 @@ Environment variables (see `.env.example` for the full annotated list):
 ## The snapshot is the source of truth
 
 - `data/agents-snapshot.json` is the only write path for curated agent
-  fields. It is never hand-edited; `pnpm agent:add` is the only supported
-  entry point for new records. `pnpm agentx validate` (run in CI) enforces
+  fields. It is never hand-edited; `awescholar updater add --agentx` is the
+  only supported entry point for new records. `awescholar verify --agentx`
+  (run in CI) enforces
   the writer invariants — shape, slug order and uniqueness, registered
   categories/tags, consistent counts — so a hand edit fails loudly.
 - The database `Agent` table is a materialized view of the snapshot: the
@@ -69,18 +73,18 @@ Environment variables (see `.env.example` for the full annotated list):
 ## Adding an agent (maintainer pipeline)
 
 ```sh
-pnpm agent:add owner/repo --category <slug> \
+awescholar updater add --agentx owner/repo --category <slug> \
   [--name "Foo"] [--tags "Stanford,Nature-Biotechnology"] \
   [--paper URL] [--homepage URL] [--description "one line"]
 ```
 
-The script validates the category, the repo (must exist on GitHub) and the
+The command validates the category, the repo (must exist on GitHub) and the
 tag policy, fetches live metrics once, then appends to the snapshot in
 stable slug order. Follow up:
 
 ```sh
-pnpm agentx validate      # offline check of the writer invariants
-pnpm db:apply-snapshot    # load the snapshot into the DB
+awescholar verify --agentx  # offline check of the writer invariants
+pnpm db:apply-snapshot      # load the snapshot into the DB
 git add data/agents-snapshot.json && git commit
 ```
 
@@ -93,10 +97,11 @@ Categories (defined in `src/lib/categories.ts`):
 | `bio-omics` | Bioinformatics & Omics |
 | `chem-drug` | Chemistry & Drug Discovery |
 | `clinical-health` | Clinical & Healthcare |
-| `workbenches` | Research Workbenches |
 | `platforms` | Platforms & Infrastructure |
 | `orchestration` | Multi-Agent Orchestration |
-| `evaluation-safety` | Evaluation, Safety & Security |
+| `benchmarks` | Benchmarks |
+| `safety-security` | Safety & Security |
+| `others` | Others |
 
 The tag policy (objective proper-noun attributions only — institution,
 venue, companion product, named tech; never capability or marketing
@@ -104,13 +109,14 @@ descriptors) lives in `src/lib/tags.ts` and is enforced by tests.
 `GITHUB_TOKEN` is optional — the script makes one request per invocation,
 so the unauthenticated limit is fine.
 
-The same verbs (`add`, `validate`, `snapshot`, `enrich-papers`,
-`refresh-citations`) also ship as the standalone
-[`@webioinfo/agentx-cli`](https://github.com/Webioinfo01/agentx-cli) npm
-package: `agentx <verb> --root <dir>` operates on any checkout of this repo
+The same operations (`add`, `validate`, `snapshot`, `enrich-papers`,
+`refresh-citations`) ship as the Python
+[`awescholar`](https://github.com/wehuman01/awescholar) CLI:
+`awescholar updater add/enrich/backfill --agentx` and
+`awescholar verify --agentx` operate on any checkout of this repo
 without these scripts. The registry policy (categories, tag registry, venue
 aliases, status rules) is mirrored in both places — a policy change must
-land in both in the same change; running the CLI's `agentx validate` here is
+land in both in the same change; running `awescholar verify --agentx` here is
 the drift detector. The DB-bound verbs (`apply`, `moderate`) stay site-only.
 
 ## Paper enrichment (awescholar)
@@ -137,14 +143,16 @@ Licenses use the SPDX metadata GitHub reports; when it returns
 `NOASSERTION`, the repository's LICENSE file is read and standard
 Creative Commons titles are recognized (`scripts/lib/github.ts`).
 
-Statuses are derived from activity during the refresh: a repo archived on
-GitHub moves to the graveyard in the same refresh (the archived flag is
-persisted by awescholar's pass), a nursery project (under the nursery star
-threshold, `src/lib/categories.ts`) with no push for over a year is
-classified as archived, and a repository that vanished from GitHub (404)
-moves to the graveyard. "Stable" is a manual editorial verdict and
-automation never overwrites it. See the site's `/data-sources` page for
-the reader-facing wording.
+Statuses are derived from activity during the refresh: a repo archived by
+its owner or deleted from GitHub (404) moves to the graveyard (`gone`) in
+the same refresh (the archived flag is persisted by awescholar's pass), a
+repo idle past its tier's patience — 180 days under the nursery star line,
+3 years above it (`src/lib/categories.ts`) — is classified as `archived`,
+and a fresh push restores it. "Stable" is sticky once set: granted by
+manual verdict or automatically by the paper rule (a peer-reviewed
+companion paper at any star count, or a preprint with 1k+ stars), with
+`autoStableExempt` as the curator's veto against the automatic path. See
+the site's `/data-sources` page for the reader-facing wording.
 
 ## Review moderation
 
@@ -172,8 +180,8 @@ anything else. Approved is the only state that enters agent ratings
 | `pnpm snapshot` | refresh snapshot metrics (GitHub only) |
 | `pnpm agentx <verb>` | unified entry: `add` `snapshot` `validate` `apply` … map to the scripts below |
 | `pnpm agent:add` | add a new agent to the snapshot (validated, metrics fetched) |
-| `agentx <verb>` | standalone CLI (`@webioinfo/agentx-cli`) — same verbs minus the DB-bound ones, on any checkout via `--root` |
-| `pnpm agentx validate` | offline snapshot validation — the CI gate against hand edits |
+| `awescholar updater add --agentx` / `awescholar updater enrich --agentx` / `awescholar updater backfill --agentx` | standalone registry operations ([awescholar](https://github.com/wehuman01/awescholar)) — add, metrics refresh, paper/citation backfill on any checkout of this repo |
+| `awescholar verify --agentx` | offline snapshot validation — the CI gate against hand edits |
 | `pnpm enrich:papers` | enrich the snapshot with paper metadata via awescholar (Semantic Scholar) |
 | `pnpm db:apply-snapshot` | load `data/agents-snapshot.json` into the DB |
 | `pnpm reviews:moderate` | list / approve / reject pending verified-run reviews |

@@ -671,7 +671,8 @@
       "source": "manual",
       "sourceUrl": null,
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "bio-copilot",
@@ -1058,7 +1059,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1093/bioinformatics/btag355",
         "citations": 0
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "biomni",
@@ -1359,7 +1361,8 @@
       "source": "manual",
       "sourceUrl": null,
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "cellpainting-gallery",
@@ -1390,7 +1393,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-024-02241-6",
         "citations": 183
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "celltypeagent",
@@ -2920,7 +2924,8 @@
       "description": null,
       "status": "archived",
       "source": "manual",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "healthclaw",
@@ -3416,7 +3421,8 @@
       "source": "manual",
       "sourceUrl": null,
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "magiclaw",
@@ -4319,7 +4325,8 @@
       "description": "The First Cell Text-Omic Signaling Graphs Dataset for Joint LLM and GNN Modeling",
       "status": "active",
       "source": "manual",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "omniscientist",
@@ -4376,7 +4383,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00807-X",
         "citations": 0
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "open-co-scientist",
@@ -4759,7 +4767,8 @@
       "source": "manual",
       "sourceUrl": null,
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "paper_claw-pigeondan1",
@@ -5495,7 +5504,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2503.20158",
         "citations": 16
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "scagent",
@@ -5621,7 +5631,8 @@
       "description": null,
       "status": "active",
       "source": "manual",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "scextract",
@@ -5883,7 +5894,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-025-02651-0",
         "citations": 10
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "scperturb",
@@ -5914,7 +5926,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-023-02144-y",
         "citations": 200
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "screader",
@@ -6126,7 +6139,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00998-0",
         "citations": 0
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "statsclaw",
@@ -6233,7 +6247,8 @@
       "status": "no-repo",
       "autoStableExempt": false,
       "source": "manual",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "tcm-agent",
@@ -6288,7 +6303,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1101/2024.06.12.598655",
         "citations": 22
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "teroseek",
@@ -6396,7 +6412,8 @@
       "source": "manual",
       "sourceUrl": null,
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "tinyagi",
@@ -6578,7 +6595,8 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1101/2025.06.11.659105",
         "citations": 37
-      }
+      },
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "xunzi",

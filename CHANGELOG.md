@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-18 — awescholar is the sole registry CLI; TS data scripts retired
+
+- **`pnpm snapshot` / `agent:add` / `validate` / `agentx` / `enrich:papers` /
+  `refresh:citations` removed, along with the seven one-off backfills and
+  `scripts/lib/`.** Every one duplicated a native awescholar command
+  (`updater add/enrich/backfill --agentx`, `verify --agentx`) — the TS
+  lifecycle pass in `snapshot.ts` was a second implementation of the exact
+  policy that already lives in `awescholar/agentx/transform.py`. Remaining
+  `pnpm` scripts (`db:apply-snapshot`, `db:seed:demo`, `db:studio`,
+  `reviews:moderate`) are site/DB operations, not registry operations.
+- **CI runs awescholar directly.** `refresh.yml` (daily metrics + lifecycle)
+  and `papers.yml` (weekly paper-meta + citations backfill) dropped the
+  pnpm/node setup entirely — the daily job no longer installs 400 npm
+  packages to run a Python CLI.
+- **`/contribute` maintainer instructions now show the awescholar command**
+  instead of the removed `pnpm agent:add`.
+
 ## 2026-09-18 — one `agentx` skill; public docs tell the truth
 
 - **`agentx-search` / `agentx-recommend` / `agentx-compare` merge into one

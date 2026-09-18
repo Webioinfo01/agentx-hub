@@ -5452,6 +5452,39 @@
       "retiredStars": null
     },
     {
+      "slug": "rxrx3-core",
+      "name": "RxRx3-core",
+      "repo": "rxrx.ai/rxrx3-core",
+      "githubUrl": null,
+      "homepage": "https://www.rxrx.ai/datasets",
+      "paper": "https://arxiv.org/abs/2503.20158",
+      "category": "datasets",
+      "tags": [
+        "arXiv"
+      ],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Curated release of the RxRx3 high-content microscopy corpus: cell-painting images across compound treatments for benchmarking drug-target and mechanism-of-action inference. Dataset hosted on rxrx.ai; no official GitHub repo.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "RxRx3-core: Benchmarking drug-target interactions in High-Content Microscopy",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2503.20158",
+        "year": "2025.03",
+        "authors": "Oren Kraus, Federico Comitani, John Urbanik, Kian Kenyon-Dean, Lakshmanan Arumugam, Saber Saberian, Cas Wognum, Safiye Celik, I. Haque",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2503.20158",
+        "citations": 16
+      }
+    },
+    {
       "slug": "scagent",
       "name": "scAgent",
       "repo": "Miiyuu/scAgent",
@@ -6497,6 +6530,39 @@
       "retiredStars": null
     },
     {
+      "slug": "x-atlas-orion",
+      "name": "X-Atlas/Orion",
+      "repo": "figshare.plus/29190726",
+      "githubUrl": null,
+      "homepage": "https://doi.org/10.25452/figshare.plus.29190726",
+      "paper": "https://doi.org/10.1101/2025.06.11.659105",
+      "category": "datasets",
+      "tags": [
+        "bioRxiv"
+      ],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Genome-wide Perturb-seq datasets produced on a scalable fix-cryopreserve platform, released to train dose-dependent biological foundation models. Data on figshare (CC BY 4.0); no official GitHub repo.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "X-Atlas/Orion: Genome-wide Perturb-seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models",
+        "venue": "bioRxiv",
+        "doi": "10.1101/2025.06.11.659105",
+        "year": "2025.06",
+        "authors": "Ann Huang, Tsung-Han S. Hsieh, Jiang Zhu, Jackson Michuda, Ashton Teng, Soohong Kim, Elizabeth M. Rumsey, S. Lam, Ikenna Anigbogu, Philip Wright, Mohamed Ameen, Kwontae You, Christopher J Graves, H. Kim, Adam J. Litterman, Rene Sit, A. Blocker, Ci Chu",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1101/2025.06.11.659105",
+        "citations": 37
+      }
+    },
+    {
       "slug": "xunzi",
       "name": "XunZi",
       "repo": "biocuckooHXH/XunZi",
@@ -6557,7 +6623,7 @@
     }
   ],
   "counts": {
-    "total": 224,
+    "total": 226,
     "gone": 1
   }
 }

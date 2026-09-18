@@ -1350,7 +1350,7 @@
       "archived": false,
       "license": "MIT",
       "description": "Comprehensive suite for evaluating perturbation prediction models",
-      "status": "active",
+      "status": "stable",
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
@@ -4353,7 +4353,7 @@
       "openIssues": 0,
       "license": "Apache-2.0",
       "description": null,
-      "status": "active",
+      "status": "stable",
       "source": "manual",
       "sourceUrl": null,
       "paperMeta": {
@@ -6065,7 +6065,7 @@
       "openIssues": 3,
       "license": "MIT",
       "description": "LLM agents for working with the SRA and associated bioinformatics databases.",
-      "status": "active",
+      "status": "stable",
       "source": "manual",
       "sourceUrl": null,
       "paperMeta": {

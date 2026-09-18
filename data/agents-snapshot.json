@@ -6258,7 +6258,7 @@
       "openIssues": 68,
       "license": "MIT",
       "description": "Therapeutics Commons (TDC): Multimodal Foundation for Therapeutic Science",
-      "status": "stale",
+      "status": "stable",
       "source": "manual",
       "sourceUrl": null,
       "paperMeta": {

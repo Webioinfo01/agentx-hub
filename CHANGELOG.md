@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-19 — snapshot-apply reconciles with minimal writes
+
+- **`applySnapshot` no longer does two DB round trips per agent.** It read
+  the full table once, diffs each snapshot row against the in-memory copy,
+  and writes only rows that actually drifted; review counts for deletion
+  candidates (superseded paper stubs, orphans) come from one `groupBy`.
+  An idle sync-db run drops from ~8.5 minutes (≈500 sequential round trips
+  to Neon) to a handful of queries.
+- **Full-table reconcile semantics are unchanged:** the snapshot is still
+  the only write path, row-level drift (re-seeds, manual fixes) is still
+  detected on every run — unchanged rows are simply not rewritten.
+- **`githubFetchedAt` now means "when apply last changed this row"** (it
+  used to be stamped on every apply, even no-op ones). Same for the row's
+  `updatedAt`. `created`/`updated` in apply logs are now exact counts.
+
 ## 2026-09-18 — `agentx`: the hub's command name is back
 
 - Registry commands across docs, workflows and the contribute page now use the short `agentx` CLI — `agentx add | enrich | backfill | validate` — shipped by the `awescholar` Python package (v0.3.0+) as a pure alias over the same `updater … --agentx` / `verify --agentx` commands. Identical behavior, gates and defaults; `refresh.yml`, `papers.yml` and the CI validate step now invoke it.

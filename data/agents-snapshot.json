@@ -89,7 +89,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "Bioinformatics"
+        "Bioinformatics",
+        "bioRxiv"
       ],
       "language": "Python",
       "stars": 34,
@@ -397,7 +398,9 @@
         "citations": 9
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 15,
       "pushedAt": "2025-04-01T17:41:21Z",
@@ -492,7 +495,8 @@
       "tags": [
         "KAUST",
         "Xin-Gao",
-        "Advanced-Science"
+        "Advanced-Science",
+        "bioRxiv"
       ],
       "language": "Python",
       "stars": 238,
@@ -640,7 +644,9 @@
       "homepage": "https://benchmark-radar.org/",
       "paper": "https://arxiv.org/abs/2609.11115",
       "category": "benchmarks",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 229,
       "pushedAt": "2026-09-17T20:12:06Z",
@@ -714,7 +720,9 @@
         "citations": 10
       },
       "category": "benchmarks",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 33,
       "pushedAt": "2026-08-11T13:16:05Z",
@@ -747,7 +755,9 @@
         "citations": 17
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "TypeScript",
       "stars": 184,
       "pushedAt": "2026-06-15T13:26:36Z",
@@ -866,7 +876,8 @@
       },
       "category": "bio-omics",
       "tags": [
-        "LangGraph"
+        "LangGraph",
+        "Nature-BME"
       ],
       "language": "Python",
       "stars": 93,
@@ -900,7 +911,8 @@
       },
       "category": "benchmarks",
       "tags": [
-        "Zifeng-Wang"
+        "Zifeng-Wang",
+        "arXiv"
       ],
       "language": null,
       "stars": 0,
@@ -1127,7 +1139,9 @@
         "citations": 104
       },
       "category": "benchmarks",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 145,
       "pushedAt": "2025-10-06T21:54:03Z",
@@ -1160,7 +1174,9 @@
         "citations": 1
       },
       "category": "chem-drug",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 378,
       "pushedAt": "2026-04-08T09:56:41Z",
@@ -1290,7 +1306,9 @@
         "citations": 8
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 4,
       "pushedAt": "2025-03-28T20:37:44Z",
@@ -1850,7 +1868,9 @@
         "citations": 12
       },
       "category": "safety-security",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 18,
       "pushedAt": "2026-04-15T04:13:16Z",
@@ -2060,7 +2080,8 @@
       "tags": [
         "Princeton",
         "Le-Cong",
-        "arXiv"
+        "arXiv",
+        "bioRxiv"
       ],
       "language": "Python",
       "stars": 176,
@@ -2178,7 +2199,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "Alibaba"
+        "Alibaba",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 19955,
@@ -2381,7 +2403,8 @@
       },
       "category": "chem-drug",
       "tags": [
-        "GAIR"
+        "GAIR",
+        "bioRxiv"
       ],
       "language": "Python",
       "stars": 5,
@@ -2451,7 +2474,9 @@
         "citations": 0
       },
       "category": "clinical-health",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": null,
       "stars": 0,
       "pushedAt": "2025-07-15T05:41:31Z",
@@ -2585,7 +2610,9 @@
         "citations": 38
       },
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 4902,
       "pushedAt": "2026-09-17T08:41:42Z",
@@ -2874,7 +2901,8 @@
       "category": "benchmarks",
       "tags": [
         "EPFL",
-        "ICLR"
+        "ICLR",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 21,
@@ -3056,7 +3084,9 @@
         "citations": 94
       },
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 585,
       "pushedAt": "2026-04-04T08:03:48Z",
@@ -3116,7 +3146,9 @@
         "citations": 7
       },
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 33,
       "pushedAt": "2026-02-09T00:16:00Z",
@@ -3149,7 +3181,9 @@
         "citations": 0
       },
       "category": "chem-drug",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 9,
       "pushedAt": "2025-10-15T17:14:17Z",
@@ -3182,7 +3216,9 @@
         "citations": 0
       },
       "category": "chem-drug",
-      "tags": [],
+      "tags": [
+        "bioRxiv"
+      ],
       "language": "Python",
       "stars": 1,
       "pushedAt": "2026-08-26T12:59:36Z",
@@ -3435,7 +3471,9 @@
         "citations": 49
       },
       "category": "platforms",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 1558,
       "pushedAt": "2026-08-17T03:41:43Z",
@@ -3468,7 +3506,9 @@
         "citations": 0
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "bioRxiv"
+      ],
       "language": null,
       "stars": 4,
       "pushedAt": "2026-09-10T09:31:23Z",
@@ -3501,7 +3541,9 @@
         "citations": 2
       },
       "category": "literature-writing",
-      "tags": [],
+      "tags": [
+        "bioRxiv"
+      ],
       "language": "Python",
       "stars": 9,
       "pushedAt": "2026-08-03T16:14:35Z",
@@ -3534,7 +3576,9 @@
         "citations": 26
       },
       "category": "orchestration",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 3496,
       "pushedAt": "2026-06-07T04:57:05Z",
@@ -3568,7 +3612,8 @@
       },
       "category": "bio-omics",
       "tags": [
-        "HUST-BGI"
+        "HUST-BGI",
+        "bioRxiv"
       ],
       "language": "Python",
       "stars": 3,
@@ -3602,7 +3647,9 @@
         "citations": 1
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "bioRxiv"
+      ],
       "language": "Python",
       "stars": 3,
       "pushedAt": "2026-06-19T20:30:12Z",
@@ -3781,7 +3828,9 @@
         "citations": 2
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 6,
       "pushedAt": "2026-01-08T13:17:55Z",
@@ -3990,7 +4039,9 @@
         "citations": 2
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 26,
       "pushedAt": "2025-09-16T19:33:17Z",
@@ -4706,7 +4757,9 @@
         "citations": 0
       },
       "category": "chem-drug",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 0,
       "pushedAt": "2026-06-27T19:06:54Z",
@@ -5212,7 +5265,9 @@
         "citations": 11
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 8,
       "pushedAt": "2025-04-27T13:09:51Z",
@@ -5282,7 +5337,9 @@
         "citations": 15
       },
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "bioRxiv"
+      ],
       "language": "Python",
       "stars": 13,
       "pushedAt": "2026-06-05T02:35:04Z",
@@ -5460,7 +5517,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "MIT"
+        "MIT",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 242,
@@ -5580,7 +5638,8 @@
       },
       "category": "platforms",
       "tags": [
-        "Alibaba"
+        "Alibaba",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 2616,
@@ -5615,7 +5674,8 @@
       },
       "category": "platforms",
       "tags": [
-        "Microsoft"
+        "Microsoft",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 17175,
@@ -5688,7 +5748,8 @@
       "category": "autonomous-research",
       "tags": [
         "SJTU",
-        "ICLR"
+        "ICLR",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 56,
@@ -5761,7 +5822,8 @@
       "tags": [
         "Princeton",
         "Stanford",
-        "bioRxiv"
+        "bioRxiv",
+        "arXiv"
       ],
       "language": "Python",
       "stars": 154,
@@ -5855,7 +5917,8 @@
       },
       "category": "platforms",
       "tags": [
-        "Stanford"
+        "Stanford",
+        "Nature"
       ],
       "language": "Python",
       "stars": 3733,

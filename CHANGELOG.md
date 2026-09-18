@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-18 — `agentx`: the hub's command name is back
+
+- Registry commands across docs, workflows and the contribute page now use the short `agentx` CLI — `agentx add | enrich | backfill | validate` — shipped by the `awescholar` Python package (v0.3.0+) as a pure alias over the same `updater … --agentx` / `verify --agentx` commands. Identical behavior, gates and defaults; `refresh.yml`, `papers.yml` and the CI validate step now invoke it.
+
 ## 2026-09-18 — awescholar is the sole registry CLI; TS data scripts retired
 
 - **`pnpm snapshot` / `agent:add` / `validate` / `agentx` / `enrich:papers` /

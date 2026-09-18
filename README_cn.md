@@ -62,7 +62,7 @@ AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标�
 2. **创建记录** —— 仓库走验证过的添加流水线：分类与标签策略检查，一次实时 GitHub 抓取获取指标和描述。没有任何手工录入。
 3. **以新收录上线** —— agent 带 New 标展示 7 天，之后与所有记录一样追踪推送、star 和评价。
 
-维护者通过验证过的 CLI 添加记录 —— 注册表快照永不手工编辑。操作命令由 Python CLI [`awescholar`](https://github.com/wehuman01/awescholar) 提供（`awescholar updater add --agentx`、`awescholar verify --agentx` 等）。完整流水线、分类和标签策略见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）。
+维护者通过验证过的 CLI 添加记录 —— 注册表快照永不手工编辑。操作命令是 `agentx` CLI（`agentx add`、`agentx validate` 等），由 Python 包 [`awescholar`](https://github.com/wehuman01/awescholar) 提供。完整流水线、分类和标签策略见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）。
 
 ## 公开 API 与技能
 

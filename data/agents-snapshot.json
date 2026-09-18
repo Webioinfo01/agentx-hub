@@ -5942,9 +5942,10 @@
       "githubUrl": "https://github.com/harrisongzhang/TheVirtualBiotech",
       "homepage": null,
       "paper": "https://doi.org/10.64898/2026.02.23.707551",
-      "category": "chem-drug",
+      "category": "orchestration",
       "tags": [
-        "bioRxiv"
+        "bioRxiv",
+        "orchestration"
       ],
       "language": "Python",
       "stars": 33,

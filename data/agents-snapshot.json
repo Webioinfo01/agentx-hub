@@ -1290,6 +1290,25 @@
       "retiredStars": null
     },
     {
+      "slug": "cell-eval",
+      "name": "Cell-Eval",
+      "repo": "ArcInstitute/cell-eval",
+      "githubUrl": "https://github.com/ArcInstitute/cell-eval",
+      "homepage": null,
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [],
+      "language": "Python",
+      "stars": 160,
+      "pushedAt": "2026-07-27T22:51:17Z",
+      "openIssues": 14,
+      "license": "MIT",
+      "description": "Comprehensive suite for evaluating perturbation prediction models",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null
+    },
+    {
       "slug": "celltypeagent",
       "name": "CellTypeAgent",
       "repo": "jianghao-zhang/CellTypeAgent",
@@ -3257,6 +3276,35 @@
       "sourceUrl": null,
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "longevity-claw",
+      "name": "Longevity Claw",
+      "repo": "Insilico-org/longeclaw",
+      "githubUrl": "https://github.com/Insilico-org/longeclaw",
+      "homepage": "https://longevitybenchmarks.org/",
+      "paper": "https://doi.org/10.1016/j.cell.2026.08.026",
+      "category": "benchmarks",
+      "tags": [],
+      "language": "Python",
+      "stars": 3,
+      "pushedAt": "2026-06-09T13:26:54Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "description": "Digital Longevity Research",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "An open benchmark and language models for AI in aging biology",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.08.026",
+        "year": "2026.09",
+        "authors": "Alex Zhavoronkov, Vladimir Naumov, Denis Sidorenko, Alex Aliper, Vladimir Aladinskiy, Ramin Hasani, Alexander Amini, Katerina Nasto, Mathieu Reymond, Rim Shayakhmetov, Zulfat Miftakhutdinov, Vadim N. Gladyshev, Fedor Galkin",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.08.026",
+        "citations": 1
+      }
     },
     {
       "slug": "magiclaw",
@@ -6178,7 +6226,7 @@
     }
   ],
   "counts": {
-    "total": 211,
+    "total": 213,
     "gone": 1
   }
 }

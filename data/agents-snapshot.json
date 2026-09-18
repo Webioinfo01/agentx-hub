@@ -1299,8 +1299,17 @@
       "repo": "ArcInstitute/cell-eval",
       "githubUrl": "https://github.com/ArcInstitute/cell-eval",
       "homepage": null,
-      "paper": null,
-      "paperMeta": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00921-9",
+      "paperMeta": {
+        "title": "Predicting cellular responses to perturbation across diverse contexts with State",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00921-9",
+        "year": "2026.09",
+        "authors": "Abhinav K. Adduri, Dhruv Gautam, Beatrice Bevilacqua, et al. (Hani Goodarzi, Yusuf H. Roohani)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00921-9",
+        "citations": 0
+      },
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
@@ -4230,6 +4239,35 @@
       "retiredStars": null
     },
     {
+      "slug": "oncoformer",
+      "name": "Oncoformer",
+      "repo": "kaiwang13/Oncoformer",
+      "githubUrl": "https://github.com/kaiwang13/Oncoformer",
+      "homepage": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00807-X",
+      "category": "clinical-health",
+      "tags": [],
+      "language": "Python",
+      "stars": 20,
+      "pushedAt": "2026-06-20T14:40:12Z",
+      "openIssues": 0,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "Advancing cancer detection and treatment using longitudinal routine clinical data",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00807-X",
+        "year": "2026.09",
+        "authors": "Fei Liu, et al. (Kang Zhang, Eric Oermann)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00807-X",
+        "citations": 0
+      }
+    },
+    {
       "slug": "open-co-scientist",
       "name": "Open Co-Scientist",
       "repo": "jataware/open-coscientist",
@@ -5386,6 +5424,35 @@
       "retiredStars": null
     },
     {
+      "slug": "scbasecount",
+      "name": "scBaseCount",
+      "repo": "ArcInstitute/scBaseCount_analysis",
+      "githubUrl": "https://github.com/ArcInstitute/scBaseCount_analysis",
+      "homepage": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00998-0",
+      "category": "bio-omics",
+      "tags": [],
+      "language": "Jupyter Notebook",
+      "stars": 8,
+      "pushedAt": "2026-07-24T19:29:47Z",
+      "openIssues": 0,
+      "license": null,
+      "description": "Data analysis for the scBaseCount manuscript",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00998-0",
+        "year": "2026.09",
+        "authors": "Nicholas D. Youngblut, Christopher Carpenter, et al. (Hani Goodarzi, Yusuf H. Roohani)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00998-0",
+        "citations": 0
+      }
+    },
+    {
       "slug": "scchat",
       "name": "scChat",
       "repo": "li-group/scChat",
@@ -5906,6 +5973,37 @@
       "retiredStars": null
     },
     {
+      "slug": "tahoe-100m",
+      "name": "Tahoe-100M",
+      "repo": "huggingface.co/tahoebio/Tahoe-100M",
+      "githubUrl": null,
+      "homepage": "https://huggingface.co/datasets/tahoebio/Tahoe-100M",
+      "paper": "https://doi.org/10.1016/j.cell.2026.08.035",
+      "paperMeta": {
+        "title": "Tahoe-100M: Mapping drug-induced molecular phenotypes at single-cell resolution",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.08.035",
+        "year": "2026.09",
+        "authors": "Jesse Zhang, Airol A. Ubas, Valentine Svensson, Nicole Thomas, Vishvak Subramanyam, Christopher Carpenter, Aidan Winters, Richard de Borja, Noam Teyssier, Neha Thakar, Umair Khan, Pooja V. Akella, Harper J. Green, John D. Thompson, Vuong Tran, Joseph Pangallo, Efthymia Papalexi, Ajay Sapre, Hoai Nguyen, Oliver Sanderson, Maria Nigos, Olivia Kaplan, Sarah Schroeder, Bryan Hariadi, Simone Marrujo, Crina Curca, Alec Salvino, Guillermo Gallareta Olivares, Ryan Koehler, Alexander Rosenberg, Charles Roco, Chiara Ricci-Tam, Matthew G. Jones, Alexander Dobin, Brian S. Plosky, Danielle E. Lyons, Daniele Merico, Nima Alidoust, Hani Goodarzi, Johnny Yu",
+        "firstAuthor": "Jesse Zhang",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.08.035",
+        "citations": 0
+      },
+      "category": "datasets",
+      "tags": [],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "An atlas of ~100 million single-cell transcriptomes profiling 50 cancer cell lines across ~1,100 drug-dose treatments, pairing single-cell with molecular phenotypes to link drug mechanisms to cellular responses — an openly available substrate for training predictive models of cell behavior. Data lives on Hugging Face (CC0); no official GitHub repo.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null
+    },
+    {
       "slug": "tcm-agent",
       "name": "TCM-Agent",
       "repo": "AITCM/TCM-Agent",
@@ -6247,7 +6345,7 @@
     }
   ],
   "counts": {
-    "total": 213,
+    "total": 216,
     "gone": 1
   }
 }

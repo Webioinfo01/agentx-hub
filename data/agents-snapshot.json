@@ -1295,7 +1295,7 @@
       "repo": "ArcInstitute/cell-eval",
       "githubUrl": "https://github.com/ArcInstitute/cell-eval",
       "homepage": null,
-      "paper": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00921-9",
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
@@ -1306,7 +1306,17 @@
       "description": "Comprehensive suite for evaluating perturbation prediction models",
       "status": "active",
       "source": "manual",
-      "sourceUrl": null
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "Predicting cellular responses to perturbation across diverse contexts with State",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00921-9",
+        "year": "2026.09",
+        "authors": "Abhinav K. Adduri, Dhruv Gautam, Beatrice Bevilacqua, et al. (Hani Goodarzi, Yusuf H. Roohani)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00921-9",
+        "citations": 0
+      }
     },
     {
       "slug": "celltypeagent",
@@ -4217,6 +4227,35 @@
       "retiredStars": null
     },
     {
+      "slug": "oncoformer",
+      "name": "Oncoformer",
+      "repo": "kaiwang13/Oncoformer",
+      "githubUrl": "https://github.com/kaiwang13/Oncoformer",
+      "homepage": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00807-X",
+      "category": "clinical-health",
+      "tags": [],
+      "language": "Python",
+      "stars": 20,
+      "pushedAt": "2026-06-20T14:40:12Z",
+      "openIssues": 0,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "Advancing cancer detection and treatment using longitudinal routine clinical data",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00807-X",
+        "year": "2026.09",
+        "authors": "Fei Liu, Hai Wang, et al. (Kang Zhang, Eric Oermann)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00807-X",
+        "citations": 0
+      }
+    },
+    {
       "slug": "open-co-scientist",
       "name": "Open Co-Scientist",
       "repo": "jataware/open-coscientist",
@@ -5369,6 +5408,35 @@
       "retiredStars": null
     },
     {
+      "slug": "scbasecount",
+      "name": "scBaseCount",
+      "repo": "ArcInstitute/scBaseCount_analysis",
+      "githubUrl": "https://github.com/ArcInstitute/scBaseCount_analysis",
+      "homepage": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00998-0",
+      "category": "bio-omics",
+      "tags": [],
+      "language": "Jupyter Notebook",
+      "stars": 8,
+      "pushedAt": "2026-07-24T19:29:47Z",
+      "openIssues": 0,
+      "license": null,
+      "description": "Data analysis for the scBaseCount manuscript",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00998-0",
+        "year": "2026.09",
+        "authors": "Nicholas D. Youngblut, Christopher Carpenter, et al. (Hani Goodarzi, Yusuf H. Roohani)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00998-0",
+        "citations": 0
+      }
+    },
+    {
       "slug": "scchat",
       "name": "scChat",
       "repo": "li-group/scChat",
@@ -6226,7 +6294,7 @@
     }
   ],
   "counts": {
-    "total": 213,
+    "total": 215,
     "gone": 1
   }
 }

@@ -633,6 +633,35 @@
       "retiredStars": null
     },
     {
+      "slug": "benchmark-radar",
+      "name": "Benchmark Radar",
+      "repo": "ktwu01/benchmark-radar",
+      "githubUrl": "https://github.com/ktwu01/benchmark-radar",
+      "homepage": "https://benchmark-radar.org/",
+      "paper": "https://arxiv.org/abs/2609.11115",
+      "category": "benchmarks",
+      "tags": [],
+      "language": "Python",
+      "stars": 229,
+      "pushedAt": "2026-09-17T20:12:06Z",
+      "openIssues": 121,
+      "license": "MIT",
+      "description": "Track 14,810+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+        "venue": "",
+        "doi": "",
+        "year": "2026.09",
+        "authors": "Koutian Wu, Jun Zhou, Er-Gan Shang, Jia-Yu Wang, Peng Han, Jun-Kai Wang, Wang-Han Xu",
+        "firstAuthor": "",
+        "paperUrl": "https://www.semanticscholar.org/paper/473c1f795d2895f12dbc3880ff38183ecf5cf565",
+        "citations": 0
+      }
+    },
+    {
       "slug": "bio-copilot",
       "name": "Bio-Copilot",
       "repo": "lyyang01/Bio-Copilot",
@@ -6051,7 +6080,7 @@
     }
   ],
   "counts": {
-    "total": 209,
+    "total": 210,
     "gone": 1
   }
 }

@@ -73,15 +73,22 @@ AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标�
 - `POST /api/agents/[slug]/reviews` —— 创建评价（需登录）
 - `POST /api/reviews/[id]/vote` —— 有用 / 无用投票（需登录）
 
-只读端点均开 CORS；站点 `/developers` 页有带示例的完整文档。
+只读端点均开 CORS。带示例的完整参考见 [docs/API.md](./docs/API.md)，站点 `/developers` 页渲染同样内容。
 
-`skills/` 内置三个面向 coding agent 的技能（search、recommend、compare），封装公开 API —— 无需密钥、无需登录：
+`skills/` 内置一个面向 coding agent 的技能 `agentx`，封装公开 API，覆盖搜索、推荐、对比——无需密钥、无需登录：
 
 ```bash
 npx skills add webioinfo01/agentx-hub -g -y
 ```
 
-单独安装和 `AGENTX_API_BASE` 覆盖见 `skills/README.md`。
+用 [aweskill](https://github.com/wehuman01/aweskill) 管理技能的话：
+
+```bash
+aweskill store install Webioinfo01/agentx-hub --all
+aweskill agent add skill agentx --global
+```
+
+细节和 `AGENTX_API_BASE` 覆盖见 `skills/README.md`。
 
 ## 数据来源
 
@@ -106,10 +113,10 @@ Huang S, Lang M, Chen Z, Yang C, Huang X, et al. 2026. From foundation models to
 
 ## 开发
 
-本地搭建、维护者添加流水线、脚本、测试和架构见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）。
+本仓库是注册表的开源主场：快照数据、`agentx` 技能和文档。维护者添加流水线和参与方式见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）；站点应用代码另行开发，不在本仓库。
 
 ## 许可
 
-- **代码**（`src/`、`scripts/`、`skills/`、`prisma/`）—— MPL-2.0，见 [LICENSE](./LICENSE)。MPL 按文件授权：对这些文件的修改必须保持开源；与你自己的代码组合不受影响。
+- **本仓库代码**（`skills/`）—— MPL-2.0，见 [LICENSE](./LICENSE)。MPL 按文件授权：对这些文件的修改必须保持开源；与你自己的代码组合不受影响。
 - **注册表数据**（`data/`）、月度报告和文档 —— [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，署名 "AgentX Registry, https://github.com/Webioinfo01/agentx-hub"。
 - **用户评价** —— CC BY 4.0，署名为评价者的 GitHub 账号；提交时授予的授权见站点 Terms 页（`/terms`）。

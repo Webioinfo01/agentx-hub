@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-09-18 — one `agentx` skill; public docs tell the truth
+
+- **`agentx-search` / `agentx-recommend` / `agentx-compare` merge into one
+  `agentx` skill.** They were three thin wrappers over the same read-only
+  API, with a triplicated setup section and a compare→search dependency
+  baked in; one skill keeps a single setup, one signals guide, and covers
+  all three trigger families. Install:
+  `npx skills add webioinfo01/agentx-hub -g -y`, or with
+  [aweskill](https://github.com/wehuman01/aweskill):
+  `aweskill store install Webioinfo01/agentx-hub --all`.
+- **`docs/API.md` added.** The full public API reference now lives in this
+  repository (synced to the public hub) instead of only the private site
+  repo; `/developers` renders the same content.
+- **CONTRIBUTING.md rewritten for what this repository actually is.**
+  The public doc now covers the registry pipeline (awescholar on any
+  checkout), the skill, and the honest repo layout; the site development
+  setup moved to `docs/DEVSETUP.md` (private repo only, not synced). The
+  License section no longer claims `src/` / `scripts/` / `prisma/` trees
+  that are not published here.
+- `sync-public.yml` allowlist extended with `docs/API.md`.
+
 ## 2026-09-17 — snapshot-apply drops superseded paper placeholders
 
 - **`hemaguide` / `hemaguide-2` was a false duplicate.** An import first

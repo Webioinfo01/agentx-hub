@@ -106,18 +106,25 @@ The full pipeline, categories and tag policy are documented in
 - `POST /api/agents/[slug]/reviews` — create review (auth required)
 - `POST /api/reviews/[id]/vote` — helpful / not helpful (auth required)
 
-Read-only endpoints are CORS-enabled; `/developers` on the site renders
-the full reference with examples.
+Read-only endpoints are CORS-enabled. The full reference with examples
+lives in [docs/API.md](./docs/API.md) and is also rendered at
+`/developers` on the site.
 
-`skills/` ships three agent skills (search, recommend, compare) that wrap
-the public API for coding agents — no keys, no auth:
+`skills/` ships one agent skill (`agentx`) that wraps the public API for
+coding agents — search, recommend, and compare; no keys, no auth:
 
 ```bash
 npx skills add webioinfo01/agentx-hub -g -y
 ```
 
-See `skills/README.md` for per-skill install and the `AGENTX_API_BASE`
-override.
+Managing skills with [aweskill](https://github.com/wehuman01/aweskill)?
+
+```bash
+aweskill store install Webioinfo01/agentx-hub --all
+aweskill agent add skill agentx --global
+```
+
+See `skills/README.md` for details and the `AGENTX_API_BASE` override.
 
 ## Where the data comes from
 
@@ -155,12 +162,15 @@ Huang S, Lang M, Chen Z, Yang C, Huang X, et al. 2026. From foundation models to
 
 ## Development
 
-Local setup, the maintainer add pipeline, scripts, testing and
-architecture live in [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md).
+This repository is the open home of the registry: the snapshot, the
+`agentx` skill, and documentation. The maintainer add pipeline and the
+contribution paths are documented in
+[docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md); the site's application
+code is developed separately.
 
 ## License
 
-- **Code** (`src/`, `scripts/`, `skills/`, `prisma/`) — MPL-2.0, see
+- **Code in this repository** (`skills/`) — MPL-2.0, see
   [LICENSE](./LICENSE). MPL is file-level: modifications to these files
   must stay open; combining them with your own code is fine.
 - **Registry data** (`data/`), monthly reports and documentation —

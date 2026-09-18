@@ -15,7 +15,7 @@
         "authors": "Samuel Schmidgall, Yusheng Su, Ze Wang, Ximeng Sun, Jialian Wu, Xiaodong Yu, Jiang Liu, Zicheng Liu, E. Barsoum",
         "firstAuthor": "Samuel Schmidgall",
         "paperUrl": "https://arxiv.org/abs/2501.04227",
-        "citations": 489
+        "citations": 496
       },
       "category": "autonomous-research",
       "tags": [
@@ -147,7 +147,7 @@
         "authors": "Jiabin Tang, Lianghao Xia, Zhonghang Li, Chao Huang",
         "firstAuthor": "Jiabin Tang",
         "paperUrl": "https://www.semanticscholar.org/paper/80a0b76dedc4c3e3d365bbaececcd44a996eb38b",
-        "citations": 89
+        "citations": 90
       },
       "category": "autonomous-research",
       "tags": [
@@ -183,7 +183,7 @@
         "authors": "Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, David Ha",
         "firstAuthor": "Chris Lu",
         "paperUrl": "https://arxiv.org/abs/2408.06292",
-        "citations": 1127
+        "citations": 1142
       },
       "category": "autonomous-research",
       "tags": [
@@ -220,7 +220,7 @@
         "authors": "Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha",
         "firstAuthor": "Yutaro Yamada",
         "paperUrl": "https://doi.org/10.1038/s41586-026-10265-5",
-        "citations": 238
+        "citations": 244
       },
       "category": "autonomous-research",
       "tags": [
@@ -283,7 +283,7 @@
         "authors": "Jiahao Qiu, Xuan Qi, Tongcheng Zhang, Xinzhe Juan, Jiacheng Guo, Yifu Lu, Yiming Wang, Zixin Yao, Qihan Ren, Xun Jiang, Xing Zhou, Dongrui Liu, Ling Yang, Yue Wu, Kaixuan Huang, Shilong Liu, Hongru Wang, Mengdi Wang",
         "firstAuthor": "Jiahao Qiu",
         "paperUrl": "https://www.semanticscholar.org/paper/8a8249936da1f4fbebd878244a317829968db3f6",
-        "citations": 115
+        "citations": 116
       },
       "category": "platforms",
       "tags": [
@@ -907,7 +907,8 @@
         "year": "2025.05",
         "authors": "Zifeng Wang, Benjamin Danek, Jimeng Sun",
         "firstAuthor": "Zifeng Wang",
-        "paperUrl": "https://arxiv.org/abs/2505.16100"
+        "paperUrl": "https://arxiv.org/abs/2505.16100",
+        "citations": 9
       },
       "category": "benchmarks",
       "tags": [
@@ -1037,7 +1038,7 @@
         "authors": "Kexin Huang, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Ryan Li, Yusuf H. Roohani, Lin Qiu, Shiyi Cao, Gavin Li, Junze Zhang, Di Yin, R. Wierenga, Deniz Kavi, Sherry Liu, Tianwei She, S. Marwaha, J. Carter, Xin Zhou, Matthew T. Wheeler, Jonathan A. Bernstein, Mengdi Wang, Peng He, Jingtian Zhou, Michael P. Snyder, Le Cong, Aviv Regev, J. Leskovec",
         "firstAuthor": "Kexin Huang",
         "paperUrl": "https://www.science.org/doi/10.1126/science.adz4351",
-        "citations": 31
+        "citations": 32
       },
       "category": "bio-omics",
       "tags": [
@@ -1136,7 +1137,7 @@
         "authors": "L. Mitchener, Jon M. Laurent, Alex Andonian, Benjamin Tenmann, Siddharth Narayanan, G. Wellawatte, Andrew D. White, Lorenzo Sani, Samuel G. Rodriques",
         "firstAuthor": "Ludovico Mitchener",
         "paperUrl": "https://www.semanticscholar.org/paper/53f7efc5cadfe7d1a9313fd649947fbf8f22c553",
-        "citations": 104
+        "citations": 105
       },
       "category": "benchmarks",
       "tags": [
@@ -1338,7 +1339,7 @@
         "authors": "Samuel Alber, Bowen Chen, Eric Sun, Alina Isakova, Aaron J. Wilk, James Zou",
         "firstAuthor": "Samuel Alber",
         "paperUrl": "https://www.nature.com/articles/s41592-026-03029-6",
-        "citations": 34
+        "citations": 19
       },
       "category": "bio-omics",
       "tags": [
@@ -1375,7 +1376,7 @@
         "authors": "Moritz Schaefer, Peter Peneder, Daniel Malzl, S. Lombardo, Mihaela Peycheva, Jake Burton, Anna H. Hakobyan, Varun Sharma, Thomas Krausgruber, Celine Sin, J. Menche, E. Tomazou, Christoph Bock",
         "firstAuthor": "Moritz Schaefer",
         "paperUrl": "https://www.semanticscholar.org/paper/7691e9a5e27368f9a3a9fc18787069c206513ff2",
-        "citations": 43
+        "citations": 44
       },
       "category": "bio-omics",
       "tags": [
@@ -1865,7 +1866,7 @@
         "authors": "Bowen Wei, Yunbei Zhang, Jinhao Pan, K. Mei, Xiao Wang, J. Hamm, Ziwei Zhu, Yingqiang Ge",
         "firstAuthor": "Bowen Wei",
         "paperUrl": "https://www.semanticscholar.org/paper/90eb0dd5875ba54be0e3740b972003e8288a91c6",
-        "citations": 12
+        "citations": 13
       },
       "category": "safety-security",
       "tags": [
@@ -2136,7 +2137,7 @@
         "authors": "Tal Ifargan, Lukas Hafner, Maor Kern, Ori Alcalay, Roy Kishony",
         "firstAuthor": "Tal Ifargan",
         "paperUrl": "https://doi.org/10.1056/AIoa2400555",
-        "citations": 86
+        "citations": 33
       },
       "category": "autonomous-research",
       "tags": [
@@ -2607,7 +2608,7 @@
         "authors": "Yougang Lyu, Xi Zhang, Xinhao Yi, Yu-Yue Zhao, Shuyu Guo, Wenxiang Hu, Jan Piotrowski, Jakub Kaliski, Jacopo Urbani, Zaiqiao Meng, Lu Zhou, Xiaohu Yan",
         "firstAuthor": "Yougang Lyu",
         "paperUrl": "https://www.semanticscholar.org/paper/143a2e1a8fc27f4f523597aa45cb8f2cf5137020",
-        "citations": 38
+        "citations": 39
       },
       "category": "autonomous-research",
       "tags": [
@@ -3081,7 +3082,7 @@
         "authors": "L. Mitchener, Angela Yiu, Benjamin Chang, M. Bourdenx, Tyler Nadolski, Arvis Sulovari, E. Landsness, Dániel L. Barabási, Siddharth Narayanan, Nicky Evans, S. Reddy, M. Foiani, Aizad Kamal, Leah P. Shriver, F. Cao, A. Wassie, Jon M. Laurent, Edwin Melville-Green, Mayk Caldas, Albert Bou, Kaleigh F. Roberts, Sladjana Zagorac, Timothy C. Orr, Miranda E. Orr, K. Zwezdaryk, A. Ghareeb, L. McCoy, B. Gomes, Euan A. Ashley, K. Duff, T. Buonassisi, Tom Rainforth, R. Bateman, Michael Skarlinski, Samuel G. Rodriques, Michaela M. Hinks, Andrew D. White",
         "firstAuthor": "Ludovico Mitchener",
         "paperUrl": "https://www.semanticscholar.org/paper/0fc30d552b48b12817ba6ec4dfa9571b2a262b8d",
-        "citations": 94
+        "citations": 96
       },
       "category": "autonomous-research",
       "tags": [
@@ -3468,7 +3469,7 @@
         "authors": "Huichi Zhou, Siyuan Guo, Anji Liu, Zhongwei Yu, Ziqin Gong, Bowen Zhao, Zhixun Chen, Menglong Zhang, Yi-Hang Chen, Jin-Song Li, Runyu Yang, Qiang Liu, Xinle Yu, Jianming Zhou, Na Wang, Chunyang Sun, Jun Wang",
         "firstAuthor": "Huichi Zhou",
         "paperUrl": "https://www.semanticscholar.org/paper/2859af8b7e04397e65e78bf77ad7651e02a8726a",
-        "citations": 49
+        "citations": 51
       },
       "category": "platforms",
       "tags": [
@@ -3703,7 +3704,7 @@
         "authors": "Chen Yang, Xianyang Zhang, Jun Chen",
         "firstAuthor": "Chen Yang",
         "paperUrl": "https://doi.org/10.1038/s42003-026-10420-8",
-        "citations": 16
+        "citations": 7
       },
       "category": "bio-omics",
       "tags": [
@@ -4527,7 +4528,7 @@
         "paperUrl": "https://doi.org/10.1038/s41586-026-11044-y",
         "authors": "Jiacheng Miao, Joe R. Davis, Yaohui Zhang, Jonathan K. Pritchard, James Zou",
         "firstAuthor": "Jiacheng Miao",
-        "citations": 1
+        "citations": 0
       },
       "category": "platforms",
       "tags": [
@@ -5406,7 +5407,7 @@
         "authors": "Alireza Ghafarollahi, Markus J. Buehler",
         "firstAuthor": "Alireza Ghafarollahi",
         "paperUrl": "https://www.semanticscholar.org/paper/dbbcdb281ed6aa646af0402172cf8a7cfda85d5c",
-        "citations": 254
+        "citations": 258
       },
       "category": "autonomous-research",
       "tags": [
@@ -5634,7 +5635,7 @@
         "authors": "Ziyu Ma, Shidong Yang, Yuxiang Ji, Xucong Wang, Yong Wang, Yi-Ming Hu, Tongwen Huang, Xiangxiang Chu",
         "firstAuthor": "Ziyu Ma",
         "paperUrl": "https://www.semanticscholar.org/paper/3d795acefb5939ec88767d9a01dffb765fb90111",
-        "citations": 65
+        "citations": 66
       },
       "category": "platforms",
       "tags": [
@@ -5670,7 +5671,7 @@
         "authors": "Yi-Fan Yang, Ziyang Gong, Weiquan Huang, Qihao Yang, Ziwei Zhou, Zi-Su Huang, Yan Li, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Yuqing Yang, Dongdong Chen, Xue-Ting Yang, Chong Luo",
         "firstAuthor": "Yi-Fan Yang",
         "paperUrl": "https://www.semanticscholar.org/paper/762c4ad2d83c4a6cf476eacac80a7452a8ab4586",
-        "citations": 75
+        "citations": 81
       },
       "category": "platforms",
       "tags": [
@@ -5913,7 +5914,7 @@
         "authors": "Mert Yuksekgonul, Federico Bianchi, Joseph Boen, Sheng Liu, Pan Lu, Zhi Huang, Carlos Guestrin, James Zou",
         "firstAuthor": "Mert Yuksekgonul",
         "paperUrl": "https://www.nature.com/articles/s41586-025-08661-4",
-        "citations": 292
+        "citations": 294
       },
       "category": "platforms",
       "tags": [
@@ -5933,6 +5934,37 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "the-virtual-biotech",
+      "name": "The Virtual Biotech",
+      "repo": "harrisongzhang/TheVirtualBiotech",
+      "githubUrl": "https://github.com/harrisongzhang/TheVirtualBiotech",
+      "homepage": null,
+      "paper": "https://doi.org/10.64898/2026.02.23.707551",
+      "category": "chem-drug",
+      "tags": [
+        "bioRxiv"
+      ],
+      "language": "Python",
+      "stars": 33,
+      "pushedAt": "2026-09-17T06:11:41Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "description": "Multi-agent AI system for drug-target identification and due diligence.",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "The Virtual Biotech: A Multi-Agent AI Framework for Therapeutic Discovery and Development",
+        "venue": "bioRxiv",
+        "doi": "10.64898/2026.02.23.707551",
+        "year": "2026.02",
+        "authors": "Harrison G. Zhang, P. Eckmann, Jia-Cheng Miao, Andrew B. Mahon, James Zou",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.64898/2026.02.23.707551",
+        "citations": 8
+      }
     },
     {
       "slug": "tinyagi",
@@ -6037,7 +6069,7 @@
         "authors": "Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak, James Y. Zou",
         "firstAuthor": "Kyle Swanson",
         "paperUrl": "https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1",
-        "citations": 270
+        "citations": 278
       },
       "category": "chem-drug",
       "tags": [
@@ -6144,7 +6176,7 @@
     }
   ],
   "counts": {
-    "total": 210,
+    "total": 211,
     "gone": 1
   }
 }

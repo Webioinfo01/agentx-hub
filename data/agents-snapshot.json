@@ -19,7 +19,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "AgentRxiv"
+        "AgentRxiv",
+        "EMNLP-Findings"
       ],
       "language": "Python",
       "stars": 5852,
@@ -434,7 +435,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "HKUDS"
+        "HKUDS",
+        "ACL-Findings"
       ],
       "language": "Python",
       "stars": 1742,
@@ -1342,7 +1344,9 @@
         "citations": 0
       },
       "category": "benchmarks",
-      "tags": [],
+      "tags": [
+        "Cell"
+      ],
       "language": "Python",
       "stars": 160,
       "pushedAt": "2026-07-27T22:51:17Z",
@@ -2240,7 +2244,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "Technion"
+        "Technion",
+        "NEJM-AI"
       ],
       "language": "Python",
       "stars": 826,
@@ -2959,7 +2964,9 @@
         "citations": 0
       },
       "category": "clinical-health",
-      "tags": [],
+      "tags": [
+        "Nature-Medicine"
+      ],
       "language": "Python",
       "stars": 9,
       "pushedAt": "2026-05-19T07:38:12Z",
@@ -3394,7 +3401,9 @@
         "citations": 1
       },
       "category": "benchmarks",
-      "tags": [],
+      "tags": [
+        "Cell"
+      ],
       "language": "Python",
       "stars": 3,
       "pushedAt": "2026-06-09T13:26:54Z",
@@ -4346,7 +4355,9 @@
       "homepage": null,
       "paper": "https://doi.org/10.1016/j.cell.2026.00807-X",
       "category": "clinical-health",
-      "tags": [],
+      "tags": [
+        "Cell"
+      ],
       "language": "Python",
       "stars": 20,
       "pushedAt": "2026-06-20T14:40:12Z",
@@ -4532,7 +4543,8 @@
       },
       "category": "others",
       "tags": [
-        "Tsinghua"
+        "Tsinghua",
+        "JCST"
       ],
       "language": "TypeScript",
       "stars": 37698,
@@ -5666,7 +5678,8 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "MIT"
+        "MIT",
+        "Advanced-Materials"
       ],
       "language": "Python",
       "stars": 639,
@@ -6091,7 +6104,9 @@
       "homepage": null,
       "paper": "https://doi.org/10.1016/j.cell.2026.00998-0",
       "category": "bio-omics",
-      "tags": [],
+      "tags": [
+        "Cell"
+      ],
       "language": "Python",
       "stars": 182,
       "pushedAt": "2026-07-24T19:29:11Z",
@@ -6204,7 +6219,9 @@
         "citations": 0
       },
       "category": "datasets",
-      "tags": [],
+      "tags": [
+        "Cell"
+      ],
       "language": null,
       "stars": 0,
       "pushedAt": null,

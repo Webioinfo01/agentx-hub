@@ -1028,6 +1028,37 @@
       "retiredStars": null
     },
     {
+      "slug": "biomedgraphica",
+      "name": "BioMedGraphica",
+      "repo": "FuhaiLiAiLab/BioMedGraphica",
+      "githubUrl": "https://github.com/FuhaiLiAiLab/BioMedGraphica",
+      "homepage": "https://app.biomedgraphica.org/",
+      "paper": "https://doi.org/10.1093/bioinformatics/btag355",
+      "category": "datasets",
+      "tags": [
+        "Bioinformatics"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 11,
+      "pushedAt": "2026-08-26T17:53:10Z",
+      "openIssues": 2,
+      "license": null,
+      "description": "An All-in-One Platform for Biomedical Data Integration and Knowledge Graph Generation",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "BioMedGraphica: an all-in-one platform for joint textual biomedical prior knowledge and numeric graph generation",
+        "venue": "Bioinform.",
+        "doi": "10.1093/bioinformatics/btag355",
+        "year": "2026.06",
+        "authors": "Heming Zhang, Shunning Liang, Tim Xu, Wenyu Li, Di Huang, Yuhan Dong, Guang-Fu Li, Philip Miller, Peter Goedegebuure, Marco Sardiello, Jonathan Cooper, W. Buchser, Patricia Dickson, Ryan C. Fields, Carlos Cruchaga, Yixin Chen, M. Province, Philip R. O. Payne, Fuhai Li",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1093/bioinformatics/btag355",
+        "citations": 0
+      }
+    },
+    {
       "slug": "biomni",
       "name": "Biomni",
       "repo": "snap-stanford/Biomni",
@@ -1325,6 +1356,37 @@
       "sourceUrl": null,
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "cellpainting-gallery",
+      "name": "cellpainting-gallery",
+      "repo": "broadinstitute/cellpainting-gallery",
+      "githubUrl": "https://github.com/broadinstitute/cellpainting-gallery",
+      "homepage": "https://broadinstitute.github.io/cellpainting-gallery/",
+      "paper": "https://www.nature.com/articles/s41592-024-02241-6",
+      "category": "datasets",
+      "tags": [
+        "bioRxiv"
+      ],
+      "language": null,
+      "stars": 140,
+      "pushedAt": "2026-09-08T18:13:57Z",
+      "openIssues": 14,
+      "license": null,
+      "description": "Cell Painting Gallery",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
+        "venue": "bioRxiv",
+        "doi": "10.1038/s41592-024-02241-6",
+        "year": "2022.01",
+        "authors": "Srinivas Niranj Chandrasekaran, B. Cimini, A. Goodale, Lisa Miller, M. Kost-Alimova, Nasim Jamali, John G Doench, Briana Fritchman, A. Skepner, Michelle Melanson, John Arevalo, Juan C. Caicedo, Daniel Kuhn, D. Hernandez, Jim Berstler, Hamdah Shafqat-Abbasi, D. Root, Sussane Swalley, Shantanu Singh, Anne E Carpenter",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/s41592-024-02241-6",
+        "citations": 183
+      }
     },
     {
       "slug": "celltypeagent",
@@ -2837,6 +2899,25 @@
       "retiredStars": null
     },
     {
+      "slug": "h5adify",
+      "name": "h5adify",
+      "repo": "LOCImm/h5adify",
+      "githubUrl": "https://github.com/LOCImm/h5adify",
+      "homepage": "https://h5adify.readthedocs.io",
+      "paper": "https://doi.org/10.64898/2026.02.28.708740",
+      "category": "bio-omics",
+      "tags": [],
+      "language": "Python",
+      "stars": 4,
+      "pushedAt": "2026-03-06T19:48:52Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "description": null,
+      "status": "archived",
+      "source": "manual",
+      "sourceUrl": null
+    },
+    {
       "slug": "healthclaw",
       "name": "HealthClaw",
       "repo": "HC-Guo/HealthClaw",
@@ -4213,6 +4294,25 @@
       "retiredStars": null
     },
     {
+      "slug": "omnicelltosg",
+      "name": "OmniCellTOSG",
+      "repo": "FuhaiLiAiLab/OmniCellTOSG",
+      "githubUrl": "https://github.com/FuhaiLiAiLab/OmniCellTOSG",
+      "homepage": null,
+      "paper": "https://www.semanticscholar.org/paper/fd87bf03430232aa9c2aeb733bd8d6dc023c4ef7",
+      "category": "datasets",
+      "tags": [],
+      "language": "Python",
+      "stars": 10,
+      "pushedAt": "2026-08-06T19:37:20Z",
+      "openIssues": 0,
+      "license": null,
+      "description": "The First Cell Text-Omic Signaling Graphs Dataset for Joint LLM and GNN Modeling",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null
+    },
+    {
       "slug": "omniscientist",
       "name": "OmniScientist",
       "repo": "tsinghua-fib-lab/OmniScientist",
@@ -5424,35 +5524,6 @@
       "retiredStars": null
     },
     {
-      "slug": "scbasecount",
-      "name": "scBaseCount",
-      "repo": "ArcInstitute/scBaseCount_analysis",
-      "githubUrl": "https://github.com/ArcInstitute/scBaseCount_analysis",
-      "homepage": null,
-      "paper": "https://doi.org/10.1016/j.cell.2026.00998-0",
-      "category": "bio-omics",
-      "tags": [],
-      "language": "Jupyter Notebook",
-      "stars": 8,
-      "pushedAt": "2026-07-24T19:29:47Z",
-      "openIssues": 0,
-      "license": null,
-      "description": "Data analysis for the scBaseCount manuscript",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "paperMeta": {
-        "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
-        "venue": "Cell",
-        "doi": "10.1016/j.cell.2026.00998-0",
-        "year": "2026.09",
-        "authors": "Nicholas D. Youngblut, Christopher Carpenter, et al. (Hani Goodarzi, Yusuf H. Roohani)",
-        "firstAuthor": "",
-        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00998-0",
-        "citations": 0
-      }
-    },
-    {
       "slug": "scchat",
       "name": "scChat",
       "repo": "li-group/scChat",
@@ -5486,6 +5557,25 @@
       "sourceUrl": null,
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "sccompass",
+      "name": "scCompass",
+      "repo": "CNICDS/scCompass",
+      "githubUrl": "https://github.com/CNICDS/scCompass",
+      "homepage": null,
+      "paper": "https://www.semanticscholar.org/paper/f5af8e3f7acd968b7baeb788f5b33cf7d868616e",
+      "category": "datasets",
+      "tags": [],
+      "language": "Jupyter Notebook",
+      "stars": 9,
+      "pushedAt": "2026-07-23T13:45:15Z",
+      "openIssues": 1,
+      "license": null,
+      "description": null,
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null
     },
     {
       "slug": "scextract",
@@ -5718,6 +5808,68 @@
       "retiredStars": null
     },
     {
+      "slug": "scmultisim",
+      "name": "scMultiSim",
+      "repo": "ZhangLabGT/scMultiSim",
+      "githubUrl": "https://github.com/ZhangLabGT/scMultiSim",
+      "homepage": "https://zhanglabgt.github.io/scMultiSim/",
+      "paper": "https://www.nature.com/articles/s41592-025-02651-0",
+      "category": "datasets",
+      "tags": [
+        "Nature-Methods"
+      ],
+      "language": "R",
+      "stars": 69,
+      "pushedAt": "2026-06-29T18:47:48Z",
+      "openIssues": 15,
+      "license": null,
+      "description": "A simulator for single cell multi-omics and spatial omics data that provides ground truth to benchmark a wide range of methods. ",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "scMultiSim: simulation of single cell multi-omics and spatial data guided by gene regulatory networks and cell-cell interactions",
+        "venue": "Nature Methods",
+        "doi": "10.1038/s41592-025-02651-0",
+        "year": "2025.04",
+        "authors": "Hechen Li, Ziqi Zhang, Michael Squires, Xi Chen, Xiuwei Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/s41592-025-02651-0",
+        "citations": 10
+      }
+    },
+    {
+      "slug": "scperturb",
+      "name": "scPerturb",
+      "repo": "sanderlab/scPerturb",
+      "githubUrl": "https://github.com/sanderlab/scPerturb",
+      "homepage": "http://www.sanderlab.org/scPerturb/",
+      "paper": "https://www.nature.com/articles/s41592-023-02144-y",
+      "category": "datasets",
+      "tags": [
+        "bioRxiv"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 188,
+      "pushedAt": "2025-02-25T16:38:01Z",
+      "openIssues": 13,
+      "license": "MIT",
+      "description": "scPerturb: A resource and a python/R tool for single-cell perturbation data",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "scPerturb: harmonized single-cell perturbation data",
+        "venue": "bioRxiv",
+        "doi": "10.1038/s41592-023-02144-y",
+        "year": "2023.01",
+        "authors": "Stefan Peidli, Tessa D. Green, Ciyue Shen, Torsten Gross, Joseph K. Min, Samuele Garda, Bo Yuan, L. Schumacher, J. Taylor-King, D. Marks, Augustin Luna, N. Blüthgen, C. Sander",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/s41592-023-02144-y",
+        "citations": 200
+      }
+    },
+    {
       "slug": "screader",
       "name": "SCREADER",
       "repo": "shining1984/screader",
@@ -5899,6 +6051,35 @@
       "retiredStars": null
     },
     {
+      "slug": "sragent",
+      "name": "SRAgent",
+      "repo": "ArcInstitute/SRAgent",
+      "githubUrl": "https://github.com/ArcInstitute/SRAgent",
+      "homepage": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.00998-0",
+      "category": "bio-omics",
+      "tags": [],
+      "language": "Python",
+      "stars": 182,
+      "pushedAt": "2026-07-24T19:29:11Z",
+      "openIssues": 3,
+      "license": "MIT",
+      "description": "LLM agents for working with the SRA and associated bioinformatics databases.",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.00998-0",
+        "year": "2026.09",
+        "authors": "Nicholas D. Youngblut, Christopher Carpenter, et al. (Hani Goodarzi, Yusuf H. Roohani)",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.00998-0",
+        "citations": 0
+      }
+    },
+    {
       "slug": "statsclaw",
       "name": "StatsClaw",
       "repo": "statsclaw/statsclaw",
@@ -6026,6 +6207,37 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "tdc",
+      "name": "TDC",
+      "repo": "mims-harvard/TDC",
+      "githubUrl": "https://github.com/mims-harvard/TDC",
+      "homepage": "https://tdcommons.ai",
+      "paper": "https://doi.org/10.1101/2024.06.12.598655",
+      "category": "datasets",
+      "tags": [
+        "bioRxiv"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 1284,
+      "pushedAt": "2025-07-13T17:44:10Z",
+      "openIssues": 68,
+      "license": "MIT",
+      "description": "Therapeutics Commons (TDC): Multimodal Foundation for Therapeutic Science",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "paperMeta": {
+        "title": "Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics",
+        "venue": "bioRxiv",
+        "doi": "10.1101/2024.06.12.598655",
+        "year": "2024.06",
+        "authors": "Alejandro Velez-Arce, Xiang Lin, Michelle M. Li, Kexin Huang, Wenhao Gao, Tianfan Fu, Bradley L. Pentelute, M. Kellis, M. Zitnik",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1101/2024.06.12.598655",
+        "citations": 22
+      }
     },
     {
       "slug": "teroseek",
@@ -6345,7 +6557,7 @@
     }
   ],
   "counts": {
-    "total": 216,
+    "total": 224,
     "gone": 1
   }
 }

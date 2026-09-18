@@ -652,12 +652,12 @@
       "sourceUrl": null,
       "paperMeta": {
         "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
-        "venue": "",
-        "doi": "",
+        "venue": "arXiv",
+        "doi": "10.48550/arXiv.2609.11115",
         "year": "2026.09",
         "authors": "Koutian Wu, Jun Zhou, Er-Gan Shang, Jia-Yu Wang, Peng Han, Jun-Kai Wang, Wang-Han Xu",
         "firstAuthor": "",
-        "paperUrl": "https://www.semanticscholar.org/paper/473c1f795d2895f12dbc3880ff38183ecf5cf565",
+        "paperUrl": "https://arxiv.org/abs/2609.11115",
         "citations": 0
       }
     },
@@ -4481,7 +4481,8 @@
       "category": "platforms",
       "tags": [
         "Stanford",
-        "MCP"
+        "MCP",
+        "Nature"
       ],
       "language": "Python",
       "stars": 2902,

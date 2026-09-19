@@ -638,6 +638,66 @@
       "retiredStars": null
     },
     {
+      "slug": "awesome-ai-meets-biology",
+      "name": "Awesome-AI-Meets-Biology",
+      "repo": "Webioinfo01/Awesome-AI-Meets-Biology",
+      "githubUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+      "homepage": "https://awesomebio.webioinfo.top/",
+      "paper": "https://doi.org/10.48130/gcomm-0026-0005",
+      "category": "reviews",
+      "tags": [],
+      "language": null,
+      "stars": 40,
+      "pushedAt": "2026-09-19T03:25:25Z",
+      "openIssues": 0,
+      "license": "MPL-2.0",
+      "description": "Awesome-AI-Meets-Biology is a collection of state-of-the-art, novel, exciting LLMs and agents on biomedical and bioinformatic fields. ",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-09-19",
+      "paperMeta": {
+        "title": "From foundation models to autonomous agents in biology",
+        "venue": "Genomics Communications",
+        "doi": "10.48130/gcomm-0026-0005",
+        "year": "2026",
+        "authors": "Shenghui Huang, Mei Lang, Zihan Chen, Chenxu Yang, Xiaoying Huang, Zeynab Mohtashaminia, Yu-Zhong Peng",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48130/gcomm-0026-0005",
+        "citations": 3
+      }
+    },
+    {
+      "slug": "awesome-mcp-security",
+      "name": "awesome-mcp-security",
+      "repo": "AIM-Intelligence/awesome-mcp-security",
+      "githubUrl": "https://github.com/AIM-Intelligence/awesome-mcp-security",
+      "homepage": null,
+      "paper": "https://doi.org/10.1145/3796519",
+      "category": "reviews",
+      "tags": [],
+      "language": null,
+      "stars": 50,
+      "pushedAt": "2025-04-24T12:54:13Z",
+      "openIssues": 34,
+      "license": null,
+      "description": "Security Threats related with MCP (Model Context Protocol), MCP Servers and more",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-09-19",
+      "paperMeta": {
+        "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "doi": "10.1145/3796519",
+        "year": "2025.03",
+        "authors": "Xin-Yi Hou, Yanjie Zhao, Shenao Wang, Hao-Yu Wang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1145/3796519",
+        "citations": 504
+      }
+    },
+    {
       "slug": "benchmark-radar",
       "name": "Benchmark Radar",
       "repo": "ktwu01/benchmark-radar",
@@ -6677,7 +6737,7 @@
     }
   ],
   "counts": {
-    "total": 226,
+    "total": 228,
     "gone": 1
   }
 }

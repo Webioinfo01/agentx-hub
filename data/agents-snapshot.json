@@ -2710,6 +2710,40 @@
       "retiredStars": null
     },
     {
+      "slug": "empowering-biomedical-discovery-with-ai-agents",
+      "name": "Empowering biomedical discovery with AI agents",
+      "repo": "doi.org/10.1016/j.cell.2024.09.022",
+      "githubUrl": null,
+      "homepage": "https://doi.org/10.1016/j.cell.2024.09.022",
+      "paper": "https://doi.org/10.1016/j.cell.2024.09.022",
+      "paperMeta": {
+        "title": "Empowering biomedical discovery with AI agents",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2024.09.022",
+        "year": "2024.10",
+        "authors": "Shanghua Gao, Ada Fang, Yepeng Huang, Valentina Giunchiglia, Ayush Noori, Jonathan Richard Schwarz, Yasha Ektefaie, Jovana Kondic, Marinka Zitnik",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2024.09.022",
+        "citations": 307
+      },
+      "category": "reviews",
+      "tags": [
+        "Cell"
+      ],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Cell review — how AI agents empower biomedical discovery: tool use, reasoning and orchestration across the discovery pipeline.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "awesome-ai-meets-biology",
+      "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+      "listedAt": "2026-09-19"
+    },
+    {
       "slug": "epiclaw",
       "name": "EpiClaw",
       "repo": "GBA-BI/EpiClaw",
@@ -2889,6 +2923,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "generative-ai-in-pharmaceutical-rd",
+      "name": "Generative AI in pharmaceutical R&D",
+      "repo": "doi.org/10.1016/j.drudis.2025.104593",
+      "githubUrl": null,
+      "homepage": "https://doi.org/10.1016/j.drudis.2025.104593",
+      "paper": "https://doi.org/10.1016/j.drudis.2025.104593",
+      "paperMeta": {
+        "title": "Generative AI in pharmaceutical R&D: From large language models to AI agents to regulation.",
+        "venue": "Drug Discovery Today",
+        "doi": "10.1016/j.drudis.2025.104593",
+        "year": "2026.01",
+        "authors": "J. Weatherall, Christoph Meier",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.drudis.2025.104593",
+        "citations": 4
+      },
+      "category": "reviews",
+      "tags": [],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Drug Discovery Today review — generative AI in pharma R&D, from LLMs to AI agents to regulation.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "awesome-ai-meets-biology",
+      "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "gptbioinsightor",
@@ -3386,6 +3452,40 @@
       "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "llm-agents-for-biological-intelligence",
+      "name": "LLM agents for biological intelligence",
+      "repo": "doi.org/10.1093/bib/bbag110",
+      "githubUrl": null,
+      "homepage": "https://doi.org/10.1093/bib/bbag110",
+      "paper": "https://doi.org/10.1093/bib/bbag110",
+      "paperMeta": {
+        "title": "Large language model agents for biological intelligence across genomics, proteomics, spatial biology, and biomedicine",
+        "venue": "Briefings in Bioinformatics",
+        "doi": "10.1093/bib/bbag110",
+        "year": "2026.03",
+        "authors": "Sajib Acharjee Dip, D. Mallick, Uddip Acharjee Shuvo, Shovito Barua Soumma, Fazle Rafsani, Bikash Kumar Paul, Nazifa Ahmed Moumi, Shafayat Ahmed, Li-Qing Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1093/bib/bbag110",
+        "citations": 9
+      },
+      "category": "reviews",
+      "tags": [
+        "Briefings-in-Bioinformatics"
+      ],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Briefings survey of LLM agents across genomics, proteomics, spatial biology and biomedicine.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "awesome-ai-meets-biology",
+      "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "llmsfold",
@@ -3974,6 +4074,40 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "multi-agent-ai-systems-for-bio-clinical-analysis",
+      "name": "Multi-agent AI systems for bio & clinical analysis",
+      "repo": "doi.org/10.3390/mps9020033",
+      "githubUrl": null,
+      "homepage": "https://doi.org/10.3390/mps9020033",
+      "paper": "https://doi.org/10.3390/mps9020033",
+      "paperMeta": {
+        "title": "A Review of Multi-Agent AI Systems for Biological and Clinical Data Analysis",
+        "venue": "Methods and Protocols",
+        "doi": "10.3390/mps9020033",
+        "year": "2026.02",
+        "authors": "J. Spieser, Ali Balapour, Jarek Meller, K. Patra, Behrouz Shamsaei",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.3390/mps9020033",
+        "citations": 1
+      },
+      "category": "reviews",
+      "tags": [
+        "Methods-and-Protocols"
+      ],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Methods and Protocols review of multi-agent AI systems for biological and clinical data analysis.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "awesome-ai-meets-biology",
+      "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+      "listedAt": "2026-09-19"
     },
     {
       "slug": "multica",
@@ -5517,6 +5651,40 @@
       "retiredStars": null
     },
     {
+      "slug": "rise-of-llm-agents-in-bioinformatics",
+      "name": "The rise of LLM agents in bioinformatics",
+      "repo": "doi.org/10.1093/bib/bbaf601",
+      "githubUrl": null,
+      "homepage": "https://doi.org/10.1093/bib/bbaf601",
+      "paper": "https://doi.org/10.1093/bib/bbaf601",
+      "paperMeta": {
+        "title": "The rise and potential opportunities of large language model agents in bioinformatics and biomedicine",
+        "venue": "Briefings in Bioinformatics",
+        "doi": "10.1093/bib/bbaf601",
+        "year": "2025.11",
+        "authors": "Tian-Tian Yang, Yihang Xiao, Zhijie Bao, Jianye Hao, Jiajie Peng",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1093/bib/bbaf601",
+        "citations": 16
+      },
+      "category": "reviews",
+      "tags": [
+        "Briefings-in-Bioinformatics"
+      ],
+      "language": null,
+      "stars": 0,
+      "pushedAt": null,
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Briefings survey of LLM agents in bioinformatics and biomedicine — taxonomy, applications and open opportunities.",
+      "status": "no-repo",
+      "autoStableExempt": false,
+      "source": "awesome-ai-meets-biology",
+      "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
+      "listedAt": "2026-09-19"
+    },
+    {
       "slug": "rs-paperclaw",
       "name": "RS-PaperClaw",
       "repo": "thinson/RS-PaperClaw",
@@ -6737,7 +6905,7 @@
     }
   ],
   "counts": {
-    "total": 228,
+    "total": 233,
     "gone": 1
   }
 }

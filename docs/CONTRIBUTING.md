@@ -92,12 +92,10 @@ daily. Statuses are derived from that activity: a repo archived by its
 owner or deleted from GitHub (404) moves to the graveyard (`gone`), a repo
 idle past its tier's patience — 180 days under the nursery star line, 3
 years above it — is classified as `archived`, and a fresh push restores it.
-"Stable" is a verdict that never revokes: granted by manual verdict or
-automatically by the paper rule (a peer-reviewed companion paper at any star
-count, or a preprint with 1k+ stars). Active freshness outranks it — a stable
-repo that keeps pushing (within 120 days) reads `active`; once quiet, the
-stable verdict resurfaces on its own. See the site's `/data-sources` page for
-the reader-facing wording.
+"Stable" is sticky once set: granted by manual verdict or automatically by
+the paper rule (a peer-reviewed companion paper at any star count, or a
+preprint with 1k+ stars). See the site's `/data-sources` page for the
+reader-facing wording.
 
 ## The `agentx` skill
 

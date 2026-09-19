@@ -59,6 +59,18 @@ A plain-text index of every agent, grouped by category, following the
 [llms.txt convention](https://llmstxt.org) — the cheapest way to give a
 model the whole directory in one request.
 
+## GET /llms-full.txt
+
+The expanded form of the same index: one short paragraph per agent
+(description plus registry facts and verified-run averages), so a model can
+cite a record without fetching each page.
+
+## GET /feed.xml
+
+RSS 2.0 feed of the most recently listed main-directory agents (up to 30).
+Useful for aggregators, monitoring scripts, or anything that wants the
+registry's new entries without polling the API.
+
 ## Response shape
 
 ```json

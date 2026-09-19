@@ -4314,9 +4314,11 @@
       "repo": "FuhaiLiAiLab/OmniCellTOSG",
       "githubUrl": "https://github.com/FuhaiLiAiLab/OmniCellTOSG",
       "homepage": null,
-      "paper": "https://www.semanticscholar.org/paper/fd87bf03430232aa9c2aeb733bd8d6dc023c4ef7",
+      "paper": "https://arxiv.org/abs/2504.02148",
       "category": "datasets",
-      "tags": [],
+      "tags": [
+        "arXiv"
+      ],
       "language": "Python",
       "stars": 10,
       "pushedAt": "2026-08-06T19:37:20Z",
@@ -4326,7 +4328,17 @@
       "status": "active",
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-09-19"
+      "listedAt": "2026-09-19",
+      "paperMeta": {
+        "title": "OmniCellTOSG: The First Cell Text-Omic Signaling Graphs Dataset for Joint LLM and GNN Modeling",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2504.02148",
+        "year": "2025",
+        "authors": "Heming Zhang, Tim Xu, Dekang Cao, Shunning Liang, Lars Schimmelpfennig, Levi Kaster, Di Huang, Carlos Cruchaga, Guang-Fu Li, M. Province, Yixin Chen, Philip R. O. Payne, Fuhai Li",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2504.02148",
+        "citations": 4
+      }
     },
     {
       "slug": "omniscientist",
@@ -5620,7 +5632,7 @@
       "repo": "CNICDS/scCompass",
       "githubUrl": "https://github.com/CNICDS/scCompass",
       "homepage": null,
-      "paper": "https://www.semanticscholar.org/paper/f5af8e3f7acd968b7baeb788f5b33cf7d868616e",
+      "paper": "https://doi.org/10.1002/advs.202500870",
       "category": "datasets",
       "tags": [],
       "language": "Jupyter Notebook",
@@ -5629,10 +5641,20 @@
       "openIssues": 1,
       "license": null,
       "description": null,
-      "status": "active",
+      "status": "stable",
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-09-19"
+      "listedAt": "2026-09-19",
+      "paperMeta": {
+        "title": "scCompass: An Integrated Multi‐Species scRNA‐seq Database for AI‐Ready",
+        "venue": "Advancement of science",
+        "doi": "10.1002/advs.202500870",
+        "year": "2025.05",
+        "authors": "Pengfei Wang, Wenhao Liu, Jiajia Wang, Yana Liu, Pengjiang Li, Ping Xu, Wen-Tao Cui, Ran Zhang, Qingqing Long, Zhi-Long Hu, Chen Fang, Jing-Xi Dong, Chunyang Zhang, Yan Chen, Chengrui Wang, Guo-Le Liu, Hanyu Xie, Yi-Yang Zhang, Meng Xiao, Shu-Bai Chen, Haiping Jiang, Yiqiang Chen, Ge Yang, Shi-Hua Zhang, Zhen Meng, Xuezhi Wang, Gui-Hai Feng, Xin Li, Yuanchun Zhou",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1002/advs.202500870",
+        "citations": 11
+      }
     },
     {
       "slug": "scextract",

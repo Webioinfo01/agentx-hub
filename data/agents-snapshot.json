@@ -398,7 +398,7 @@
         "paperUrl": "https://www.semanticscholar.org/paper/a967904a87ba4c1d6359fbd7342a074d63e2fe63",
         "citations": 9
       },
-      "category": "bio-omics",
+      "category": "autonomous-research",
       "tags": [
         "arXiv"
       ],
@@ -2477,7 +2477,7 @@
         "paperUrl": "https://static.remotasks.com/uploads/67f465178e967e5b6889c886/DrugDiscoveryBench.pdf",
         "citations": 0
       },
-      "category": "chem-drug",
+      "category": "benchmarks",
       "tags": [],
       "language": "Python",
       "stars": 29,
@@ -3604,7 +3604,7 @@
       "homepage": "https://medgeai.cn/",
       "paper": null,
       "paperMeta": null,
-      "category": "clinical-health",
+      "category": "bio-omics",
       "tags": [],
       "language": "TeX",
       "stars": 641,
@@ -6394,7 +6394,7 @@
         "paperUrl": "https://doi.org/10.64898/2026.02.23.707551",
         "citations": 8
       },
-      "category": "orchestration",
+      "category": "chem-drug",
       "tags": [
         "Stanford",
         "James-Zou",
@@ -6615,7 +6615,7 @@
         "paperUrl": "https://doi.org/10.1038/s41551-026-01769-6",
         "citations": 0
       },
-      "category": "autonomous-research",
+      "category": "chem-drug",
       "tags": [
         "Nature-BME"
       ],

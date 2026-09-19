@@ -49,7 +49,7 @@
         "authors": "Samuel Schmidgall, Yusheng Su, Ze Wang, Ximeng Sun, Jialian Wu, Xiaodong Yu, Jiang Liu, Zicheng Liu, E. Barsoum",
         "firstAuthor": "Samuel Schmidgall",
         "paperUrl": "https://arxiv.org/abs/2501.04227",
-        "citations": 496
+        "citations": 497
       },
       "category": "autonomous-research",
       "tags": [
@@ -218,7 +218,7 @@
         "authors": "Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, David Ha",
         "firstAuthor": "Chris Lu",
         "paperUrl": "https://arxiv.org/abs/2408.06292",
-        "citations": 1142
+        "citations": 1146
       },
       "category": "autonomous-research",
       "tags": [
@@ -255,7 +255,7 @@
         "authors": "Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha",
         "firstAuthor": "Yutaro Yamada",
         "paperUrl": "https://doi.org/10.1038/s41586-026-10265-5",
-        "citations": 244
+        "citations": 247
       },
       "category": "autonomous-research",
       "tags": [
@@ -1203,7 +1203,7 @@
         "authors": "Kexin Huang, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Ryan Li, Yusuf H. Roohani, Lin Qiu, Shiyi Cao, Gavin Li, Junze Zhang, Di Yin, R. Wierenga, Deniz Kavi, Sherry Liu, Tianwei She, S. Marwaha, J. Carter, Xin Zhou, Matthew T. Wheeler, Jonathan A. Bernstein, Mengdi Wang, Peng He, Jingtian Zhou, Michael P. Snyder, Le Cong, Aviv Regev, J. Leskovec",
         "firstAuthor": "Kexin Huang",
         "paperUrl": "https://www.science.org/doi/10.1126/science.adz4351",
-        "citations": 32
+        "citations": 33
       },
       "category": "bio-omics",
       "tags": [
@@ -1469,7 +1469,7 @@
         "authors": "Abhinav K. Adduri, Dhruv Gautam, Beatrice Bevilacqua, et al. (Hani Goodarzi, Yusuf H. Roohani)",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00921-9",
-        "citations": 0
+        "citations": 147
       },
       "category": "benchmarks",
       "tags": [
@@ -3569,7 +3569,7 @@
         "authors": "",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.18653/v1/2025.emnlp-main.603",
-        "citations": 0
+        "citations": 10
       },
       "category": "chem-drug",
       "tags": [
@@ -3929,7 +3929,7 @@
         "authors": "Huichi Zhou, Siyuan Guo, Anji Liu, Zhongwei Yu, Ziqin Gong, Bowen Zhao, Zhixun Chen, Menglong Zhang, Yi-Hang Chen, Jin-Song Li, Runyu Yang, Qiang Liu, Xinle Yu, Jianming Zhou, Na Wang, Chunyang Sun, Jun Wang",
         "firstAuthor": "Huichi Zhou",
         "paperUrl": "https://www.semanticscholar.org/paper/2859af8b7e04397e65e78bf77ad7651e02a8726a",
-        "citations": 51
+        "citations": 52
       },
       "category": "platforms",
       "tags": [
@@ -4754,7 +4754,7 @@
         "authors": "Fei Liu, et al. (Kang Zhang, Eric Oermann)",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00807-X",
-        "citations": 0
+        "citations": 2
       },
       "listedAt": "2026-09-19"
     },
@@ -5119,7 +5119,7 @@
         "paperUrl": "https://doi.org/10.1038/s41586-026-11044-y",
         "authors": "Jiacheng Miao, Joe R. Davis, Yaohui Zhang, Jonathan K. Pritchard, James Zou",
         "firstAuthor": "Jiacheng Miao",
-        "citations": 0
+        "citations": 1
       },
       "category": "platforms",
       "tags": [
@@ -5650,7 +5650,7 @@
         "authors": "Hai-Chao Chen, Zhengyun Zhao, Songchi Zhou, Shikai Hu, Jin-Yuan Wang, Ye Jin, Xianghong Jin, Y. Tham, Xiaofei Wang, Wei-Ying Ma, Honghan Wu, Bin Sheng, Shuyang Zhang, Sheng Yu, T. Wong",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.landig.2025.100953",
-        "citations": 9
+        "citations": 10
       },
       "category": "benchmarks",
       "tags": [
@@ -6100,7 +6100,7 @@
         "authors": "Alireza Ghafarollahi, Markus J. Buehler",
         "firstAuthor": "Alireza Ghafarollahi",
         "paperUrl": "https://www.semanticscholar.org/paper/dbbcdb281ed6aa646af0402172cf8a7cfda85d5c",
-        "citations": 258
+        "citations": 259
       },
       "category": "autonomous-research",
       "tags": [
@@ -6208,7 +6208,7 @@
         "authors": "Fiona Y. Wang, Lee Marom, Subhadeep Pal, Rachel K. Luu, Wei-Ming Lu, Jaime A. Berkovich, Markus J. Buehler",
         "firstAuthor": "Fiona Y. Wang",
         "paperUrl": "https://www.semanticscholar.org/paper/3eb26d201845b0898b2b77b2fb1de4b6d925357f",
-        "citations": 14
+        "citations": 15
       },
       "category": "autonomous-research",
       "tags": [
@@ -6307,7 +6307,7 @@
         "authors": "Hechen Li, Ziqi Zhang, Michael Squires, Xi Chen, Xiuwei Zhang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-025-02651-0",
-        "citations": 10
+        "citations": 11
       },
       "listedAt": "2026-09-19"
     },
@@ -6339,7 +6339,7 @@
         "authors": "Stefan Peidli, Tessa D. Green, Ciyue Shen, Torsten Gross, Joseph K. Min, Samuele Garda, Bo Yuan, L. Schumacher, J. Taylor-King, D. Marks, Augustin Luna, N. Blüthgen, C. Sander",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-023-02144-y",
-        "citations": 200
+        "citations": 201
       },
       "listedAt": "2026-09-19"
     },
@@ -6429,7 +6429,7 @@
         "authors": "Yi-Fan Yang, Ziyang Gong, Weiquan Huang, Qihao Yang, Ziwei Zhou, Zi-Su Huang, Yan Li, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Yuqing Yang, Dongdong Chen, Xue-Ting Yang, Chong Luo",
         "firstAuthor": "Yi-Fan Yang",
         "paperUrl": "https://www.semanticscholar.org/paper/762c4ad2d83c4a6cf476eacac80a7452a8ab4586",
-        "citations": 81
+        "citations": 82
       },
       "category": "platforms",
       "tags": [
@@ -6552,7 +6552,7 @@
         "authors": "Nicholas D. Youngblut, Christopher Carpenter, et al. (Hani Goodarzi, Yusuf H. Roohani)",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00998-0",
-        "citations": 0
+        "citations": 15
       },
       "listedAt": "2026-09-19"
     },
@@ -6645,7 +6645,7 @@
         "authors": "Jesse Zhang, Airol A. Ubas, Valentine Svensson, Nicole Thomas, Vishvak Subramanyam, Christopher Carpenter, Aidan Winters, Richard de Borja, Noam Teyssier, Neha Thakar, Umair Khan, Pooja V. Akella, Harper J. Green, John D. Thompson, Vuong Tran, Joseph Pangallo, Efthymia Papalexi, Ajay Sapre, Hoai Nguyen, Oliver Sanderson, Maria Nigos, Olivia Kaplan, Sarah Schroeder, Bryan Hariadi, Simone Marrujo, Crina Curca, Alec Salvino, Guillermo Gallareta Olivares, Ryan Koehler, Alexander Rosenberg, Charles Roco, Chiara Ricci-Tam, Matthew G. Jones, Alexander Dobin, Brian S. Plosky, Danielle E. Lyons, Daniele Merico, Nima Alidoust, Hani Goodarzi, Johnny Yu",
         "firstAuthor": "Jesse Zhang",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.08.035",
-        "citations": 0
+        "citations": 1
       },
       "category": "datasets",
       "tags": [
@@ -6716,7 +6716,7 @@
         "authors": "Alejandro Velez-Arce, Xiang Lin, Michelle M. Li, Kexin Huang, Wenhao Gao, Tianfan Fu, Bradley L. Pentelute, M. Kellis, M. Zitnik",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1101/2024.06.12.598655",
-        "citations": 22
+        "citations": 21
       },
       "listedAt": "2026-09-19"
     },
@@ -6770,7 +6770,7 @@
         "authors": "Mert Yuksekgonul, Federico Bianchi, Joseph Boen, Sheng Liu, Pan Lu, Zhi Huang, Carlos Guestrin, James Zou",
         "firstAuthor": "Mert Yuksekgonul",
         "paperUrl": "https://www.nature.com/articles/s41586-025-08661-4",
-        "citations": 294
+        "citations": 296
       },
       "category": "platforms",
       "tags": [
@@ -6966,7 +6966,7 @@
         "authors": "Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak, James Y. Zou",
         "firstAuthor": "Kyle Swanson",
         "paperUrl": "https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1",
-        "citations": 278
+        "citations": 280
       },
       "category": "chem-drug",
       "tags": [
@@ -7110,7 +7110,7 @@
         "authors": "Ann Huang, Tsung-Han S. Hsieh, Jiang Zhu, Jackson Michuda, Ashton Teng, Soohong Kim, Elizabeth M. Rumsey, S. Lam, Ikenna Anigbogu, Philip Wright, Mohamed Ameen, Kwontae You, Christopher J Graves, H. Kim, Adam J. Litterman, Rene Sit, A. Blocker, Ci Chu",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1101/2025.06.11.659105",
-        "citations": 37
+        "citations": 38
       },
       "listedAt": "2026-09-19"
     },

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-19 — registry badges follow the snapshot
+
+- README agent, category, paper-backed, and update-month badges are now
+  generated from `data/agents-snapshot.json` by the refresh and paper-enrichment
+  workflows, with a Vitest drift guard for manual snapshot changes.
+- Corrected the stale registry counts in both language versions, removed the
+  obsolete closed-mode `src/proxy.ts.disabled` file, and cleaned the ignored
+  local Prisma development database.
+
 ## 2026-09-19 — curation commands are awescholar-native again
 
 - **The `agentx add/enrich/backfill/validate` aliases are gone** (removed

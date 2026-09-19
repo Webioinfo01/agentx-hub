@@ -11,9 +11,9 @@
     <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/agents-209-0EA5E9?style=flat-square" alt="Agents tracked">
-    <img src="https://img.shields.io/badge/categories-10-7C3AED?style=flat-square" alt="Categories">
-    <img src="https://img.shields.io/badge/paper--backed-88-22C55E?style=flat-square" alt="Paper-backed agents">
+    <img src="https://img.shields.io/badge/agents-241-0EA5E9?style=flat-square" alt="Agents tracked">
+    <img src="https://img.shields.io/badge/categories-12-7C3AED?style=flat-square" alt="Categories">
+    <img src="https://img.shields.io/badge/paper--backed-120-22C55E?style=flat-square" alt="Paper-backed agents">
     <img src="https://img.shields.io/badge/updated-2026.09-334155?style=flat-square" alt="Last updated">
   </p>
 </div>
@@ -27,7 +27,7 @@ ecosystem reports. Listing is free and editorial — based on fit, not stars.
 
 ## Using the site
 
-- **Browse** (`/agents`) — 200+ agents across 10 user-intent categories with
+- **Browse** (`/agents`) — 200+ agents across 12 user-intent categories with
   live GitHub metrics (stars, last push, language, license), search /
   filter / sort; 🔥 New badge for agents added within the last 7 days
 - **Compare** (`/compare`) — up to 4 agents side by side, including review

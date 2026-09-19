@@ -90,8 +90,7 @@ What qualifies:
    7 days, then tracks pushes, stars and reviews like every other record.
 
 Maintainers add records through a validated CLI — the registry snapshot
-is never hand-edited. The operator commands are the `agentx` CLI
-(`agentx add`, `agentx validate`, …), shipped by the Python package
+is never hand-edited. The operator commands live in the Python package
 [`awescholar`](https://github.com/wehuman01/awescholar).
 The full pipeline, categories and tag policy are documented in
 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md).

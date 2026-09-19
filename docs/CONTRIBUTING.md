@@ -18,8 +18,8 @@ The open home of the AgentX registry:
 
 The website's application code is developed in a separate private
 repository and is not part of this one. Everything a contributor needs to
-add or maintain registry records — the `agentx` CLI (installed by
-`pip install awescholar`) — works on any checkout of this repository.
+add or maintain registry records — the `awescholar` CLI
+(`pip install awescholar`) — works on any checkout of this repository.
 
 ## Engineering Taste
 
@@ -34,8 +34,8 @@ add or maintain registry records — the `agentx` CLI (installed by
 ## The snapshot is the source of truth
 
 - `data/agents-snapshot.json` is the only write path for curated agent
-  fields. It is never hand-edited; `agentx add` is the
-  only supported entry point for new records. `agentx validate`
+  fields. It is never hand-edited; `awescholar updater add --agentx` is the
+  only supported entry point for new records. `awescholar verify --agentx`
   (run in CI) enforces
   the writer invariants — shape, slug order and uniqueness, registered
   categories/tags, consistent counts — so a hand edit fails loudly.
@@ -43,7 +43,7 @@ add or maintain registry records — the `agentx` CLI (installed by
 ## Adding an agent (maintainer pipeline)
 
 ```sh
-agentx add owner/repo --category <slug> \
+awescholar updater add --agentx owner/repo --category <slug> \
   [--name "Foo"] [--tags "Stanford,Nature-Biotechnology"] \
   [--paper URL] [--homepage URL] [--description "one line"]
 ```
@@ -53,7 +53,7 @@ tag policy, fetches live metrics once, then appends to the snapshot in
 stable slug order. Follow up:
 
 ```sh
-agentx validate  # offline check of the writer invariants
+awescholar verify --agentx  # offline check of the writer invariants
 git add data/agents-snapshot.json && git commit
 ```
 
@@ -77,13 +77,13 @@ Categories:
 
 The tag policy is objective proper-noun attributions only — institution,
 venue, companion product, named tech; never capability or marketing
-descriptors. It is enforced by `agentx validate`.
+descriptors. It is enforced by `awescholar verify --agentx`.
 
 ## Paper enrichment and GitHub metrics
 
 Paper metadata (title, venue, year, team, DOI) is resolved through the
 [awescholar](https://github.com/wehuman01/awescholar) CLI against Semantic
-Scholar (`agentx enrich/backfill`). Enrichment starts
+Scholar (`awescholar updater enrich/backfill --agentx`). Enrichment starts
 from precise clues in the snapshot (DOI, arXiv ID, quoted title); agents
 without a resolvable clue are left untouched.
 

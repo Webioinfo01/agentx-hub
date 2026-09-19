@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-19 — curation commands are awescholar-native again
+
+- **The `agentx add/enrich/backfill/validate` aliases are gone** (removed
+  in awescholar v0.3.2). Registry curation now runs through awescholar's
+  native commands everywhere: `awescholar updater add/enrich/backfill
+  --agentx` and `awescholar verify --agentx`. Workflows (`refresh.yml`,
+  `papers.yml`, `ci.yml`), DEVSETUP/CONTRIBUTING/README and the contribute
+  page all use the native spellings.
+- **Hub operations moved to the reborn npm CLI.** `agentx-hub-cli` v0.2.0
+  (`agentx sync | moderate | mirror`) wraps this repo's own scripts and
+  workflows: local `db:apply-snapshot`/`reviews:moderate`, or dispatch of
+  `sync-db`/`sync-public`. The `agentx` command name now belongs to that
+  package alone.
+
 ## 2026-09-19 — snapshot-apply reconciles with minimal writes
 
 - **`applySnapshot` no longer does two DB round trips per agent.** It read

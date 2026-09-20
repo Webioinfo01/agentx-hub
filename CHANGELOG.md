@@ -3,8 +3,10 @@
 ## 2026-09-20 — ci pipeline ~40s faster
 
 - Registry snapshot validation runs via `uvx awescholar verify --agentx`
-  (uv is preinstalled on GitHub's ubuntu runners) instead of a two-step
+  (uv provided by `astral-sh/setup-uv`, ~4s) instead of a two-step
   `pipx install` + run — the pipx install alone took ~23s per run.
+  (First attempt assumed uv ships on the runner image; it does not —
+  `uvx: command not found` — fixed by the setup action.)
 - The deploy job installs the pinned Vercel CLI into a `~/.vercel-cli`
   prefix cached by `actions/cache` keyed on the pinned version, skipping
   the ~19s global `npm install` on every cache hit.

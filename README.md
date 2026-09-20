@@ -8,6 +8,7 @@
     <a href="./README_cn.md">简体中文</a>
   </p>
   <p>
+    <a href="https://agentx.webioinfo.top/"><img src="https://img.shields.io/badge/website-agentx.webioinfo.top-0EA5E9?style=flat-square" alt="Website"></a>
     <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
   </p>
   <p>
@@ -25,19 +26,25 @@ curated directory with live GitHub metrics, verified-run reviews from
 researchers who actually used the tools, side-by-side comparison, and monthly
 ecosystem reports. Listing is free and editorial — based on fit, not stars.
 
+**Try it live: <https://agentx.webioinfo.top/>** — this repository is the
+open home of the registry behind the site.
+
 ## Using the site
 
-- **Browse** (`/agents`) — 200+ agents across 12 user-intent categories with
-  live GitHub metrics (stars, last push, language, license), search /
-  filter / sort; 🔥 New badge for agents added within the last 7 days
-- **Compare** (`/compare`) — up to 4 agents side by side, including review
-  scores and companion papers
+- **Browse** ([`/agents`](https://agentx.webioinfo.top/agents)) — 200+
+  agents across 12 user-intent categories with live GitHub metrics (stars,
+  last push, language, license), search / filter / sort; 🔥 New badge for
+  agents added within the last 7 days
+- **Compare** ([`/compare`](https://agentx.webioinfo.top/compare)) — up to
+  4 agents side by side, including review scores and companion papers
 - **Review** — share your experience; verified-run reviews shape every
   agent's score (rules below)
-- **Monthly reports** (`/reports`) — additions, repository activity and
-  review flow per month, computed live from registry data
-- **Same-name disambiguation** (`/samename`) — curated groups for the
-  ScienceClaw / MedClaw / autoresearch name collisions
+- **Monthly reports** ([`/reports`](https://agentx.webioinfo.top/reports)) —
+  additions, repository activity and review flow per month, computed live
+  from registry data
+- **Same-name disambiguation**
+  ([`/samename`](https://agentx.webioinfo.top/samename)) — curated groups
+  for the ScienceClaw / MedClaw / autoresearch name collisions
 
 ## How reviews work
 
@@ -97,20 +104,38 @@ The full pipeline, categories and tag policy are documented in
 
 ## Public API and skills
 
-- `GET /api/agents` — directory + rating summaries (`q`, `category`,
-  `status`, `limit` filters)
-- `GET /api/agents/[slug]` — one agent record with its rating summary
-- `GET /api/agents/[slug]/reviews` — reviews for one agent
-- `GET /llms.txt` — plain-text registry index (llms.txt convention)
-- `POST /api/agents/[slug]/reviews` — create review (auth required)
-- `POST /api/reviews/[id]/vote` — helpful / not helpful (auth required)
+Base URL: **`https://agentx.webioinfo.top`** — no key, no auth for read-only
+endpoints, all CORS-enabled.
 
-Read-only endpoints are CORS-enabled. The full reference with examples
-lives in [docs/API.md](./docs/API.md) and is also rendered at
-`/developers` on the site.
+Built for AI and agent consumers first:
+
+- `https://agentx.webioinfo.top/llms.txt` — the whole registry as a
+  scannable plain-text index (llms.txt convention): one line per agent,
+  grouped by category
+- `https://agentx.webioinfo.top/llms-full.txt` — the same index expanded
+  with a paragraph per agent, for direct citation
+- `https://agentx.webioinfo.top/api/agents` — directory + rating summaries
+  as JSON (`q`, `category`, `status`, `limit` filters)
+- `https://agentx.webioinfo.top/api/agents/{slug}` — one agent record with
+  its rating summary
+- `https://agentx.webioinfo.top/api/agents/{slug}/reviews` — reviews for
+  one agent
+- `POST /api/agents/{slug}/reviews` — create review (auth required)
+- `POST /api/reviews/{id}/vote` — helpful / not helpful (auth required)
+
+One request returns the full directory:
+
+```bash
+curl -s "https://agentx.webioinfo.top/api/agents?category=autonomous-research&limit=10"
+```
+
+The full reference with examples lives in [docs/API.md](./docs/API.md) and
+is also rendered at
+[`/developers`](https://agentx.webioinfo.top/developers) on the site.
 
 `skills/` ships one agent skill (`agentx`) that wraps the public API for
-coding agents — search, recommend, and compare; no keys, no auth:
+coding agents — search, recommend, and compare; no keys, no auth, defaults
+to the deployed registry above:
 
 ```bash
 npx skills add webioinfo01/agentx-hub -g -y

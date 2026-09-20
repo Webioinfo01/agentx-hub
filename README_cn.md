@@ -8,6 +8,7 @@
     <strong>简体中文</strong>
   </p>
   <p>
+    <a href="https://agentx.webioinfo.top/"><img src="https://img.shields.io/badge/website-agentx.webioinfo.top-0EA5E9?style=flat-square" alt="Website"></a>
     <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
   </p>
   <p>
@@ -22,13 +23,15 @@
 
 AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标的策展目录、来自真正用过这些工具的研究者的 Verified Run 实测评价、并排对比，以及月度生态报告。收录免费、人工编辑、只看匹配度 —— 与 star 数无关。
 
+**在线使用：<https://agentx.webioinfo.top/>** —— 本仓库是网站背后注册表的开源主场。
+
 ## 使用网站
 
-- **浏览**（`/agents`）—— 200+ 个 agent，按 12 类用户意图分类；实时 GitHub 指标（star、最近推送、语言、许可证）；搜索 / 筛选 / 排序；新收录 7 天内带 🔥 New 标
-- **对比**（`/compare`）—— 最多 4 个 agent 并排比较，含评价得分和配套论文
+- **浏览**（[`/agents`](https://agentx.webioinfo.top/agents)）—— 200+ 个 agent，按 12 类用户意图分类；实时 GitHub 指标（star、最近推送、语言、许可证）；搜索 / 筛选 / 排序；新收录 7 天内带 🔥 New 标
+- **对比**（[`/compare`](https://agentx.webioinfo.top/compare)）—— 最多 4 个 agent 并排比较，含评价得分和配套论文
 - **评价** —— 分享你的使用经验；Verified Run 实测评价决定每个 agent 的得分（规则见下）
-- **月度报告**（`/reports`）—— 每月新增、仓库活跃度、评价动态，全部由注册表数据实时计算
-- **同名消歧**（`/samename`）—— ScienceClaw / MedClaw / autoresearch 等同名冲突的整理分组
+- **月度报告**（[`/reports`](https://agentx.webioinfo.top/reports)）—— 每月新增、仓库活跃度、评价动态，全部由注册表数据实时计算
+- **同名消歧**（[`/samename`](https://agentx.webioinfo.top/samename)）—— ScienceClaw / MedClaw / autoresearch 等同名冲突的整理分组
 
 ## 评价规则
 
@@ -66,16 +69,27 @@ AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标�
 
 ## 公开 API 与技能
 
-- `GET /api/agents` —— 目录 + 评分摘要（`q`、`category`、`status`、`limit` 筛选）
-- `GET /api/agents/[slug]` —— 单个 agent 记录及评分摘要
-- `GET /api/agents/[slug]/reviews` —— 单个 agent 的评价
-- `GET /llms.txt` —— 全库纯文本索引（llms.txt 约定）
-- `POST /api/agents/[slug]/reviews` —— 创建评价（需登录）
-- `POST /api/reviews/[id]/vote` —— 有用 / 无用投票（需登录）
+Base URL：**`https://agentx.webioinfo.top`** —— 只读端点无需密钥、无需登录，全部开 CORS。
 
-只读端点均开 CORS。带示例的完整参考见 [docs/API.md](./docs/API.md)，站点 `/developers` 页渲染同样内容。
+优先面向 AI 与 agent 消费者：
 
-`skills/` 内置一个面向 coding agent 的技能 `agentx`，封装公开 API，覆盖搜索、推荐、对比——无需密钥、无需登录：
+- `https://agentx.webioinfo.top/llms.txt` —— 全库纯文本索引（llms.txt 约定）：每个 agent 一行，按分类分组
+- `https://agentx.webioinfo.top/llms-full.txt` —— 同一份索引的展开版，每个 agent 一段描述，可直接引用
+- `https://agentx.webioinfo.top/api/agents` —— 目录 + 评分摘要 JSON（`q`、`category`、`status`、`limit` 筛选）
+- `https://agentx.webioinfo.top/api/agents/{slug}` —— 单个 agent 记录及评分摘要
+- `https://agentx.webioinfo.top/api/agents/{slug}/reviews` —— 单个 agent 的评价
+- `POST /api/agents/{slug}/reviews` —— 创建评价（需登录）
+- `POST /api/reviews/{id}/vote` —— 有用 / 无用投票（需登录）
+
+一次请求即可拿到整个目录：
+
+```bash
+curl -s "https://agentx.webioinfo.top/api/agents?category=autonomous-research&limit=10"
+```
+
+带示例的完整参考见 [docs/API.md](./docs/API.md)，站点 [`/developers`](https://agentx.webioinfo.top/developers) 页渲染同样内容。
+
+`skills/` 内置一个面向 coding agent 的技能 `agentx`，封装公开 API，覆盖搜索、推荐、对比——无需密钥、无需登录，默认对接上面的线上注册表：
 
 ```bash
 npx skills add webioinfo01/agentx-hub -g -y

@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-09-20 — deployment docs match the CI deploy
+
+- Production has shipped by push since a63a33a (2026-09-19): the `deploy`
+  job in `ci.yml` runs `vercel deploy --prod --yes` once `verify` (lint,
+  tests, snapshot validation, type check, build) is green on pushes to
+  `main`. AGENTS.md and docs/DEVSETUP.md still described the pre-CI flow
+  ("website code ships by manual `vercel --prod`", "pushing to main does
+  **not** deploy the code") — both now describe the CI pipeline, with the
+  manual CLI deploy kept as the documented hotfix path, and the DEVSETUP
+  CI checklist now mentions the snapshot-validation and deploy steps it
+  was missing.
+
+## 2026-09-20 — the site URL is in the README, and AI surfaces link back
+
+- Both READMEs now lead with the live site (website badge + a
+  `https://agentx.webioinfo.top/` line in the intro) and link the
+  feature paths (`/agents`, `/compare`, `/reports`, `/samename`) to the
+  deployed pages, so readers — human or model — land on the site from
+  GitHub.
+- The "Public API and skills" section states the base URL once and lists
+  every read-only endpoint as an absolute URL, newly including
+  `/llms-full.txt`; the endpoints were bare paths before, unusable as-is
+  by an AI reading the README on GitHub.
+- `llms.txt` / `llms-full.txt` gained Graveyard and registry-source
+  links (the full index also got the same-name groups link it was
+  missing), and the homepage Organization JSON-LD now carries
+  `sameAs` → the GitHub repository. `/graveyard` is in the sitemap.
+
 ## 2026-09-19 — registry badges follow the snapshot
 
 - README agent, category, paper-backed, and update-month badges are now

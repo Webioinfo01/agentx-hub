@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-20 — ci pipeline ~40s faster
+
+- Registry snapshot validation runs via `uvx awescholar verify --agentx`
+  (uv is preinstalled on GitHub's ubuntu runners) instead of a two-step
+  `pipx install` + run — the pipx install alone took ~23s per run.
+- The deploy job installs the pinned Vercel CLI into a `~/.vercel-cli`
+  prefix cached by `actions/cache` keyed on the pinned version, skipping
+  the ~19s global `npm install` on every cache hit.
+
 ## 2026-09-20 — deployment docs match the CI deploy
 
 - Production has shipped by push since a63a33a (2026-09-19): the `deploy`

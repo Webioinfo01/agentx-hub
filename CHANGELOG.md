@@ -1,16 +1,19 @@
 # Changelog
 
-## 2026-09-20 — ci pipeline ~40s faster on repeat runs
+## 2026-09-20 — ci pipeline ~45s faster on repeat runs
 
+- awescholar validation runs from a cached plain venv
+  (`~/.cache/awescholar-venv`) keyed on the PyPI-resolved version — the
+  probe still tracks the latest release — cutting the ~24s install+run
+  to ~3s once warm. Two earlier attempts were dropped: `uvx` via
+  `astral-sh/setup-uv` cost ~20s for setup alone, and a pipx cache never
+  hit because the runner's pipx homes are `/opt/pipx` and
+  `/usr/local/bin`, not the cached `~/.local/pipx`.
 - The deploy job's pinned Vercel CLI installs into a `~/.vercel-cli`
-  prefix cached by version (`actions/cache`), skipping the ~19s global
-  install once warm. `ci` also gained a `workflow_dispatch` trigger, so
-  a deploy can be re-run from a push or by hand.
-- awescholar validation caches its pipx install keyed on the
-  PyPI-resolved version — the probe still tracks the latest release —
-  cutting the ~24s install+run to ~6s once warm. (An interim attempt
-  used `uvx` via `astral-sh/setup-uv`; the runner image ships no uv and
-  the setup action itself cost ~20s, so it was dropped.)
+  prefix cached by version, skipping the ~19s global install once warm.
+- `ci` gained a `workflow_dispatch` trigger, so a deploy can be re-run
+  from a push or by hand. Steady state: verify 2:04 → 1:35, deploy
+  1:21 → 1:05, total 3:27 → 2:43.
 
 ## 2026-09-20 — deployment docs match the CI deploy
 

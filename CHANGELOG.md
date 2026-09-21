@@ -1,15 +1,16 @@
 # Changelog
 
-## 2026-09-20 — ci pipeline ~40s faster
+## 2026-09-20 — ci pipeline ~40s faster on repeat runs
 
-- Registry snapshot validation runs via `uvx awescholar verify --agentx`
-  (uv provided by `astral-sh/setup-uv`, ~4s) instead of a two-step
-  `pipx install` + run — the pipx install alone took ~23s per run.
-  (First attempt assumed uv ships on the runner image; it does not —
-  `uvx: command not found` — fixed by the setup action.)
-- The deploy job installs the pinned Vercel CLI into a `~/.vercel-cli`
-  prefix cached by `actions/cache` keyed on the pinned version, skipping
-  the ~19s global `npm install` on every cache hit.
+- The deploy job's pinned Vercel CLI installs into a `~/.vercel-cli`
+  prefix cached by version (`actions/cache`), skipping the ~19s global
+  install once warm. `ci` also gained a `workflow_dispatch` trigger, so
+  a deploy can be re-run from a push or by hand.
+- awescholar validation caches its pipx install keyed on the
+  PyPI-resolved version — the probe still tracks the latest release —
+  cutting the ~24s install+run to ~6s once warm. (An interim attempt
+  used `uvx` via `astral-sh/setup-uv`; the runner image ships no uv and
+  the setup action itself cost ~20s, so it was dropped.)
 
 ## 2026-09-20 — deployment docs match the CI deploy
 

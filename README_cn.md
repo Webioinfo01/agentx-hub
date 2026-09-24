@@ -12,9 +12,9 @@
     <a href="https://github.com/Webioinfo01/agentx-hub"><img src="https://img.shields.io/github/stars/Webioinfo01/agentx-hub?style=social" alt="GitHub Stars"></a>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/agents-241-0EA5E9?style=flat-square" alt="Agents tracked">
+    <img src="https://img.shields.io/badge/agents-242-0EA5E9?style=flat-square" alt="Agents tracked">
     <img src="https://img.shields.io/badge/categories-12-7C3AED?style=flat-square" alt="Categories">
-    <img src="https://img.shields.io/badge/paper--backed-120-22C55E?style=flat-square" alt="Paper-backed agents">
+    <img src="https://img.shields.io/badge/paper--backed-121-22C55E?style=flat-square" alt="Paper-backed agents">
     <img src="https://img.shields.io/badge/updated-2026.09-334155?style=flat-square" alt="Last updated">
   </p>
 </div>

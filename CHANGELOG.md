@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-09-24 — reports read like a month, not a wall
+
+- The month of the registry's first import is now flagged as the launch
+  month everywhere it is narrated: stat cards say "in the launch
+  catalog" instead of "added", the section is titled "Launch catalog",
+  and the at-a-glance strip states outright that the records are the
+  initial curated import, not organic growth. Growth reporting (with
+  month-over-month momentum) starts from the next report.
+- Month pages carry an "At a glance" strip — baseline/momentum, leading
+  field, top newcomer, paper-backed share — every line computed from
+  what timestamps can prove, phrased so a launch baseline is never
+  mistaken for monthly growth.
+- The additions list no longer dumps hundreds of rows: newcomer counts
+  appear as per-field chips, the first 10 rows stay visible, and the
+  rest fold behind a native "Show all N" details toggle (the September
+  launch page went from ~12,800px to ~2,500px).
+- Paper-only records (a DOI in place of a GitHub repo) show an italic
+  "paper" marker instead of stars, so survey entries no longer read as
+  agents; repository-activity counts report the real total behind the
+  capped top-10 list.
+
 ## 2026-09-20 — ci pipeline ~45s faster on repeat runs
 
 - awescholar validation runs from a cached plain venv

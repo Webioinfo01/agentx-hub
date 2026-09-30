@@ -49,7 +49,7 @@
         "authors": "Samuel Schmidgall, Yusheng Su, Ze Wang, Ximeng Sun, Jialian Wu, Xiaodong Yu, Jiang Liu, Zicheng Liu, E. Barsoum",
         "firstAuthor": "Samuel Schmidgall",
         "paperUrl": "https://arxiv.org/abs/2501.04227",
-        "citations": 497
+        "citations": 501
       },
       "category": "autonomous-research",
       "tags": [
@@ -57,7 +57,7 @@
         "EMNLP-Findings"
       ],
       "language": "Python",
-      "stars": 5866,
+      "stars": 5873,
       "pushedAt": "2025-08-20T21:46:43Z",
       "openIssues": 61,
       "archived": false,
@@ -128,9 +128,9 @@
         "bioRxiv"
       ],
       "language": "Python",
-      "stars": 35,
-      "pushedAt": "2026-09-24T07:26:54Z",
-      "openIssues": 3,
+      "stars": 37,
+      "pushedAt": "2026-09-28T15:03:37Z",
+      "openIssues": 2,
       "archived": false,
       "license": "MIT",
       "description": "Autonomous agentic system for supervised machine learning model development.",
@@ -154,9 +154,9 @@
         "Alibaba"
       ],
       "language": "Go",
-      "stars": 5664,
+      "stars": 5683,
       "pushedAt": "2026-09-23T06:25:55Z",
-      "openIssues": 218,
+      "openIssues": 219,
       "archived": false,
       "license": "Apache-2.0",
       "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
@@ -182,7 +182,7 @@
         "authors": "Jiabin Tang, Lianghao Xia, Zhonghang Li, Chao Huang",
         "firstAuthor": "Jiabin Tang",
         "paperUrl": "https://www.semanticscholar.org/paper/80a0b76dedc4c3e3d365bbaececcd44a996eb38b",
-        "citations": 90
+        "citations": 91
       },
       "category": "autonomous-research",
       "tags": [
@@ -190,7 +190,7 @@
         "NeurIPS"
       ],
       "language": "Python",
-      "stars": 5760,
+      "stars": 5770,
       "pushedAt": "2025-10-16T06:47:34Z",
       "openIssues": 65,
       "archived": false,
@@ -218,7 +218,7 @@
         "authors": "Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, David Ha",
         "firstAuthor": "Chris Lu",
         "paperUrl": "https://arxiv.org/abs/2408.06292",
-        "citations": 1146
+        "citations": 1159
       },
       "category": "autonomous-research",
       "tags": [
@@ -227,9 +227,9 @@
         "arXiv"
       ],
       "language": "Jupyter Notebook",
-      "stars": 14608,
+      "stars": 14639,
       "pushedAt": "2025-12-19T07:46:21Z",
-      "openIssues": 120,
+      "openIssues": 121,
       "archived": false,
       "license": null,
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬",
@@ -255,7 +255,7 @@
         "authors": "Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha",
         "firstAuthor": "Yutaro Yamada",
         "paperUrl": "https://doi.org/10.1038/s41586-026-10265-5",
-        "citations": 247
+        "citations": 263
       },
       "category": "autonomous-research",
       "tags": [
@@ -264,7 +264,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 7216,
+      "stars": 7239,
       "pushedAt": "2025-12-19T07:46:32Z",
       "openIssues": 79,
       "archived": false,
@@ -290,7 +290,7 @@
         "LangGraph"
       ],
       "language": "Python",
-      "stars": 100,
+      "stars": 101,
       "pushedAt": "2026-03-30T20:09:17Z",
       "openIssues": 72,
       "archived": false,
@@ -328,7 +328,7 @@
         "MCP"
       ],
       "language": null,
-      "stars": 880,
+      "stars": 879,
       "pushedAt": "2025-08-30T17:49:41Z",
       "openIssues": 16,
       "archived": false,
@@ -352,9 +352,9 @@
       "category": "platforms",
       "tags": [],
       "language": "JavaScript",
-      "stars": 1473,
+      "stars": 1476,
       "pushedAt": "2026-09-18T03:06:00Z",
-      "openIssues": 35,
+      "openIssues": 36,
       "archived": false,
       "license": "MIT",
       "description": "The ultimate setup harness for OpenClaw. Deploy in minutes. Stay running for months. No CLI required.",
@@ -402,9 +402,9 @@
         "Claude-Code"
       ],
       "language": "Python",
-      "stars": 16589,
-      "pushedAt": "2026-09-18T18:05:10Z",
-      "openIssues": 74,
+      "stars": 16809,
+      "pushedAt": "2026-09-29T05:26:25Z",
+      "openIssues": 68,
       "archived": false,
       "license": "MIT",
       "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
@@ -473,7 +473,7 @@
         "ACL-Findings"
       ],
       "language": "Python",
-      "stars": 1744,
+      "stars": 1747,
       "pushedAt": "2025-10-16T06:38:48Z",
       "openIssues": 33,
       "archived": false,
@@ -525,7 +525,7 @@
         "authors": "Juexiao Zhou, Bin Zhang, Guowei Li, Xiuying Chen, Haoyang Li, Xiaopeng Xu, Siyuan Chen, Wenjia He, Chencheng Xu, Liwei Liu, Xin Gao",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1002/advs.202407094",
-        "citations": 86
+        "citations": 88
       },
       "category": "bio-omics",
       "tags": [
@@ -584,9 +584,9 @@
         "Karpathy"
       ],
       "language": "Python",
-      "stars": 96702,
+      "stars": 96988,
       "pushedAt": "2026-03-26T00:07:37Z",
-      "openIssues": 194,
+      "openIssues": 195,
       "archived": false,
       "license": null,
       "description": "AI agents running research on single-GPU nanochat training automatically",
@@ -608,7 +608,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 1845,
+      "stars": 1851,
       "pushedAt": "2026-07-02T13:49:49Z",
       "openIssues": 16,
       "archived": false,
@@ -634,9 +634,9 @@
         "Claude-Code"
       ],
       "language": "Shell",
-      "stars": 6400,
+      "stars": 6489,
       "pushedAt": "2026-08-12T22:28:18Z",
-      "openIssues": 4,
+      "openIssues": 6,
       "archived": false,
       "license": "MIT",
       "description": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
@@ -658,9 +658,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 14519,
+      "stars": 14562,
       "pushedAt": "2026-08-19T03:35:13Z",
-      "openIssues": 13,
+      "openIssues": 14,
       "archived": false,
       "license": "MIT",
       "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
@@ -726,7 +726,7 @@
       "tags": [],
       "language": null,
       "stars": 40,
-      "pushedAt": "2026-09-24T08:29:40Z",
+      "pushedAt": "2026-09-24T09:02:19Z",
       "openIssues": 0,
       "archived": false,
       "license": "MPL-2.0",
@@ -754,14 +754,14 @@
         "authors": "Xin-Yi Hou, Yanjie Zhao, Shenao Wang, Hao-Yu Wang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1145/3796519",
-        "citations": 505
+        "citations": 514
       },
       "category": "reviews",
       "tags": [],
       "language": null,
       "stars": 51,
       "pushedAt": "2025-04-24T12:54:13Z",
-      "openIssues": 34,
+      "openIssues": 35,
       "archived": false,
       "license": null,
       "description": "Security Threats related with MCP (Model Context Protocol), MCP Servers and more",
@@ -795,12 +795,12 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 249,
-      "pushedAt": "2026-09-23T18:10:09Z",
-      "openIssues": 128,
+      "stars": 264,
+      "pushedAt": "2026-09-29T09:03:08Z",
+      "openIssues": 142,
       "archived": false,
       "license": "MIT",
-      "description": "Track 17,170+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.",
+      "description": "Track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.",
       "status": "active",
       "autoStableExempt": false,
       "source": "manual",
@@ -866,7 +866,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 34,
+      "stars": 36,
       "pushedAt": "2026-08-11T13:16:05Z",
       "openIssues": 0,
       "archived": false,
@@ -949,7 +949,7 @@
       "category": "bio-omics",
       "tags": [],
       "language": "TypeScript",
-      "stars": 410,
+      "stars": 409,
       "pushedAt": "2026-08-24T03:11:09Z",
       "openIssues": 9,
       "archived": false,
@@ -986,7 +986,7 @@
         "ICLR"
       ],
       "language": "Python",
-      "stars": 128,
+      "stars": 130,
       "pushedAt": "2025-07-06T20:16:52Z",
       "openIssues": 4,
       "archived": false,
@@ -1023,7 +1023,7 @@
       ],
       "language": "Python",
       "stars": 97,
-      "pushedAt": "2026-08-04T15:50:46Z",
+      "pushedAt": "2026-09-29T02:51:10Z",
       "openIssues": 24,
       "archived": false,
       "license": "MIT",
@@ -1144,14 +1144,14 @@
         "authors": "Dechao Bu, Jing-Zhi Sun, Kun Li, Zihao He, Wei Huang, Jin-Li Hu, Shan Zhang, Shuangshuang Lei, Peipei Huo, Zhihao Wang, Sheng Wang, Tao Wang, Kai Gao, Yang Wu, Lianhe Zhao, Kai Wang, Gen Li, Huan-qing Song, Yan Jin, Kang Zhang, Runsheng Chen, Yi Zhao",
         "firstAuthor": "Dechao Bu",
         "paperUrl": "https://www.nature.com/articles/s41551-026-01634-6",
-        "citations": 22
+        "citations": 23
       },
       "category": "bio-omics",
       "tags": [
         "Nature-BME"
       ],
       "language": "Python",
-      "stars": 139,
+      "stars": 140,
       "pushedAt": "2026-09-01T06:06:10Z",
       "openIssues": 3,
       "archived": false,
@@ -1215,7 +1215,7 @@
         "authors": "Kexin Huang, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Ryan Li, Yusuf H. Roohani, Lin Qiu, Shiyi Cao, Gavin Li, Junze Zhang, Di Yin, R. Wierenga, Deniz Kavi, Sherry Liu, Tianwei She, S. Marwaha, J. Carter, Xin Zhou, Matthew T. Wheeler, Jonathan A. Bernstein, Mengdi Wang, Peng He, Jingtian Zhou, Michael P. Snyder, Le Cong, Aviv Regev, J. Leskovec",
         "firstAuthor": "Kexin Huang",
         "paperUrl": "https://www.science.org/doi/10.1126/science.adz4351",
-        "citations": 33
+        "citations": 37
       },
       "category": "bio-omics",
       "tags": [
@@ -1225,8 +1225,8 @@
         "Science"
       ],
       "language": "Python",
-      "stars": 3909,
-      "pushedAt": "2026-09-21T18:51:22Z",
+      "stars": 3926,
+      "pushedAt": "2026-09-28T19:18:11Z",
       "openIssues": 118,
       "archived": false,
       "license": "Apache-2.0",
@@ -1260,9 +1260,9 @@
         "NVIDIA"
       ],
       "language": "Python",
-      "stars": 858,
-      "pushedAt": "2026-09-22T23:39:46Z",
-      "openIssues": 243,
+      "stars": 861,
+      "pushedAt": "2026-09-24T22:14:38Z",
+      "openIssues": 245,
       "archived": false,
       "license": null,
       "description": "BioNeMo Recipes: For building and adapting AI models in drug discovery at scale",
@@ -1314,14 +1314,14 @@
         "authors": "L. Mitchener, Jon M. Laurent, Alex Andonian, Benjamin Tenmann, Siddharth Narayanan, G. Wellawatte, Andrew D. White, Lorenzo Sani, Samuel G. Rodriques",
         "firstAuthor": "Ludovico Mitchener",
         "paperUrl": "https://www.semanticscholar.org/paper/53f7efc5cadfe7d1a9313fd649947fbf8f22c553",
-        "citations": 105
+        "citations": 107
       },
       "category": "benchmarks",
       "tags": [
         "arXiv"
       ],
       "language": "Python",
-      "stars": 145,
+      "stars": 146,
       "pushedAt": "2025-10-06T21:54:03Z",
       "openIssues": 4,
       "archived": false,
@@ -1417,7 +1417,7 @@
       "tags": [],
       "language": "Jupyter Notebook",
       "stars": 6,
-      "pushedAt": "2026-08-28T14:27:34Z",
+      "pushedAt": "2026-09-24T18:34:23Z",
       "openIssues": 3,
       "archived": false,
       "license": "MIT",
@@ -1444,7 +1444,7 @@
         "authors": "Elliot Xie, Ling-Xin Cheng, Jack M. Shireman, Yujia Cai, Jihua Liu, Chitrasen Mohanty, Mahua Dey, C. Kendziorski",
         "firstAuthor": "Elliot Xie",
         "paperUrl": "https://www.semanticscholar.org/paper/7de5beff1eb163c66310e4291928c6f2d7bb34ac",
-        "citations": 18
+        "citations": 19
       },
       "category": "bio-omics",
       "tags": [
@@ -1453,7 +1453,7 @@
         "Nature-Communications"
       ],
       "language": "Python",
-      "stars": 106,
+      "stars": 107,
       "pushedAt": "2026-09-11T05:31:09Z",
       "openIssues": 3,
       "archived": false,
@@ -1481,7 +1481,7 @@
         "authors": "Abhinav K. Adduri, Dhruv Gautam, Beatrice Bevilacqua, et al. (Hani Goodarzi, Yusuf H. Roohani)",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00921-9",
-        "citations": 147
+        "citations": 153
       },
       "category": "benchmarks",
       "tags": [
@@ -1525,7 +1525,7 @@
       ],
       "language": null,
       "stars": 140,
-      "pushedAt": "2026-09-08T18:13:57Z",
+      "pushedAt": "2026-09-25T16:41:04Z",
       "openIssues": 14,
       "archived": false,
       "license": null,
@@ -1588,7 +1588,7 @@
         "authors": "Samuel Alber, Bowen Chen, Eric Sun, Alina Isakova, Aaron J. Wilk, James Zou",
         "firstAuthor": "Samuel Alber",
         "paperUrl": "https://www.nature.com/articles/s41592-026-03029-6",
-        "citations": 19
+        "citations": 20
       },
       "category": "bio-omics",
       "tags": [
@@ -1597,7 +1597,7 @@
         "Nature-Methods"
       ],
       "language": "Python",
-      "stars": 263,
+      "stars": 264,
       "pushedAt": "2026-06-02T18:18:33Z",
       "openIssues": 8,
       "archived": false,
@@ -1625,7 +1625,7 @@
         "authors": "Moritz Schaefer, Peter Peneder, Daniel Malzl, S. Lombardo, Mihaela Peycheva, Jake Burton, Anna H. Hakobyan, Varun Sharma, Thomas Krausgruber, Celine Sin, J. Menche, E. Tomazou, Christoph Bock",
         "firstAuthor": "Moritz Schaefer",
         "paperUrl": "https://www.semanticscholar.org/paper/7691e9a5e27368f9a3a9fc18787069c206513ff2",
-        "citations": 45
+        "citations": 46
       },
       "category": "bio-omics",
       "tags": [
@@ -1810,9 +1810,9 @@
         "Argonne"
       ],
       "language": "Python",
-      "stars": 159,
-      "pushedAt": "2026-09-24T06:27:59Z",
-      "openIssues": 30,
+      "stars": 160,
+      "pushedAt": "2026-09-28T21:56:36Z",
+      "openIssues": 27,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Agentic framework for computational chemistry and materials science workflows",
@@ -1882,8 +1882,8 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 774,
-      "pushedAt": "2026-09-24T08:25:29Z",
+      "stars": 779,
+      "pushedAt": "2026-09-29T09:47:34Z",
       "openIssues": 8,
       "archived": false,
       "license": "MIT",
@@ -1910,7 +1910,7 @@
         "authors": "Gaurav Chopra",
         "firstAuthor": "Gaurav Chopra",
         "paperUrl": "https://www.semanticscholar.org/paper/a375b66187f36ef48b373433c2416185ee70dd41",
-        "citations": 4
+        "citations": 5
       },
       "category": "bio-omics",
       "tags": [
@@ -1941,7 +1941,7 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 838,
+      "stars": 887,
       "pushedAt": "2026-09-20T05:45:35Z",
       "openIssues": 51,
       "archived": false,
@@ -1965,9 +1965,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Python",
-      "stars": 1141,
-      "pushedAt": "2026-09-23T09:05:09Z",
-      "openIssues": 29,
+      "stars": 1147,
+      "pushedAt": "2026-09-29T08:47:08Z",
+      "openIssues": 48,
       "archived": false,
       "license": "MIT",
       "description": "🦖 ClawBio - The first bioinformatics-native AI agent skill library. Local-first. Reproducible. Open. Free.",
@@ -1989,9 +1989,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 4159,
+      "stars": 4163,
       "pushedAt": "2026-08-27T02:55:53Z",
-      "openIssues": 336,
+      "openIssues": 258,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Your First AI Agents Company",
@@ -2013,7 +2013,7 @@
       "category": "safety-security",
       "tags": [],
       "language": "TypeScript",
-      "stars": 16,
+      "stars": 17,
       "pushedAt": "2026-03-16T21:53:30Z",
       "openIssues": 1,
       "archived": false,
@@ -2037,8 +2037,8 @@
       "category": "platforms",
       "tags": [],
       "language": "Go",
-      "stars": 1897,
-      "pushedAt": "2026-09-24T06:40:05Z",
+      "stars": 1896,
+      "pushedAt": "2026-09-29T07:26:28Z",
       "openIssues": 22,
       "archived": false,
       "license": "MIT",
@@ -2063,13 +2063,13 @@
         "NUS-MIT-Berkeley"
       ],
       "language": "Python",
-      "stars": 123,
+      "stars": 124,
       "pushedAt": "2026-05-28T13:25:55Z",
       "openIssues": 2,
       "archived": false,
       "license": null,
       "description": "🦞 ClawMark: A Living-World Benchmark for Multi-Day, Multimodal Coworker Agents",
-      "status": "active",
+      "status": "stale",
       "autoStableExempt": false,
       "source": "claw4science.org",
       "sourceUrl": "https://claw4science.org",
@@ -2122,7 +2122,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 18,
+      "stars": 20,
       "pushedAt": "2026-04-15T04:13:16Z",
       "openIssues": 3,
       "archived": false,
@@ -2152,7 +2152,7 @@
       "archived": false,
       "license": null,
       "description": "Security scanner for Agent Skills. Protect the Agent-Native ecosystem.",
-      "status": "active",
+      "status": "stale",
       "autoStableExempt": false,
       "source": "claw4science.org",
       "sourceUrl": "https://claw4science.org",
@@ -2172,7 +2172,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 5541,
+      "stars": 5543,
       "pushedAt": "2026-05-09T07:25:56Z",
       "openIssues": 34,
       "archived": false,
@@ -2196,7 +2196,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 1459,
+      "stars": 1455,
       "pushedAt": "2026-07-03T18:24:33Z",
       "openIssues": 4,
       "archived": false,
@@ -2245,7 +2245,7 @@
       "tags": [],
       "language": "TypeScript",
       "stars": 7609,
-      "pushedAt": "2026-09-23T12:51:58Z",
+      "pushedAt": "2026-09-29T09:41:34Z",
       "openIssues": 41,
       "archived": false,
       "license": "MIT",
@@ -2272,7 +2272,7 @@
       "language": "Python",
       "stars": 264,
       "pushedAt": "2026-08-03T13:19:39Z",
-      "openIssues": 3,
+      "openIssues": 2,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Open Source Reimplementation of Google Deepmind's Co-Scientist",
@@ -2324,7 +2324,7 @@
         "authors": "Yuanhao Qu, Kaixuan Huang, Ming Yin, Kanghong Zhan, Dyllan Liu, Di Yin, Henry C. Cousins, William A. Johnson, Xiaotong Wang, Mihir Shah, Russ B. Altman, Denny Zhou, Mengdi Wang, Le Cong",
         "firstAuthor": "Yuanhao Qu",
         "paperUrl": "https://www.biorxiv.org/content/10.1101/2024.04.25.591003v3",
-        "citations": 7
+        "citations": 8
       },
       "category": "bio-omics",
       "tags": [
@@ -2394,7 +2394,7 @@
         "NEJM-AI"
       ],
       "language": "Python",
-      "stars": 826,
+      "stars": 827,
       "pushedAt": "2025-07-19T15:01:19Z",
       "openIssues": 10,
       "archived": false,
@@ -2418,9 +2418,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 1807,
-      "pushedAt": "2026-09-21T20:37:16Z",
-      "openIssues": 6,
+      "stars": 1808,
+      "pushedAt": "2026-09-28T20:38:04Z",
+      "openIssues": 9,
       "archived": false,
       "license": "MIT",
       "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
@@ -2454,9 +2454,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 19988,
+      "stars": 19994,
       "pushedAt": "2026-02-27T13:12:11Z",
-      "openIssues": 97,
+      "openIssues": 96,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
@@ -2482,14 +2482,14 @@
         "authors": "Yixuan Weng, Minjun Zhu, Qiujie Xie, Qiyao Sun, Zhen Lin, Sifan Liu, Yue Zhang",
         "firstAuthor": "Yixuan Weng",
         "paperUrl": "https://openreview.net/forum?id=cZFgsLq8Gs",
-        "citations": 53
+        "citations": 55
       },
       "category": "autonomous-research",
       "tags": [
         "ICLR"
       ],
       "language": "TypeScript",
-      "stars": 3335,
+      "stars": 3342,
       "pushedAt": "2026-06-28T16:39:26Z",
       "openIssues": 16,
       "archived": false,
@@ -2513,9 +2513,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "JavaScript",
-      "stars": 1140,
+      "stars": 1143,
       "pushedAt": "2026-09-17T18:45:41Z",
-      "openIssues": 20,
+      "openIssues": 19,
       "archived": false,
       "license": null,
       "description": "A Super AI Lab with massive AI Doctors as Assistants. Best IDE for Research via AI Power. ",
@@ -2539,7 +2539,7 @@
         "InternScience"
       ],
       "language": "Python",
-      "stars": 171,
+      "stars": 172,
       "pushedAt": "2026-03-20T09:06:10Z",
       "openIssues": 8,
       "archived": false,
@@ -2780,9 +2780,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 16908,
-      "pushedAt": "2026-09-21T02:28:20Z",
-      "openIssues": 17,
+      "stars": 16938,
+      "pushedAt": "2026-09-28T02:33:22Z",
+      "openIssues": 13,
       "archived": false,
       "license": "MIT",
       "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
@@ -2808,7 +2808,7 @@
         "authors": "Shanghua Gao, Ada Fang, Yepeng Huang, Valentina Giunchiglia, Ayush Noori, Jonathan Richard Schwarz, Yasha Ektefaie, Jovana Kondic, Marinka Zitnik",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1016/j.cell.2024.09.022",
-        "citations": 307
+        "citations": 312
       },
       "category": "reviews",
       "tags": [
@@ -2926,16 +2926,16 @@
         "authors": "Yougang Lyu, Xi Zhang, Xinhao Yi, Yu-Yue Zhao, Shuyu Guo, Wenxiang Hu, Jan Piotrowski, Jakub Kaliski, Jacopo Urbani, Zaiqiao Meng, Lu Zhou, Xiaohu Yan",
         "firstAuthor": "Yougang Lyu",
         "paperUrl": "https://www.semanticscholar.org/paper/143a2e1a8fc27f4f523597aa45cb8f2cf5137020",
-        "citations": 39
+        "citations": 40
       },
       "category": "autonomous-research",
       "tags": [
         "arXiv"
       ],
       "language": "Python",
-      "stars": 4998,
-      "pushedAt": "2026-09-24T07:19:57Z",
-      "openIssues": 42,
+      "stars": 5030,
+      "pushedAt": "2026-09-26T12:25:23Z",
+      "openIssues": 59,
       "archived": false,
       "license": "Apache-2.0",
       "description": "🔬 Harness Vibe Research with Self-evolving AI Scientists",
@@ -2957,7 +2957,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 3037,
+      "stars": 3042,
       "pushedAt": "2026-09-05T00:55:34Z",
       "openIssues": 147,
       "archived": false,
@@ -2981,9 +2981,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Go",
-      "stars": 1353,
+      "stars": 1355,
       "pushedAt": "2026-09-08T04:09:35Z",
-      "openIssues": 50,
+      "openIssues": 55,
       "archived": false,
       "license": null,
       "description": "Multi-Agent Framework",
@@ -3170,7 +3170,7 @@
         "A2A"
       ],
       "language": "Python",
-      "stars": 2,
+      "stars": 3,
       "pushedAt": "2026-08-20T09:43:49Z",
       "openIssues": 0,
       "archived": false,
@@ -3247,7 +3247,7 @@
         "authors": "Julian Zoller, Michael Kalz, Xue-Wei Wu, Sven Cuntz, Linus Kruk, Niklas Kehl, Julius J. Michel, Cornelius Funk, Sarah Richter, Timo Tix, David Sedloev, Jonathan Naboschni, Johannes Frenking, Silvia Barbosa, Osama Saldanha, Alanna Kirschner, Anna D. Metzler, Antonia Schach, Robert Onken, Thomas Wagner, Michael Dugas, Axel Trumpp, Martin Dreyling, Martin V. von Bergwelt-Baildon, Kai Rejeski, Tobias Sauer, Peter Dreger, Martin Raab, Carl-Friedrich Müller-Tidow, Jakob Nikolas Kather, Mirco J. Friedrich",
         "firstAuthor": "Julian Zoller",
         "paperUrl": "https://doi.org/10.1038/s41591-026-04494-4",
-        "citations": 0
+        "citations": 1
       },
       "category": "clinical-health",
       "tags": [
@@ -3280,9 +3280,9 @@
         "Nous-Research"
       ],
       "language": "Python",
-      "stars": 248529,
-      "pushedAt": "2026-09-24T08:29:44Z",
-      "openIssues": 44182,
+      "stars": 249924,
+      "pushedAt": "2026-09-29T09:55:14Z",
+      "openIssues": 45359,
       "archived": false,
       "license": "MIT",
       "description": "The agent that grows with you",
@@ -3378,7 +3378,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 394,
+      "stars": 396,
       "pushedAt": "2026-08-10T01:16:33Z",
       "openIssues": 25,
       "archived": false,
@@ -3443,7 +3443,7 @@
       "language": "Python",
       "stars": 1443,
       "pushedAt": "2026-07-29T07:46:45Z",
-      "openIssues": 6,
+      "openIssues": 5,
       "archived": false,
       "license": null,
       "description": "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery",
@@ -3465,9 +3465,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 12630,
-      "pushedAt": "2026-09-24T02:42:10Z",
-      "openIssues": 1530,
+      "stars": 12634,
+      "pushedAt": "2026-09-29T02:43:29Z",
+      "openIssues": 1536,
       "archived": false,
       "license": "Apache-2.0",
       "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
@@ -3493,16 +3493,16 @@
         "authors": "L. Mitchener, Angela Yiu, Benjamin Chang, M. Bourdenx, Tyler Nadolski, Arvis Sulovari, E. Landsness, Dániel L. Barabási, Siddharth Narayanan, Nicky Evans, S. Reddy, M. Foiani, Aizad Kamal, Leah P. Shriver, F. Cao, A. Wassie, Jon M. Laurent, Edwin Melville-Green, Mayk Caldas, Albert Bou, Kaleigh F. Roberts, Sladjana Zagorac, Timothy C. Orr, Miranda E. Orr, K. Zwezdaryk, A. Ghareeb, L. McCoy, B. Gomes, Euan A. Ashley, K. Duff, T. Buonassisi, Tom Rainforth, R. Bateman, Michael Skarlinski, Samuel G. Rodriques, Michaela M. Hinks, Andrew D. White",
         "firstAuthor": "Ludovico Mitchener",
         "paperUrl": "https://www.semanticscholar.org/paper/0fc30d552b48b12817ba6ec4dfa9571b2a262b8d",
-        "citations": 96
+        "citations": 99
       },
       "category": "autonomous-research",
       "tags": [
         "arXiv"
       ],
       "language": "Python",
-      "stars": 589,
+      "stars": 591,
       "pushedAt": "2026-04-04T08:03:48Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "archived": false,
       "license": null,
       "description": "Kosmos: An AI Scientist for Autonomous Discovery - An implementation and adaptation to be driven by Claude Code or API - Based on the Kosmos AI Paper -  https://arxiv.org/abs/2511.02824",
@@ -3555,7 +3555,7 @@
         "authors": "Mengdi Wang, Le Cong",
         "firstAuthor": "Mengdi Wang",
         "paperUrl": "https://arxiv.org/abs/2510.14861",
-        "citations": 7
+        "citations": 8
       },
       "category": "autonomous-research",
       "tags": [
@@ -3691,8 +3691,8 @@
       "tags": [],
       "language": "Python",
       "stars": 46,
-      "pushedAt": "2026-09-23T21:56:31Z",
-      "openIssues": 6,
+      "pushedAt": "2026-09-28T01:28:51Z",
+      "openIssues": 5,
       "archived": false,
       "license": null,
       "description": "The self-evolving agentic framework for bioinformatics",
@@ -3725,9 +3725,9 @@
         "Cell"
       ],
       "language": "Python",
-      "stars": 8,
+      "stars": 13,
       "pushedAt": "2026-06-09T13:26:54Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "archived": false,
       "license": "MIT",
       "description": "Digital Longevity Research",
@@ -3776,7 +3776,7 @@
       "category": "chem-drug",
       "tags": [],
       "language": "TypeScript",
-      "stars": 93,
+      "stars": 94,
       "pushedAt": "2026-04-08T13:13:56Z",
       "openIssues": 4,
       "archived": false,
@@ -3802,7 +3802,7 @@
         "Renmin-University"
       ],
       "language": "Python",
-      "stars": 374,
+      "stars": 376,
       "pushedAt": "2026-04-07T06:33:19Z",
       "openIssues": 1,
       "archived": false,
@@ -3957,7 +3957,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 1564,
+      "stars": 1566,
       "pushedAt": "2026-08-17T03:41:43Z",
       "openIssues": 5,
       "archived": false,
@@ -4062,7 +4062,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 3493,
+      "stars": 3492,
       "pushedAt": "2026-06-07T04:57:05Z",
       "openIssues": 17,
       "archived": false,
@@ -4157,9 +4157,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 739,
-      "pushedAt": "2026-09-05T05:52:25Z",
-      "openIssues": 2,
+      "stars": 740,
+      "pushedAt": "2026-09-29T05:29:30Z",
+      "openIssues": 3,
       "archived": false,
       "license": "MIT",
       "description": "🦀An agentic AI assistant that lives in your chats, inspired by nanoclaw and incorporating some of its design ideas. Built with Rust 🦀",
@@ -4185,7 +4185,7 @@
         "authors": "Dyke Ferber, L. Hilgers, Christiane Höper, B. Kinny-Köster, J. Eckardt, K. Egger-Heidrich, Marius Bill, M. Schneider, J. Clusmann, Lejla Kadric, Marcel Oehme, Maximilian Mayrhofer-Schmid, Alexander Oeser, G. Wölflein, I. Wiest, J. Middeke, A. Iafrate, D. Truhn, Dirk Jaeger, J. Kather",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41586-026-10675-5",
-        "citations": 31
+        "citations": 32
       },
       "category": "clinical-health",
       "tags": [
@@ -4202,9 +4202,9 @@
       "autoStableExempt": false,
       "source": "awesome-ai-meets-biology",
       "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
-      "listedAt": "2026-09-24",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-09-24"
     },
     {
       "slug": "mitospace4d",
@@ -4257,7 +4257,7 @@
         "authors": "Chen Yang, Xianyang Zhang, Jun Chen",
         "firstAuthor": "Chen Yang",
         "paperUrl": "https://doi.org/10.1038/s42003-026-10420-8",
-        "citations": 7
+        "citations": 8
       },
       "category": "bio-omics",
       "tags": [
@@ -4268,7 +4268,7 @@
       ],
       "language": "Python",
       "stars": 662,
-      "pushedAt": "2026-09-24T04:37:28Z",
+      "pushedAt": "2026-09-28T12:55:50Z",
       "openIssues": 9,
       "archived": false,
       "license": "MIT",
@@ -4349,9 +4349,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "Go",
-      "stars": 51266,
-      "pushedAt": "2026-09-24T08:23:57Z",
-      "openIssues": 1664,
+      "stars": 51644,
+      "pushedAt": "2026-09-29T07:41:41Z",
+      "openIssues": 1704,
       "archived": false,
       "license": null,
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
@@ -4377,7 +4377,7 @@
         "authors": "Qian-Zhen Shao, Yin-Jie Zhong, Sebastian L. Stull, Xin-Chun Ran, Ning Ding, Kieran Nehil-Puleo, Rui-Zhe Yao, Han Xu, Z. Yang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s43588-026-01049-y",
-        "citations": 0
+        "citations": 1
       },
       "category": "chem-drug",
       "tags": [
@@ -4385,7 +4385,7 @@
         "Nature-Computational-Science"
       ],
       "language": "Python",
-      "stars": 7,
+      "stars": 8,
       "pushedAt": "2026-09-19T01:48:49Z",
       "openIssues": 1,
       "archived": false,
@@ -4446,9 +4446,9 @@
         "MCP"
       ],
       "language": "Python",
-      "stars": 48527,
-      "pushedAt": "2026-09-24T08:24:07Z",
-      "openIssues": 794,
+      "stars": 48661,
+      "pushedAt": "2026-09-29T09:44:37Z",
+      "openIssues": 821,
       "archived": false,
       "license": "MIT",
       "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
@@ -4470,9 +4470,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 30841,
-      "pushedAt": "2026-09-23T17:25:39Z",
-      "openIssues": 1063,
+      "stars": 30865,
+      "pushedAt": "2026-09-29T07:44:15Z",
+      "openIssues": 1103,
       "archived": false,
       "license": "MIT",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
@@ -4520,8 +4520,8 @@
         "NVIDIA"
       ],
       "language": "TypeScript",
-      "stars": 22534,
-      "pushedAt": "2026-09-24T08:09:39Z",
+      "stars": 22580,
+      "pushedAt": "2026-09-29T09:51:54Z",
       "openIssues": 736,
       "archived": false,
       "license": "Apache-2.0",
@@ -4573,7 +4573,7 @@
       ],
       "language": "Python",
       "stars": 91,
-      "pushedAt": "2026-09-22T11:30:24Z",
+      "pushedAt": "2026-09-24T22:49:38Z",
       "openIssues": 0,
       "archived": false,
       "license": "MIT",
@@ -4596,9 +4596,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Zig",
-      "stars": 8101,
-      "pushedAt": "2026-09-24T07:25:40Z",
-      "openIssues": 90,
+      "stars": 8103,
+      "pushedAt": "2026-09-27T06:27:45Z",
+      "openIssues": 66,
       "archived": false,
       "license": "MIT",
       "description": "Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig",
@@ -4716,9 +4716,9 @@
         "bioRxiv"
       ],
       "language": "Python",
-      "stars": 1209,
+      "stars": 1211,
       "pushedAt": "2026-09-23T05:34:16Z",
-      "openIssues": 9,
+      "openIssues": 10,
       "archived": false,
       "license": "GPL-3.0",
       "description": "A python library for multi omics included bulk, single cell and spatial RNA-seq analysis.",
@@ -4778,7 +4778,7 @@
         "Tsinghua"
       ],
       "language": null,
-      "stars": 204,
+      "stars": 205,
       "pushedAt": "2026-01-28T07:46:15Z",
       "openIssues": 2,
       "archived": false,
@@ -4813,7 +4813,7 @@
         "Cell"
       ],
       "language": "Python",
-      "stars": 20,
+      "stars": 21,
       "pushedAt": "2026-06-20T14:40:12Z",
       "openIssues": 0,
       "archived": false,
@@ -4862,9 +4862,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "TypeScript",
-      "stars": 6953,
-      "pushedAt": "2026-09-23T19:59:12Z",
-      "openIssues": 5,
+      "stars": 6967,
+      "pushedAt": "2026-09-28T10:02:15Z",
+      "openIssues": 6,
       "archived": false,
       "license": "MIT",
       "description": "Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it.",
@@ -4886,9 +4886,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 390365,
-      "pushedAt": "2026-09-24T08:32:31Z",
-      "openIssues": 8428,
+      "stars": 390752,
+      "pushedAt": "2026-09-29T09:54:28Z",
+      "openIssues": 8976,
       "archived": false,
       "license": "MIT",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
@@ -4936,9 +4936,9 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 15850,
+      "stars": 15884,
       "pushedAt": "2026-06-04T02:42:40Z",
-      "openIssues": 89,
+      "openIssues": 92,
       "archived": false,
       "license": "MIT",
       "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
@@ -4988,7 +4988,7 @@
         "authors": "Jifan Yu, Daniel Zhang-Li, Zheyuan Zhang, Yucheng Wang, Hao-Xuan Li, J. Lim, Zhanduo Hao, Shangqing Tu, Lu Zhang, Xuefang Dai, Jianxiao Jiang, Sheng Yang, Fei Qin, Zexin Li, Bing Liu, Xin Cong, Bin Xu, Lei Hou, Manling Li, Juan-Zi Li, Hui-Qin Liu, Yu Zhang, Zhi-Yuan Liu, Maochen Sun",
         "firstAuthor": "Ji-Fan Yu",
         "paperUrl": "https://www.semanticscholar.org/paper/6483506f16d0d9d7193d703aa12a8eda9f1c4e9c",
-        "citations": 7
+        "citations": 8
       },
       "category": "others",
       "tags": [
@@ -4996,9 +4996,9 @@
         "JCST"
       ],
       "language": "TypeScript",
-      "stars": 38851,
-      "pushedAt": "2026-09-24T06:04:47Z",
-      "openIssues": 169,
+      "stars": 39484,
+      "pushedAt": "2026-09-29T09:51:03Z",
+      "openIssues": 168,
       "archived": false,
       "license": "MIT",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
@@ -5022,7 +5022,7 @@
         "TIGER-AI-Lab"
       ],
       "language": "Python",
-      "stars": 1251,
+      "stars": 1253,
       "pushedAt": "2026-06-10T17:32:58Z",
       "openIssues": 5,
       "archived": false,
@@ -5046,9 +5046,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 3636,
-      "pushedAt": "2026-09-24T08:31:40Z",
-      "openIssues": 11,
+      "stars": 3826,
+      "pushedAt": "2026-09-29T02:49:55Z",
+      "openIssues": 44,
       "archived": false,
       "license": "Apache-2.0",
       "description": "The open-source AI workbench for scientific research",
@@ -5072,7 +5072,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 7725,
+      "stars": 7740,
       "pushedAt": "2026-08-12T15:21:07Z",
       "openIssues": 53,
       "archived": false,
@@ -5134,7 +5134,7 @@
         "bioRxiv"
       ],
       "language": "Python",
-      "stars": 226,
+      "stars": 227,
       "pushedAt": "2026-02-24T12:23:52Z",
       "openIssues": 1,
       "archived": false,
@@ -5160,8 +5160,8 @@
         "dynamo-team"
       ],
       "language": "Python",
-      "stars": 487,
-      "pushedAt": "2026-09-24T08:21:39Z",
+      "stars": 488,
+      "pushedAt": "2026-09-29T08:13:12Z",
       "openIssues": 24,
       "archived": false,
       "license": "BSD-2-Clause",
@@ -5188,7 +5188,7 @@
         "paperUrl": "https://doi.org/10.1038/s41586-026-11044-y",
         "authors": "Jiacheng Miao, Joe R. Davis, Yaohui Zhang, Jonathan K. Pritchard, James Zou",
         "firstAuthor": "Jiacheng Miao",
-        "citations": 1
+        "citations": 2
       },
       "category": "platforms",
       "tags": [
@@ -5197,7 +5197,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 3418,
+      "stars": 3579,
       "pushedAt": "2026-09-17T16:56:07Z",
       "openIssues": 0,
       "archived": false,
@@ -5224,8 +5224,8 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 37,
-      "pushedAt": "2026-09-24T05:33:45Z",
+      "stars": 38,
+      "pushedAt": "2026-09-29T06:18:52Z",
       "openIssues": 1,
       "archived": false,
       "license": "MIT",
@@ -5344,7 +5344,7 @@
       "category": "literature-writing",
       "tags": [],
       "language": "Python",
-      "stars": 248,
+      "stars": 249,
       "pushedAt": "2026-03-11T12:34:35Z",
       "openIssues": 0,
       "archived": false,
@@ -5451,9 +5451,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 109035,
-      "pushedAt": "2026-09-24T07:16:30Z",
-      "openIssues": 215,
+      "stars": 110256,
+      "pushedAt": "2026-09-29T08:52:47Z",
+      "openIssues": 232,
       "archived": false,
       "license": "MIT",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
@@ -5475,7 +5475,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 8112,
+      "stars": 8137,
       "pushedAt": "2026-09-10T09:28:22Z",
       "openIssues": 10,
       "archived": false,
@@ -5499,9 +5499,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Go",
-      "stars": 30012,
-      "pushedAt": "2026-09-17T18:15:14Z",
-      "openIssues": 32,
+      "stars": 30015,
+      "pushedAt": "2026-09-24T17:14:08Z",
+      "openIssues": 51,
       "archived": false,
       "license": "MIT",
       "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
@@ -5523,9 +5523,9 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 1348,
+      "stars": 1353,
       "pushedAt": "2026-07-02T01:44:55Z",
-      "openIssues": 25,
+      "openIssues": 26,
       "archived": false,
       "license": "MIT",
       "description": "PinchBench is a benchmarking system for evaluating LLM models as OpenClaw coding agents. Made with 🦀 by the humans at https://kilo.ai",
@@ -5599,7 +5599,7 @@
         "authors": "Alireza Ghafarollahi, Markus J. Buehler",
         "firstAuthor": "Alireza Ghafarollahi",
         "paperUrl": "https://www.semanticscholar.org/paper/797597040167622a126c3206bbf94459238e2c19",
-        "citations": 115
+        "citations": 116
       },
       "category": "chem-drug",
       "tags": [
@@ -5752,9 +5752,9 @@
         "Microsoft"
       ],
       "language": "Python",
-      "stars": 14737,
+      "stars": 14799,
       "pushedAt": "2026-09-23T11:05:33Z",
-      "openIssues": 231,
+      "openIssues": 232,
       "archived": false,
       "license": "MIT",
       "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
@@ -5764,6 +5764,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "readdy-cell",
+      "name": "ReaDDy-Cell",
+      "repo": "schoeneberglab/readdy-cell",
+      "githubUrl": "https://github.com/schoeneberglab/readdy-cell",
+      "homepage": null,
+      "paper": "https://doi.org/10.1016/j.cell.2026.06.010",
+      "category": "bio-omics",
+      "tags": [
+        "Cell"
+      ],
+      "language": "C++",
+      "stars": 11,
+      "pushedAt": "2026-05-15T21:00:14Z",
+      "openIssues": 0,
+      "license": "BSD-3-Clause",
+      "description": null,
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-09-30",
+      "paperMeta": {
+        "title": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data",
+        "venue": "Cell",
+        "doi": "10.1016/j.cell.2026.06.010",
+        "year": "2026.07",
+        "authors": "Eric Arkfeld, Zichen Wang, Hiroyuki Hakozaki, Johannes Schöneberg",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1016/j.cell.2026.06.010",
+        "citations": 0
+      }
     },
     {
       "slug": "research-claw",
@@ -5776,7 +5808,7 @@
       "category": "literature-writing",
       "tags": [],
       "language": "TypeScript",
-      "stars": 853,
+      "stars": 855,
       "pushedAt": "2026-08-20T14:26:06Z",
       "openIssues": 9,
       "archived": false,
@@ -5874,9 +5906,9 @@
         "SJTU"
       ],
       "language": "Jupyter Notebook",
-      "stars": 264,
+      "stars": 266,
       "pushedAt": "2026-09-17T15:04:35Z",
-      "openIssues": 2,
+      "openIssues": 3,
       "archived": false,
       "license": "MIT",
       "description": "🦞 ResearchClawBench: Evaluating AI Agents for Automated Research from Re-Discovery to New-Discovery",
@@ -5902,7 +5934,7 @@
         "authors": "Tian-Tian Yang, Yihang Xiao, Zhijie Bao, Jianye Hao, Jiajie Peng",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1093/bib/bbaf601",
-        "citations": 16
+        "citations": 17
       },
       "category": "reviews",
       "tags": [
@@ -5934,9 +5966,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 217,
-      "pushedAt": "2026-09-23T06:20:45Z",
-      "openIssues": 1296,
+      "stars": 218,
+      "pushedAt": "2026-09-29T08:45:09Z",
+      "openIssues": 1354,
       "archived": false,
       "license": null,
       "description": "🦞 Stop reading remote sensing papaers manually — RS-PaperClaw auto-tracks, auto-analyzes, and auto-digests remote sensing papers. ",
@@ -6069,7 +6101,7 @@
         "authors": "Hsuan‐Han Chiu, Ashley Varghese, Kunming Shao, Yen‐Chun Lu, Rahul Nahar, Hao Chen, Qing Deng, Xiaoping Bao, Can Li",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1002/aic.70285",
-        "citations": 0
+        "citations": 1
       },
       "category": "bio-omics",
       "tags": [],
@@ -6173,7 +6205,7 @@
         "authors": "Alireza Ghafarollahi, Markus J. Buehler",
         "firstAuthor": "Alireza Ghafarollahi",
         "paperUrl": "https://www.semanticscholar.org/paper/dbbcdb281ed6aa646af0402172cf8a7cfda85d5c",
-        "citations": 260
+        "citations": 265
       },
       "category": "autonomous-research",
       "tags": [
@@ -6181,7 +6213,7 @@
         "Advanced-Materials"
       ],
       "language": "Python",
-      "stars": 639,
+      "stars": 638,
       "pushedAt": "2025-05-10T02:24:17Z",
       "openIssues": 11,
       "archived": false,
@@ -6207,7 +6239,7 @@
       "language": "Go",
       "stars": 88,
       "pushedAt": "2026-07-26T18:23:12Z",
-      "openIssues": 27,
+      "openIssues": 26,
       "archived": false,
       "license": "MIT",
       "description": "Paired-scientist AI assistant for reproducible research — lightweight Go runtime, lifecycle hooks, manuscript integration, 12 baseline scientific skills. PicoClaw-compatible.",
@@ -6253,7 +6285,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 905,
+      "stars": 907,
       "pushedAt": "2026-06-08T13:27:28Z",
       "openIssues": 10,
       "archived": false,
@@ -6281,7 +6313,7 @@
         "authors": "Fiona Y. Wang, Lee Marom, Subhadeep Pal, Rachel K. Luu, Wei-Ming Lu, Jaime A. Berkovich, Markus J. Buehler",
         "firstAuthor": "Fiona Y. Wang",
         "paperUrl": "https://www.semanticscholar.org/paper/3eb26d201845b0898b2b77b2fb1de4b6d925357f",
-        "citations": 15
+        "citations": 16
       },
       "category": "autonomous-research",
       "tags": [
@@ -6315,7 +6347,7 @@
         "LangChain"
       ],
       "language": "Python",
-      "stars": 669,
+      "stars": 668,
       "pushedAt": "2026-05-09T01:56:17Z",
       "openIssues": 13,
       "archived": false,
@@ -6341,7 +6373,7 @@
       "language": "Shell",
       "stars": 60,
       "pushedAt": "2026-03-18T07:40:17Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "archived": false,
       "license": "MIT",
       "description": "Your AI Research Lab That Never Sleeps. 9 agents, 263 skills, 77 databases — from literature to publication, every discipline, zero boundaries.",
@@ -6367,7 +6399,7 @@
         "authors": "Hechen Li, Ziqi Zhang, Michael Squires, Xi Chen, Xiuwei Zhang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-025-02651-0",
-        "citations": 11
+        "citations": 12
       },
       "category": "datasets",
       "tags": [
@@ -6403,7 +6435,7 @@
         "authors": "Stefan Peidli, Tessa D. Green, Ciyue Shen, Torsten Gross, Joseph K. Min, Samuele Garda, Bo Yuan, L. Schumacher, J. Taylor-King, D. Marks, Augustin Luna, N. Blüthgen, C. Sander",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-023-02144-y",
-        "citations": 202
+        "citations": 208
       },
       "category": "datasets",
       "tags": [
@@ -6474,7 +6506,7 @@
         "authors": "Ziyu Ma, Shidong Yang, Yuxiang Ji, Xucong Wang, Yong Wang, Yi-Ming Hu, Tongwen Huang, Xiangxiang Chu",
         "firstAuthor": "Ziyu Ma",
         "paperUrl": "https://www.semanticscholar.org/paper/3d795acefb5939ec88767d9a01dffb765fb90111",
-        "citations": 66
+        "citations": 68
       },
       "category": "platforms",
       "tags": [
@@ -6482,7 +6514,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 2641,
+      "stars": 2650,
       "pushedAt": "2026-08-17T08:48:07Z",
       "openIssues": 40,
       "archived": false,
@@ -6510,7 +6542,7 @@
         "authors": "Yi-Fan Yang, Ziyang Gong, Weiquan Huang, Qihao Yang, Ziwei Zhou, Zi-Su Huang, Yan Li, Xuemei Gao, Qi Dai, Bei Liu, Kai Qiu, Yuqing Yang, Dongdong Chen, Xue-Ting Yang, Chong Luo",
         "firstAuthor": "Yi-Fan Yang",
         "paperUrl": "https://www.semanticscholar.org/paper/762c4ad2d83c4a6cf476eacac80a7452a8ab4586",
-        "citations": 82
+        "citations": 88
       },
       "category": "platforms",
       "tags": [
@@ -6518,9 +6550,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 17422,
+      "stars": 17829,
       "pushedAt": "2026-09-05T17:33:48Z",
-      "openIssues": 53,
+      "openIssues": 55,
       "archived": false,
       "license": "MIT",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
@@ -6583,7 +6615,7 @@
         "authors": "Shijie Xia, Yuhan Sun, Peng-Fei Liu",
         "firstAuthor": "Shijie Xia",
         "paperUrl": "https://www.semanticscholar.org/paper/d67342f68572058b67bb368a13ede7eebce1a916",
-        "citations": 22
+        "citations": 24
       },
       "category": "autonomous-research",
       "tags": [
@@ -6627,7 +6659,7 @@
         "Cell"
       ],
       "language": "Python",
-      "stars": 186,
+      "stars": 188,
       "pushedAt": "2026-07-24T19:29:11Z",
       "openIssues": 3,
       "archived": false,
@@ -6664,7 +6696,7 @@
         "Stanford"
       ],
       "language": null,
-      "stars": 92,
+      "stars": 91,
       "pushedAt": "2026-07-22T14:54:05Z",
       "openIssues": 2,
       "archived": false,
@@ -6795,7 +6827,7 @@
         "bioRxiv"
       ],
       "language": "Jupyter Notebook",
-      "stars": 1287,
+      "stars": 1288,
       "pushedAt": "2025-07-13T17:44:10Z",
       "openIssues": 68,
       "archived": false,
@@ -6859,7 +6891,7 @@
         "authors": "Mert Yuksekgonul, Federico Bianchi, Joseph Boen, Sheng Liu, Pan Lu, Zhi Huang, Carlos Guestrin, James Zou",
         "firstAuthor": "Mert Yuksekgonul",
         "paperUrl": "https://www.nature.com/articles/s41586-025-08661-4",
-        "citations": 296
+        "citations": 304
       },
       "category": "platforms",
       "tags": [
@@ -6867,7 +6899,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 3744,
+      "stars": 3749,
       "pushedAt": "2025-07-25T14:30:39Z",
       "openIssues": 66,
       "archived": false,
@@ -6904,7 +6936,7 @@
         "Science"
       ],
       "language": "Python",
-      "stars": 93,
+      "stars": 107,
       "pushedAt": "2026-09-17T06:11:41Z",
       "openIssues": 0,
       "archived": false,
@@ -6929,7 +6961,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "TypeScript",
-      "stars": 3620,
+      "stars": 3619,
       "pushedAt": "2026-03-30T12:34:57Z",
       "openIssues": 75,
       "archived": false,
@@ -6956,9 +6988,9 @@
         "MCP"
       ],
       "language": "Python",
-      "stars": 1701,
-      "pushedAt": "2026-09-24T07:05:27Z",
-      "openIssues": 17,
+      "stars": 1712,
+      "pushedAt": "2026-09-29T08:47:44Z",
+      "openIssues": 19,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Democratizing AI scientists with ToolUniverse",
@@ -7055,7 +7087,7 @@
         "authors": "Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak, James Y. Zou",
         "firstAuthor": "Kyle Swanson",
         "paperUrl": "https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1",
-        "citations": 280
+        "citations": 286
       },
       "category": "chem-drug",
       "tags": [
@@ -7064,7 +7096,7 @@
         "Nature"
       ],
       "language": "Jupyter Notebook",
-      "stars": 737,
+      "stars": 739,
       "pushedAt": "2025-12-31T04:15:53Z",
       "openIssues": 6,
       "archived": false,
@@ -7122,9 +7154,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Rust",
-      "stars": 1167,
-      "pushedAt": "2026-09-23T23:27:11Z",
-      "openIssues": 6,
+      "stars": 1176,
+      "pushedAt": "2026-09-29T09:03:30Z",
+      "openIssues": 7,
       "archived": false,
       "license": "AGPL-3.0",
       "description": "Open-source, local-first desktop AI research workbench for scientific computing with Python/R, MCP bioinformatics tools, SSH/WSL/GPU runtimes, and OpenAI/Anthropic models.",
@@ -7249,9 +7281,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 32876,
-      "pushedAt": "2026-09-24T08:22:30Z",
-      "openIssues": 759,
+      "stars": 32912,
+      "pushedAt": "2026-09-29T09:23:30Z",
+      "openIssues": 716,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
@@ -7264,7 +7296,7 @@
     }
   ],
   "counts": {
-    "total": 242,
+    "total": 243,
     "gone": 1
   }
 }

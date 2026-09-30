@@ -1239,6 +1239,36 @@
       "retiredStars": null
     },
     {
+      "slug": "biomodelanalyzer",
+      "name": "BioModelAnalyzer",
+      "repo": "hallba/BioModelAnalyzer",
+      "githubUrl": "https://github.com/hallba/BioModelAnalyzer",
+      "homepage": "https://biomodelanalyzer.org",
+      "paper": "https://doi.org/10.1038/srep08190",
+      "category": "platforms",
+      "tags": [],
+      "language": "C",
+      "stars": 7,
+      "pushedAt": "2026-05-22T12:45:05Z",
+      "openIssues": 21,
+      "license": null,
+      "description": "BioModelAnalyzer is a user-friendly tool for constructing biological models and verifying them",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-09-30",
+      "paperMeta": {
+        "title": "Drug Target Optimization in Chronic Myeloid Leukemia Using Innovative Computational Platform",
+        "venue": "Scientific Reports",
+        "doi": "10.1038/srep08190",
+        "year": "2015.02",
+        "authors": "R. Chuang, B. A. Hall, David Benqué, Byron Cook, Samin S. Ishtiaq, Nir Piterman, Alex S Taylor, Moshe Y. Vardi, S. Koschmieder, B. Gottgens, Jasmin Fisher",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/srep08190",
+        "citations": 25
+      }
+    },
+    {
       "slug": "bionemo-framework",
       "name": "BioNeMo Framework",
       "repo": "NVIDIA/bionemo-framework",
@@ -4586,6 +4616,36 @@
       "retiredStars": null
     },
     {
+      "slug": "nsclc-virtual-tumor",
+      "name": "NSCLC Virtual Tumor",
+      "repo": "jfisher-lab/NSCLC",
+      "githubUrl": "https://github.com/jfisher-lab/NSCLC",
+      "homepage": null,
+      "paper": "https://doi.org/10.1158/0008-5472.CAN-25-2476",
+      "category": "models",
+      "tags": [],
+      "language": "R",
+      "stars": 0,
+      "pushedAt": "2026-06-30T20:07:05Z",
+      "openIssues": 0,
+      "license": null,
+      "description": "Code for the paper Clarke, Barker & Nicholls et al., 2026 (Can Res)",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-09-30",
+      "paperMeta": {
+        "title": "Virtual Tumors Enable Prediction of Personalized Therapeutic Combinations for Non-Small Cell Lung Cancer",
+        "venue": "Cancer Research",
+        "doi": "10.1158/0008-5472.CAN-25-2476",
+        "year": "2026.06",
+        "authors": "Matthew A. Clarke, C. G. Barker, Ashley Nicholls, Matt P Handler, Lisa Pickard, A. Shah, David Walter, E. De Braekeleer, U. Banerji, J. Choudhary, Saif S Ahmad, Ultan McDermott, Gregory J. Hannon, Jasmin Fisher",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1158/0008-5472.CAN-25-2476",
+        "citations": 0
+      }
+    },
+    {
       "slug": "nullclaw",
       "name": "NullClaw",
       "repo": "nullclaw/nullclaw",
@@ -7296,7 +7356,7 @@
     }
   ],
   "counts": {
-    "total": 243,
+    "total": 245,
     "gone": 1
   }
 }

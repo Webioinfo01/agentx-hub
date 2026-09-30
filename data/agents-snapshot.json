@@ -4223,7 +4223,7 @@
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.08.028",
         "citations": 0
       },
-      "category": "bio-omics",
+      "category": "models",
       "tags": [
         "Cell"
       ],
@@ -5772,7 +5772,7 @@
       "githubUrl": "https://github.com/schoeneberglab/readdy-cell",
       "homepage": null,
       "paper": "https://doi.org/10.1016/j.cell.2026.06.010",
-      "category": "bio-omics",
+      "category": "models",
       "tags": [
         "Cell"
       ],
@@ -6401,7 +6401,7 @@
         "paperUrl": "https://doi.org/10.1038/s41592-025-02651-0",
         "citations": 12
       },
-      "category": "datasets",
+      "category": "models",
       "tags": [
         "Nature-Methods"
       ],

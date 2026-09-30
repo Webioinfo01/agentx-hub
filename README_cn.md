@@ -13,7 +13,7 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/agents-243-0EA5E9?style=flat-square" alt="Agents tracked">
-    <img src="https://img.shields.io/badge/categories-12-7C3AED?style=flat-square" alt="Categories">
+    <img src="https://img.shields.io/badge/categories-13-7C3AED?style=flat-square" alt="Categories">
     <img src="https://img.shields.io/badge/paper--backed-122-22C55E?style=flat-square" alt="Paper-backed agents">
     <img src="https://img.shields.io/badge/updated-2026.09-334155?style=flat-square" alt="Last updated">
   </p>

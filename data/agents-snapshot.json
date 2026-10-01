@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T09:26:57Z",
+  "generatedAt": "2026-10-01T09:53:10Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -184,7 +184,9 @@
       "homepage": "https://agentreview.github.io/",
       "paper": "https://arxiv.org/abs/2406.12708",
       "category": "literature-writing",
-      "tags": [],
+      "tags": [
+        "EMNLP"
+      ],
       "language": "Jupyter Notebook",
       "stars": 503,
       "pushedAt": "2026-05-10T21:39:43Z",
@@ -1166,7 +1168,7 @@
         "title": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
         "venue": "ICLR",
         "doi": "10.48550/arXiv.2405.17631",
-        "year": "2024.11",
+        "year": "2025",
         "authors": "Yusuf H. Roohani, Andrew H. Lee, Qian Huang, Jian Vora, Zachary Steinhart, Ke-Xin Huang, A. Marson, Percy Liang, J. Leskovec",
         "firstAuthor": "Yusuf H. Roohani",
         "paperUrl": "https://arxiv.org/abs/2405.17631",
@@ -2608,7 +2610,9 @@
       "homepage": null,
       "paper": "https://arxiv.org/abs/2410.13185",
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "EMNLP-Findings"
+      ],
       "language": "Python",
       "stars": 511,
       "pushedAt": "2025-01-15T06:31:22Z",
@@ -2621,9 +2625,9 @@
       "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Chain of Ideas: Revolutionizing Research Via Novel Idea Development with LLM Agents",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "venue": "Findings of EMNLP 2025",
         "doi": "10.48550/arXiv.2410.13185",
-        "year": "2024.10",
+        "year": "2025",
         "authors": "Long Li, Wei-Wen Xu, Jiayan Guo, Ruochen Zhao, Xingxuan Li, Yuqian Yuan, Bo-Qiang Zhang, Yuming Jiang, Yifei Xin, Ronghao Dang, Deli Zhao, Yu Rong, Tian Feng, L. Bing",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.13185",
@@ -2789,7 +2793,7 @@
         "title": "CycleResearcher: Improving Automated Research via Automated Review",
         "venue": "International Conference on Learning Representations",
         "doi": "10.48550/arXiv.2411.00816",
-        "year": "2024.10",
+        "year": "2025",
         "authors": "Yixuan Weng, Minjun Zhu, Guangsheng Bao, Hongbo Zhang, Jin-Dong Wang, Yue Zhang, Linyi Yang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2411.00816",
@@ -3228,7 +3232,9 @@
       "homepage": null,
       "paper": "https://doi.org/10.48550/arXiv.2402.17453",
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "ICML"
+      ],
       "language": "Python",
       "stars": 241,
       "pushedAt": "2024-12-03T01:21:23Z",
@@ -3965,7 +3971,9 @@
       "homepage": "https://arxiv.org/abs/2410.17309",
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.12",
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "ACL"
+      ],
       "language": "Python",
       "stars": 133,
       "pushedAt": "2025-11-12T04:09:47Z",
@@ -4251,6 +4259,7 @@
       },
       "category": "chem-drug",
       "tags": [
+        "EMNLP",
         "arXiv"
       ],
       "language": "Python",
@@ -5050,7 +5059,7 @@
         "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
         "venue": "International Conference on Learning Representations",
         "doi": "10.48550/arXiv.2410.07076",
-        "year": "2024.10",
+        "year": "2025",
         "authors": "Zonglin Yang, Wan-Hao Liu, Ben Gao, Tong Xie, Yu-Qiang Li, Wan-Li Ouyang, Soujanya Poria, Erik Cambria, Dong-Zhan Zhou",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.07076",
@@ -6483,7 +6492,9 @@
       "homepage": "https://arxiv.org/abs/2501.03936",
       "paper": "https://arxiv.org/abs/2501.03936",
       "category": "literature-writing",
-      "tags": [],
+      "tags": [
+        "EMNLP"
+      ],
       "language": "Python",
       "stars": 5078,
       "pushedAt": "2026-09-28T21:30:54Z",
@@ -7852,7 +7863,9 @@
       "homepage": null,
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.609",
       "category": "literature-writing",
-      "tags": [],
+      "tags": [
+        "ACL"
+      ],
       "language": "Python",
       "stars": 333,
       "pushedAt": "2025-08-27T07:33:54Z",
@@ -8308,7 +8321,9 @@
       "homepage": "https://open-sciencelab.github.io/Virtual-Scientists/",
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.1368",
       "category": "autonomous-research",
-      "tags": [],
+      "tags": [
+        "ACL"
+      ],
       "language": "Python",
       "stars": 145,
       "pushedAt": "2025-07-26T07:49:01Z",
@@ -8323,7 +8338,7 @@
         "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
         "venue": "Annual Meeting of the Association for Computational Linguistics",
         "doi": "10.18653/v1/2025.acl-long.1368",
-        "year": "2024.10",
+        "year": "2025",
         "authors": "Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jin-Zhe Li, Biqing Qi, Qi Wu, Hui Li, Wan-Li Ouyang, Philip H. S. Torr, Bo-Wen Zhou, Nan-Qing Dong",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.1368",

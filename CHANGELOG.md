@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-10-01 — snapshot applies are monotonic (generatedAt clock)
+
+- Root cause of the 2026-09-30 stale-data incident, fixed: the boot/request
+  snapshot guard only asked "does the database match *my* copy of the
+  file?" with no notion of older/newer, so any process holding a stale
+  copy (an old deployment bundle, an unpulled working tree) silently
+  rolled the Agent table back when it booted or served — a local dev boot
+  connected to the production database reverted a fresh CI refresh 36
+  minutes after sync-db wrote it, and the site froze on "pushed 2d ago".
+- `data/agents-snapshot.json` now carries a top-level `generatedAt`
+  version stamp, written by awescholar `write_snapshot` (v0.3.5+) whenever
+  the content actually changes; a no-change write leaves the file
+  byte-identical, so quiet days stay commit-free. `SnapshotState` records
+  the stamp of the last applied file, and every apply path
+  (`ensureSnapshotApplied` guards, `pnpm db:apply-snapshot`) applies only
+  when the file is not older than what the database holds — unstamped
+  files rank below every stamp, and the transition keeps pre-stamp
+  behavior until the first stamped snapshot lands. `--force` restores the
+  old unconditional apply for deliberate rollbacks and database repair.
+- `sync-db` runs `prisma migrate deploy` before applying, so a schema
+  change and its data apply can never race a deploy.
+
 ## 2026-09-24 — reports read like a month, not a wall
 
 - The month of the registry's first import is now flagged as the launch

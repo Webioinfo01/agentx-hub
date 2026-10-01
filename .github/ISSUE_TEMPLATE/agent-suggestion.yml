@@ -13,7 +13,7 @@ body:
     id: repo
     attributes:
       label: GitHub repository
-      description: Canonical repo URL for the agent.
+      description: Canonical repo URL for the agent. No repo yet? Paste the paper DOI, arXiv link, or paper title instead.
       placeholder: https://github.com/owner/repo
     validations:
       required: true
@@ -30,6 +30,9 @@ body:
         - platforms
         - orchestration
         - benchmarks
+        - datasets
+        - models
+        - reviews
         - safety-security
         - others
     validations:

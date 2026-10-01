@@ -1,0 +1,44 @@
+name: Triage agent suggestion
+
+# Facts-only pre-check on new agent-suggestion issues: repo liveness,
+# duplicate/near-name lookup against the registry API, category validity.
+# Labels triaged-ready / needs-info. The harvest workflow in the private
+# hub repo turns triaged-ready issues into maintainer-reviewed PRs.
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to triage (test / re-run)"
+        required: true
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: triage-${{ github.event.issue.number || inputs.issue_number }}
+  cancel-in-progress: true
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const num = context.payload.issue?.number ?? Number(${{ inputs.issue_number || 0 }});
+            if (!num) return core.setFailed("No issue number (run with issue_number input).");
+            const issue = (await github.rest.issues.get({ ...context.repo, issue_number: num })).data;
+            if (!issue.labels.some((l) => l.name === "agent-suggestion")) {
+              return core.info(`Issue #${num} is not an agent suggestion; skipping.`);
+            }
+            if (issue.state !== "open") {
+              return core.info(`Issue #${num} is ${issue.state}; skipping.`);
+            }
+            await require('./.github/scripts/triage.js')({ github, context, core, issue });

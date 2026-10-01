@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T08:07:22Z",
+  "generatedAt": "2026-10-01T09:13:44Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -175,6 +175,36 @@
       "sourceUrl": null,
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "agentreview",
+      "name": "AgentReview",
+      "repo": "Ahren09/AgentReview",
+      "githubUrl": "https://github.com/Ahren09/AgentReview",
+      "homepage": "https://agentreview.github.io/",
+      "paper": "https://arxiv.org/abs/2406.12708",
+      "category": "literature-writing",
+      "tags": [],
+      "language": "Jupyter Notebook",
+      "stars": 503,
+      "pushedAt": "2026-05-10T21:39:43Z",
+      "openIssues": 1,
+      "license": "Apache-2.0",
+      "description": "Official Implementation for EMNLP 2024 (Main Track, Oral) \"AgentReview: Exploring Academic Peer Review with LLM Agent.\"",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2406.12708",
+        "year": "2024.06",
+        "authors": "Yiqiao Jin, Qin-Lin Zhao, Yiyang Wang, Hao Chen, Kaijie Zhu, Yijia Xiao, Jin-Dong Wang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2406.12708",
+        "citations": 121
+      }
     },
     {
       "slug": "agentteams",
@@ -607,6 +637,38 @@
       "retiredStars": null
     },
     {
+      "slug": "autokaggle",
+      "name": "AutoKaggle",
+      "repo": "multimodal-art-projection/AutoKaggle",
+      "githubUrl": "https://github.com/multimodal-art-projection/AutoKaggle",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2410.20424",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 318,
+      "pushedAt": "2024-12-04T19:26:01Z",
+      "openIssues": 7,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2410.20424",
+        "year": "2024.10",
+        "authors": "Zi-Ming Li, Qianbo Zang, David Ma, Jia-Wei Guo, T. Zheng, Ming-Hao Liu, Xin-Yao Niu, Yue Wang, Jian Yang, Jia-Heng Liu, Wan-Jun Zhong, Wangchunshu Zhou, Wen-Hao Huang, Ge Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2410.20424",
+        "citations": 85
+      }
+    },
+    {
       "slug": "autoresearch",
       "name": "autoresearch",
       "repo": "karpathy/autoresearch",
@@ -705,6 +767,70 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "autosurvey",
+      "name": "AutoSurvey",
+      "repo": "AutoSurveys/AutoSurvey",
+      "githubUrl": "https://github.com/AutoSurveys/AutoSurvey",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2406.10252",
+      "category": "literature-writing",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 477,
+      "pushedAt": "2025-02-07T01:56:15Z",
+      "openIssues": 15,
+      "license": null,
+      "description": null,
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2406.10252",
+        "year": "2024.06",
+        "authors": "Yidong Wang, Qi Guo, Wen-Jin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan Zhang, Xinyu Dai, Min Zhang, Qing-Song Wen, Wei Ye, Shi-Kun Zhang, Yue Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2406.10252",
+        "citations": 150
+      }
+    },
+    {
+      "slug": "avatar",
+      "name": "avatar",
+      "repo": "zou-group/avatar",
+      "githubUrl": "https://github.com/zou-group/avatar",
+      "homepage": "https://arxiv.org/abs/2406.11200",
+      "paper": "https://arxiv.org/abs/2406.11200",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 242,
+      "pushedAt": "2025-06-10T23:18:53Z",
+      "openIssues": 2,
+      "license": null,
+      "description": "(NeurIPS 2024) AvaTaR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning ",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "AvaTaR: Optimizing LLM Agents for Tool-Assisted Knowledge Retrieval",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2406.11200",
+        "year": "2024",
+        "authors": "Shirley Wu, Shiyu Zhao, Qian Huang, Kexin Huang, Michihiro Yasunaga, Kaidi Cao, V. Ioannidis, Karthik Subbian, J. Leskovec, James Zou",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2406.11200",
+        "citations": 14
+      }
     },
     {
       "slug": "avoiding-common-failures-in-ai-for-health",
@@ -2379,6 +2505,100 @@
       "retiredStars": null
     },
     {
+      "slug": "coi-agent",
+      "name": "CoI-Agent",
+      "repo": "DAMO-NLP-SG/CoI-Agent",
+      "githubUrl": "https://github.com/DAMO-NLP-SG/CoI-Agent",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2410.13185",
+      "category": "autonomous-research",
+      "tags": [],
+      "language": "Python",
+      "stars": 511,
+      "pushedAt": "2025-01-15T06:31:22Z",
+      "openIssues": 12,
+      "license": "Apache-2.0",
+      "description": "Official code for paper: Chain of Ideas: Revolutionizing Research via Novel Idea Development with LLM Agents",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Chain of Ideas: Revolutionizing Research Via Novel Idea Development with LLM Agents",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2410.13185",
+        "year": "2024.10",
+        "authors": "Long Li, Wei-Wen Xu, Jiayan Guo, Ruochen Zhao, Xingxuan Li, Yuqian Yuan, Bo-Qiang Zhang, Yuming Jiang, Yifei Xin, Ronghao Dang, Deli Zhao, Yu Rong, Tian Feng, L. Bing",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2410.13185",
+        "citations": 122
+      }
+    },
+    {
+      "slug": "coscientist",
+      "name": "coscientist",
+      "repo": "gomesgroup/coscientist",
+      "githubUrl": "https://github.com/gomesgroup/coscientist",
+      "homepage": null,
+      "paper": "https://www.nature.com/articles/s41586-023-06792-0",
+      "category": "chem-drug",
+      "tags": [
+        "Nature"
+      ],
+      "language": "Python",
+      "stars": 211,
+      "pushedAt": "2025-08-11T18:19:13Z",
+      "openIssues": 3,
+      "license": null,
+      "description": null,
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Autonomous chemical research with large language models",
+        "venue": "Nature",
+        "doi": "10.1038/s41586-023-06792-0",
+        "year": "2023.12",
+        "authors": "Daniil A. Boiko, R. MacKnight, Benjamin C Kline, Gabe Gomes",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/s41586-023-06792-0",
+        "citations": 1352
+      }
+    },
+    {
+      "slug": "crest",
+      "name": "CRESt",
+      "repo": "zhang21mit/CRESt",
+      "githubUrl": "https://github.com/zhang21mit/CRESt",
+      "homepage": null,
+      "paper": "https://doi.org/10.1038/s41586-025-09640-5",
+      "category": "chem-drug",
+      "tags": [
+        "Nature"
+      ],
+      "language": "Python",
+      "stars": 25,
+      "pushedAt": "2025-09-13T17:45:07Z",
+      "openIssues": 0,
+      "license": null,
+      "description": "Automated robotic platform for conducting electrochemical reactions at MIT",
+      "status": "archived",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "A multimodal robotic platform for multi-element electrocatalyst discovery",
+        "venue": "Nature",
+        "doi": "10.1038/s41586-025-09640-5",
+        "year": "2025",
+        "authors": "Zhen Zhang, Zhichu Ren, Chia-Wei Hsu, Weibin Chen, Zhang-Wei Hong, Chi-Feng Lee, Aubrey Penn, Hongbin Xu",
+        "firstAuthor": "Zhen Zhang",
+        "paperUrl": "https://doi.org/10.1038/s41586-025-09640-5",
+        "citations": 0
+      }
+    },
+    {
       "slug": "crisp",
       "name": "CRISP",
       "repo": "FT-ZHOU-ZZZ/CRISP",
@@ -2447,6 +2667,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "cycleresearcher",
+      "name": "CycleResearcher",
+      "repo": "zhu-minjun/Researcher",
+      "githubUrl": "https://github.com/zhu-minjun/Researcher",
+      "homepage": "http://ai-researcher.net",
+      "paper": "https://arxiv.org/abs/2411.00816",
+      "category": "autonomous-research",
+      "tags": [
+        "ICLR"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 404,
+      "pushedAt": "2026-03-05T14:29:20Z",
+      "openIssues": 11,
+      "license": null,
+      "description": "CycleResearcher: Improving Automated Research via Automated Review",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "CycleResearcher: Improving Automated Research via Automated Review",
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2411.00816",
+        "year": "2024.10",
+        "authors": "Yixuan Weng, Minjun Zhu, Guangsheng Bao, Hongbo Zhang, Jin-Dong Wang, Yue Zhang, Linyi Yang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2411.00816",
+        "citations": 161
+      }
     },
     {
       "slug": "darwin",
@@ -2531,6 +2783,70 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "deep-research-bench",
+      "name": "deep_research_bench",
+      "repo": "Ayanami0730/deep_research_bench",
+      "githubUrl": "https://github.com/Ayanami0730/deep_research_bench",
+      "homepage": "https://arxiv.org/pdf/2506.11763",
+      "paper": "https://arxiv.org/abs/2506.11763",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 837,
+      "pushedAt": "2026-09-29T11:17:31Z",
+      "openIssues": 24,
+      "license": "Apache-2.0",
+      "description": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2506.11763",
+        "year": "2025.06",
+        "authors": "Ming-Xuan Du, Benfeng Xu, Chiwei Zhu, Xiaorui Wang, Zhendong Mao",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2506.11763",
+        "citations": 246
+      }
+    },
+    {
+      "slug": "deepanalyze",
+      "name": "DeepAnalyze",
+      "repo": "ruc-datalab/DeepAnalyze",
+      "githubUrl": "https://github.com/ruc-datalab/DeepAnalyze",
+      "homepage": "https://ruc-deepanalyze.github.io",
+      "paper": "https://arxiv.org/abs/2510.16872",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 4668,
+      "pushedAt": "2026-09-23T13:41:15Z",
+      "openIssues": 25,
+      "license": "MIT",
+      "description": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2510.16872",
+        "year": "2025.10",
+        "authors": "Shao-Lei Zhang, Ju Fan, Mei-Hao Fan, Guo-Liang Li, Xiaoyong Du",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2510.16872",
+        "citations": 59
+      }
     },
     {
       "slug": "deepresearch",
@@ -2807,6 +3123,36 @@
       "sourceUrl": "https://awesomebio.webioinfo.top/",
       "retiredReason": "idle",
       "retiredStars": 23
+    },
+    {
+      "slug": "ds-agent",
+      "name": "DS-Agent",
+      "repo": "guosyjlu/DS-Agent",
+      "githubUrl": "https://github.com/guosyjlu/DS-Agent",
+      "homepage": null,
+      "paper": "https://doi.org/10.48550/arXiv.2402.17453",
+      "category": "autonomous-research",
+      "tags": [],
+      "language": "Python",
+      "stars": 241,
+      "pushedAt": "2024-12-03T01:21:23Z",
+      "openIssues": 18,
+      "license": null,
+      "description": "Official implementation of \"DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning\" in ICML'24",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning",
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2402.17453",
+        "year": "2024.02",
+        "authors": "Siyuan Guo, Cheng Deng, Ying Wen, Hechang Chen, Yi Chang, Jun Wang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2402.17453",
+        "citations": 154
+      }
     },
     {
       "slug": "dxdirector",
@@ -3186,6 +3532,38 @@
       "retiredStars": null
     },
     {
+      "slug": "funsearch",
+      "name": "funsearch",
+      "repo": "google-deepmind/funsearch",
+      "githubUrl": "https://github.com/google-deepmind/funsearch",
+      "homepage": null,
+      "paper": "https://doi.org/10.1038/s41586-023-06924-6",
+      "category": "autonomous-research",
+      "tags": [
+        "Nature"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 1126,
+      "pushedAt": "2024-02-05T10:32:18Z",
+      "openIssues": 8,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Mathematical discoveries from program search with large language models",
+        "venue": "Nature",
+        "doi": "10.1038/s41586-023-06924-6",
+        "year": "2023.12",
+        "authors": "B. Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Matej Balog, M. P. Kumar, Emilien Dupont, Francisco J. R. Ruiz, J. Ellenberg, Pengming Wang, Omar Fawzi, Pushmeet Kohli, Alhussein Fawzi",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/s41586-023-06924-6",
+        "citations": 1368
+      }
+    },
+    {
       "slug": "geneclaw",
       "name": "GeneClaw",
       "repo": "Clawland-AI/Geneclaw",
@@ -3240,6 +3618,26 @@
       "source": "awesome-ai-meets-biology",
       "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "gpt-researcher",
+      "name": "gpt-researcher",
+      "repo": "assafelovic/gpt-researcher",
+      "githubUrl": "https://github.com/assafelovic/gpt-researcher",
+      "homepage": "https://gptr.dev",
+      "paper": null,
+      "category": "literature-writing",
+      "tags": [],
+      "language": "Python",
+      "stars": 29856,
+      "pushedAt": "2026-09-26T17:46:25Z",
+      "openIssues": 20,
+      "license": "Apache-2.0",
+      "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "gptbioinsightor",
@@ -3462,6 +3860,36 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "hypothesis-generation",
+      "name": "hypothesis-generation",
+      "repo": "ChicagoHAI/hypothesis-generation",
+      "githubUrl": "https://github.com/ChicagoHAI/hypothesis-generation",
+      "homepage": "https://arxiv.org/abs/2410.17309",
+      "paper": "https://doi.org/10.18653/v1/2025.acl-long.12",
+      "category": "autonomous-research",
+      "tags": [],
+      "language": "Python",
+      "stars": 133,
+      "pushedAt": "2025-11-12T04:09:47Z",
+      "openIssues": 22,
+      "license": "MIT",
+      "description": "This is the official repository for HypoGeniC (Hypothesis Generation in Context) and HypoRefine, which are automated, data-driven tools that leverage large language models to generate hypothesis for open-domain research. For more details, please see the original paper using the link below.",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Literature Meets Data: A Synergistic Approach to Hypothesis Generation",
+        "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "doi": "10.18653/v1/2025.acl-long.12",
+        "year": "2025",
+        "authors": "Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, Chenhao Tan",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.12",
+        "citations": 3
+      }
     },
     {
       "slug": "ian",
@@ -3897,6 +4325,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "marg-reviewer",
+      "name": "marg-reviewer",
+      "repo": "allenai/marg-reviewer",
+      "githubUrl": "https://github.com/allenai/marg-reviewer",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2401.04259",
+      "category": "literature-writing",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 64,
+      "pushedAt": "2026-03-05T21:06:05Z",
+      "openIssues": 2,
+      "license": "Apache-2.0",
+      "description": "Code/data for MARG (multi-agent review generation)",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "MARG: Multi-Agent Review Generation for Scientific Papers",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2401.04259",
+        "year": "2024.01",
+        "authors": "Mike D'Arcy, Tom Hope, L. Birnbaum, Doug Downey",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2401.04259",
+        "citations": 120
+      }
     },
     {
       "slug": "matclaw",
@@ -4438,6 +4898,38 @@
       "retiredStars": null
     },
     {
+      "slug": "moose-chem",
+      "name": "MOOSE-Chem",
+      "repo": "ZonglinY/MOOSE-Chem",
+      "githubUrl": "https://github.com/ZonglinY/MOOSE-Chem",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2410.07076",
+      "category": "chem-drug",
+      "tags": [
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 59,
+      "pushedAt": "2025-11-12T15:23:13Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "description": "[ICLR 2025] <MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses>",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+        "venue": "International Conference on Learning Representations",
+        "doi": "10.48550/arXiv.2410.07076",
+        "year": "2024.10",
+        "authors": "Zonglin Yang, Wan-Hao Liu, Ben Gao, Tong Xie, Yu-Qiang Li, Wan-Li Ouyang, Soujanya Poria, Erik Cambria, Dong-Zhan Zhou",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2410.07076",
+        "citations": 82
+      }
+    },
+    {
       "slug": "multi-agent-ai-systems-for-bio-clinical-analysis",
       "name": "Multi-agent AI systems for bio & clinical analysis",
       "repo": "doi.org/10.3390/mps9020033",
@@ -4717,6 +5209,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "noviscl-ai-researcher",
+      "name": "NoviScl-AI-Researcher",
+      "repo": "NoviScl/AI-Researcher",
+      "githubUrl": "https://github.com/NoviScl/AI-Researcher",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2409.04109",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 407,
+      "pushedAt": "2025-08-07T16:45:26Z",
+      "openIssues": 9,
+      "license": "MIT",
+      "description": null,
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2409.04109",
+        "year": "2024.09",
+        "authors": "Chenglei Si, Diyi Yang, Tatsunori Hashimoto",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2409.04109",
+        "citations": 477
+      }
     },
     {
       "slug": "nsclc-virtual-tumor",
@@ -5379,6 +5903,38 @@
       "listedAt": "2026-09-19"
     },
     {
+      "slug": "paper2poster",
+      "name": "Paper2Poster",
+      "repo": "Paper2Poster/Paper2Poster",
+      "githubUrl": "https://github.com/Paper2Poster/Paper2Poster",
+      "homepage": "https://paper2poster.github.io/",
+      "paper": "https://arxiv.org/abs/2505.21497",
+      "category": "literature-writing",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 3972,
+      "pushedAt": "2026-06-08T14:53:00Z",
+      "openIssues": 26,
+      "license": "MIT",
+      "description": "[NeurIPS 2025] Open-source Multi-agent Poster Generation from Papers",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers",
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2505.21497",
+        "year": "2025.05",
+        "authors": "Wei Pang, K. Lin, Xiang-Ru Jian, Xi He, Philip H. S. Torr",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2505.21497",
+        "citations": 62
+      }
+    },
+    {
       "slug": "paper_claw-pigeondan1",
       "name": "paper_claw (PigeonDan1)",
       "repo": "PigeonDan1/paper_claw",
@@ -5726,6 +6282,36 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": "idle",
       "retiredStars": 15
+    },
+    {
+      "slug": "pptagent",
+      "name": "PPTAgent",
+      "repo": "icip-cas/PPTAgent",
+      "githubUrl": "https://github.com/icip-cas/PPTAgent",
+      "homepage": "https://arxiv.org/abs/2501.03936",
+      "paper": "https://arxiv.org/abs/2501.03936",
+      "category": "literature-writing",
+      "tags": [],
+      "language": "Python",
+      "stars": 5078,
+      "pushedAt": "2026-09-28T21:30:54Z",
+      "openIssues": 16,
+      "license": "MIT",
+      "description": "An Agentic Framework for Reflective PowerPoint Generation",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.48550/arXiv.2501.03936",
+        "year": "2025.01",
+        "authors": "Hao Zheng, Xinyan Guan, Hao Kong, Wen-Kai Zhang, Jia Zheng, Wei-Xiang Zhou, Hongyu Lin, Yaojie Lu, Xian-Pei Han, Le Sun",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2501.03936",
+        "citations": 105
+      }
     },
     {
       "slug": "prismer",
@@ -6123,6 +6709,38 @@
       "source": "awesome-ai-meets-biology",
       "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "robin",
+      "name": "robin",
+      "repo": "Future-House/robin",
+      "githubUrl": "https://github.com/Future-House/robin",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2505.13400",
+      "category": "bio-omics",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 719,
+      "pushedAt": "2026-04-21T23:58:38Z",
+      "openIssues": 5,
+      "license": "Apache-2.0",
+      "description": "Robin: A multi-agent system for automating scientific discovery",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Robin: A multi-agent system for automating scientific discovery",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2505.13400",
+        "year": "2025.05",
+        "authors": "A. Ghareeb, Benjamin Chang, L. Mitchener, Angela Yiu, Caralyn J. Szostkiewicz, Jon M. Laurent, Muhammed Razzak, Andrew D. White, Michaela M. Hinks, Samuel G. Rodriques",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2505.13400",
+        "citations": 87
+      }
     },
     {
       "slug": "rs-paperclaw",
@@ -6556,6 +7174,38 @@
       "retiredStars": null
     },
     {
+      "slug": "scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "githubUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "homepage": "https://arxiv.org/abs/2609.00065",
+      "paper": "https://arxiv.org/abs/2609.00065",
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 47248,
+      "pushedAt": "2026-10-01T00:14:57Z",
+      "openIssues": 26,
+      "license": "MIT",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 168 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+        "venue": "arXiv",
+        "doi": "10.48550/arXiv.2609.00065",
+        "year": "2026.08",
+        "authors": "T. Kassis, Vinayak Agarwal, Yuhuan He, D. Patel, Aubrey M. Brueckner",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2609.00065",
+        "citations": 1
+      }
+    },
+    {
       "slug": "scmultisim",
       "name": "scMultiSim",
       "repo": "ZhangLabGT/scMultiSim",
@@ -6590,6 +7240,26 @@
       "retiredReason": null,
       "retiredStars": null,
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "scp",
+      "name": "scp",
+      "repo": "InternScience/scp",
+      "githubUrl": "https://github.com/InternScience/scp",
+      "homepage": null,
+      "paper": null,
+      "category": "platforms",
+      "tags": [],
+      "language": "Jupyter Notebook",
+      "stars": 168,
+      "pushedAt": "2026-06-03T09:48:41Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "description": null,
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "scperturb",
@@ -6661,6 +7331,70 @@
       "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "search-r1",
+      "name": "Search-R1",
+      "repo": "PeterGriffinJin/Search-R1",
+      "githubUrl": "https://github.com/PeterGriffinJin/Search-R1",
+      "homepage": "https://arxiv.org/pdf/2503.09516",
+      "paper": "https://arxiv.org/abs/2503.09516",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 5471,
+      "pushedAt": "2025-11-13T21:56:33Z",
+      "openIssues": 37,
+      "license": "Apache-2.0",
+      "description": "Search-R1: An Efficient, Scalable RL Training Framework for Reasoning & Search Engine Calling interleaved LLM based on veRL",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2503.09516",
+        "year": "2025.03",
+        "authors": "Bowen Jin, Hansi Zeng, Zhenrui Yue, Jinsung Yoon, Sercan Ö. Arik, Dong Wang, Hamed Zamani, Jiawei Han",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2503.09516",
+        "citations": 1525
+      }
+    },
+    {
+      "slug": "shinkaevolve",
+      "name": "ShinkaEvolve",
+      "repo": "SakanaAI/ShinkaEvolve",
+      "githubUrl": "https://github.com/SakanaAI/ShinkaEvolve",
+      "homepage": "https://sakanaai.github.io/ShinkaEvolve/",
+      "paper": "https://arxiv.org/abs/2509.19349",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 1423,
+      "pushedAt": "2026-09-24T06:14:27Z",
+      "openIssues": 7,
+      "license": "Apache-2.0",
+      "description": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2509.19349",
+        "year": "2025.09",
+        "authors": "R. Lange, Yuki Imajuku, Edoardo Cetin",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2509.19349",
+        "citations": 158
+      }
     },
     {
       "slug": "skillclaw",
@@ -6917,6 +7651,68 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "surveyforge",
+      "name": "SurveyForge",
+      "repo": "InternScience/SurveyForge",
+      "githubUrl": "https://github.com/InternScience/SurveyForge",
+      "homepage": null,
+      "paper": "https://doi.org/10.18653/v1/2025.acl-long.609",
+      "category": "literature-writing",
+      "tags": [],
+      "language": "Python",
+      "stars": 333,
+      "pushedAt": "2025-08-27T07:33:54Z",
+      "openIssues": 1,
+      "license": null,
+      "description": "(ACL-2025 main conference) SurveyForge: On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "SURVEYFORGE : On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing",
+        "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "doi": "10.18653/v1/2025.acl-long.609",
+        "year": "2025",
+        "authors": "Xiangchao Yan, Shiyang Feng, Jiakang Yuan, Renqiu Xia, Bin Wang, Lei Bai, Bo Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.609",
+        "citations": 6
+      }
+    },
+    {
+      "slug": "surveyx",
+      "name": "SurveyX",
+      "repo": "IAAR-Shanghai/SurveyX",
+      "githubUrl": "https://github.com/IAAR-Shanghai/SurveyX",
+      "homepage": "http://www.surveyx.cn",
+      "paper": "https://arxiv.org/abs/2502.14776",
+      "category": "literature-writing",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "TeX",
+      "stars": 994,
+      "pushedAt": "2026-01-12T15:53:59Z",
+      "openIssues": 36,
+      "license": null,
+      "description": "Academic Survey Paper Generation.",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "SurveyX: Academic Survey Automation via Large Language Models",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2502.14776",
+        "year": "2025.02",
+        "authors": "Xun Liang, Jiawei Yang, Yezhaohui Wang, Chen Tang, Zifan Zheng, Si-Min Niu, Shichao Song, Zehao Lin, Hanyu Wang, Bo Tang, Fei-Yu Xiong, Keming Mao, Zhi-Yu Li",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2502.14776",
+        "citations": 32
+      }
     },
     {
       "slug": "tahoe-100m",
@@ -7281,6 +8077,68 @@
       "retiredStars": null
     },
     {
+      "slug": "virtual-scientists",
+      "name": "Virtual-Scientists",
+      "repo": "InternScience/Virtual-Scientists",
+      "githubUrl": "https://github.com/InternScience/Virtual-Scientists",
+      "homepage": "https://open-sciencelab.github.io/Virtual-Scientists/",
+      "paper": "https://doi.org/10.18653/v1/2025.acl-long.1368",
+      "category": "autonomous-research",
+      "tags": [],
+      "language": "Python",
+      "stars": 145,
+      "pushedAt": "2025-07-26T07:49:01Z",
+      "openIssues": 0,
+      "license": "Apache-2.0",
+      "description": "[ACL 2025] Multi-Agent System for Science of Science",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/2025.acl-long.1368",
+        "year": "2024.10",
+        "authors": "Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jin-Zhe Li, Biqing Qi, Qi Wu, Hui Li, Wan-Li Ouyang, Philip H. S. Torr, Bo-Wen Zhou, Nan-Qing Dong",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.1368",
+        "citations": 84
+      }
+    },
+    {
+      "slug": "webthinker",
+      "name": "WebThinker",
+      "repo": "RUC-NLPIR/WebThinker",
+      "githubUrl": "https://github.com/RUC-NLPIR/WebThinker",
+      "homepage": "https://foremost-beechnut-8ed.notion.site/WebThinker-Empowering-Large-Reasoning-Models-with-Deep-Research-Capability-d13158a27d924a4b9df7f9ab94066b64",
+      "paper": "https://arxiv.org/abs/2504.21776",
+      "category": "literature-writing",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 1471,
+      "pushedAt": "2025-12-08T03:40:49Z",
+      "openIssues": 11,
+      "license": "MIT",
+      "description": "[NeurIPS 2025] 🌐 WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2504.21776",
+        "year": "2025.04",
+        "authors": "Xiaoxi Li, Jiajie Jin, Guan-Ting Dong, Hong-Jin Qian, Yongkang Wu, Ji-Rong Wen, Yutao Zhu, Zhi-Cheng Dou",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2504.21776",
+        "citations": 350
+      }
+    },
+    {
       "slug": "why-machines-dont-speak-biology",
       "name": "Why machines don't speak biology",
       "repo": "doi.org/10.1016/j.cell.2026.07.003",
@@ -7467,7 +8325,7 @@
     }
   ],
   "counts": {
-    "total": 248,
+    "total": 276,
     "gone": 1
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T09:53:10Z",
+  "generatedAt": "2026-10-01T15:08:40Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -92,7 +92,7 @@
         "EMNLP-Findings"
       ],
       "language": "Python",
-      "stars": 5875,
+      "stars": 5876,
       "pushedAt": "2025-08-20T21:46:43Z",
       "openIssues": 61,
       "archived": false,
@@ -183,20 +183,6 @@
       "githubUrl": "https://github.com/Ahren09/AgentReview",
       "homepage": "https://agentreview.github.io/",
       "paper": "https://arxiv.org/abs/2406.12708",
-      "category": "literature-writing",
-      "tags": [
-        "EMNLP"
-      ],
-      "language": "Jupyter Notebook",
-      "stars": 503,
-      "pushedAt": "2026-05-10T21:39:43Z",
-      "openIssues": 1,
-      "license": "Apache-2.0",
-      "description": "Official Implementation for EMNLP 2024 (Main Track, Oral) \"AgentReview: Exploring Academic Peer Review with LLM Agent.\"",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
         "venue": "Conference on Empirical Methods in Natural Language Processing",
@@ -206,7 +192,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2406.12708",
         "citations": 121
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "EMNLP"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 503,
+      "pushedAt": "2026-05-10T21:39:43Z",
+      "openIssues": 1,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "Official Implementation for EMNLP 2024 (Main Track, Oral) \"AgentReview: Exploring Academic Peer Review with LLM Agent.\"",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "agents",
@@ -215,20 +219,6 @@
       "githubUrl": "https://github.com/aiwaves-cn/agents",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2309.07870",
-      "category": "platforms",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 5965,
-      "pushedAt": "2024-09-26T03:12:53Z",
-      "openIssues": 49,
-      "license": "Apache-2.0",
-      "description": "An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Agents: An Open-source Framework for Autonomous Language Agents",
         "venue": "arXiv.org",
@@ -238,7 +228,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2309.07870",
         "citations": 151
-      }
+      },
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 5965,
+      "pushedAt": "2024-09-26T03:12:53Z",
+      "openIssues": 49,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "agentteams",
@@ -253,9 +261,9 @@
         "Alibaba"
       ],
       "language": "Go",
-      "stars": 5686,
+      "stars": 5687,
       "pushedAt": "2026-09-23T06:25:55Z",
-      "openIssues": 225,
+      "openIssues": 227,
       "archived": false,
       "license": "Apache-2.0",
       "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
@@ -289,7 +297,7 @@
         "NeurIPS"
       ],
       "language": "Python",
-      "stars": 5770,
+      "stars": 5772,
       "pushedAt": "2025-10-16T06:47:34Z",
       "openIssues": 65,
       "archived": false,
@@ -363,7 +371,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 7248,
+      "stars": 7250,
       "pushedAt": "2025-12-19T07:46:32Z",
       "openIssues": 79,
       "archived": false,
@@ -501,7 +509,7 @@
         "Claude-Code"
       ],
       "language": "Python",
-      "stars": 16858,
+      "stars": 16865,
       "pushedAt": "2026-09-29T05:26:25Z",
       "openIssues": 69,
       "archived": false,
@@ -596,7 +604,7 @@
       "category": "platforms",
       "tags": [],
       "language": "Python",
-      "stars": 4575,
+      "stars": 4574,
       "pushedAt": "2026-04-03T21:11:51Z",
       "openIssues": 8,
       "archived": false,
@@ -677,20 +685,6 @@
       "githubUrl": "https://github.com/multimodal-art-projection/AutoKaggle",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2410.20424",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 318,
-      "pushedAt": "2024-12-04T19:26:01Z",
-      "openIssues": 7,
-      "license": "Apache-2.0",
-      "description": null,
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "AutoKaggle: A Multi-Agent Framework for Autonomous Data Science Competitions",
         "venue": "arXiv.org",
@@ -700,7 +694,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.20424",
         "citations": 85
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 318,
+      "pushedAt": "2024-12-04T19:26:01Z",
+      "openIssues": 7,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "autoresearch",
@@ -715,7 +727,7 @@
         "Karpathy"
       ],
       "language": "Python",
-      "stars": 97067,
+      "stars": 97090,
       "pushedAt": "2026-03-26T00:07:37Z",
       "openIssues": 195,
       "archived": false,
@@ -765,7 +777,7 @@
         "Claude-Code"
       ],
       "language": "Shell",
-      "stars": 6496,
+      "stars": 6500,
       "pushedAt": "2026-08-12T22:28:18Z",
       "openIssues": 6,
       "archived": false,
@@ -809,20 +821,6 @@
       "githubUrl": "https://github.com/AutoSurveys/AutoSurvey",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2406.10252",
-      "category": "literature-writing",
-      "tags": [
-        "NeurIPS"
-      ],
-      "language": "Python",
-      "stars": 477,
-      "pushedAt": "2025-02-07T01:56:15Z",
-      "openIssues": 15,
-      "license": null,
-      "description": null,
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
         "venue": "Neural Information Processing Systems",
@@ -832,7 +830,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2406.10252",
         "citations": 150
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 477,
+      "pushedAt": "2025-02-07T01:56:15Z",
+      "openIssues": 15,
+      "archived": false,
+      "license": null,
+      "description": null,
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "avatar",
@@ -841,20 +857,6 @@
       "githubUrl": "https://github.com/zou-group/avatar",
       "homepage": "https://arxiv.org/abs/2406.11200",
       "paper": "https://arxiv.org/abs/2406.11200",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 242,
-      "pushedAt": "2025-06-10T23:18:53Z",
-      "openIssues": 2,
-      "license": null,
-      "description": "(NeurIPS 2024) AvaTaR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning ",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "AvaTaR: Optimizing LLM Agents for Tool-Assisted Knowledge Retrieval",
         "venue": "arXiv.org",
@@ -864,7 +866,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2406.11200",
         "citations": 14
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 242,
+      "pushedAt": "2025-06-10T23:18:53Z",
+      "openIssues": 2,
+      "archived": false,
+      "license": null,
+      "description": "(NeurIPS 2024) AvaTaR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning ",
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "avoiding-common-failures-in-ai-for-health",
@@ -921,8 +941,8 @@
       "tags": [],
       "language": null,
       "stars": 40,
-      "pushedAt": "2026-09-30T03:08:15Z",
-      "openIssues": 1,
+      "pushedAt": "2026-10-01T08:33:04Z",
+      "openIssues": 0,
       "archived": false,
       "license": "MPL-2.0",
       "description": "Awesome-AI-Meets-Biology is a collection of state-of-the-art, novel, exciting LLMs and agents on biomedical and bioinformatic fields. ",
@@ -991,8 +1011,8 @@
       ],
       "language": "Python",
       "stars": 268,
-      "pushedAt": "2026-09-30T17:36:36Z",
-      "openIssues": 167,
+      "pushedAt": "2026-10-01T07:24:47Z",
+      "openIssues": 171,
       "archived": false,
       "license": "MIT",
       "description": "Track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.",
@@ -1490,7 +1510,7 @@
       ],
       "language": "Python",
       "stars": 862,
-      "pushedAt": "2026-09-30T21:37:41Z",
+      "pushedAt": "2026-10-01T04:08:58Z",
       "openIssues": 247,
       "archived": false,
       "license": null,
@@ -1641,20 +1661,6 @@
       "githubUrl": "https://github.com/camel-ai/camel",
       "homepage": "https://docs.camel-ai.org/",
       "paper": "https://arxiv.org/abs/2303.17760",
-      "category": "platforms",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 17798,
-      "pushedAt": "2026-09-30T04:46:03Z",
-      "openIssues": 522,
-      "license": "Apache-2.0",
-      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
         "venue": "arXiv.org",
@@ -1664,7 +1670,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2303.17760",
         "citations": 417
-      }
+      },
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 17798,
+      "pushedAt": "2026-09-30T04:46:03Z",
+      "openIssues": 522,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "caribou",
@@ -1942,20 +1966,6 @@
       "githubUrl": "https://github.com/OpenBMB/ChatDev",
       "homepage": "https://arxiv.org/abs/2307.07924",
       "paper": "https://arxiv.org/abs/2307.07924",
-      "category": "platforms",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 34432,
-      "pushedAt": "2026-07-24T08:01:27Z",
-      "openIssues": 81,
-      "license": "Apache-2.0",
-      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Communicative Agents for Software Development",
         "venue": "arXiv.org",
@@ -1965,7 +1975,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2307.07924",
         "citations": 410
-      }
+      },
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 34432,
+      "pushedAt": "2026-07-24T08:01:27Z",
+      "openIssues": 81,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "chatmoldata",
@@ -2050,7 +2078,7 @@
         "InternScience"
       ],
       "language": "Jupyter Notebook",
-      "stars": 52,
+      "stars": 53,
       "pushedAt": "2026-03-31T03:56:44Z",
       "openIssues": 2,
       "archived": false,
@@ -2104,8 +2132,8 @@
       ],
       "language": "Python",
       "stars": 161,
-      "pushedAt": "2026-09-30T11:52:32Z",
-      "openIssues": 27,
+      "pushedAt": "2026-10-01T06:34:40Z",
+      "openIssues": 26,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Agentic framework for computational chemistry and materials science workflows",
@@ -2176,7 +2204,7 @@
       "tags": [],
       "language": "Python",
       "stars": 778,
-      "pushedAt": "2026-09-30T09:39:59Z",
+      "pushedAt": "2026-10-01T10:05:46Z",
       "openIssues": 8,
       "archived": false,
       "license": "MIT",
@@ -2234,7 +2262,7 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 903,
+      "stars": 904,
       "pushedAt": "2026-09-20T05:45:35Z",
       "openIssues": 52,
       "archived": false,
@@ -2258,9 +2286,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Python",
-      "stars": 1149,
-      "pushedAt": "2026-09-30T14:05:44Z",
-      "openIssues": 49,
+      "stars": 1150,
+      "pushedAt": "2026-10-01T09:03:13Z",
+      "openIssues": 44,
       "archived": false,
       "license": "MIT",
       "description": "🦖 ClawBio - The first bioinformatics-native AI agent skill library. Local-first. Reproducible. Open. Free.",
@@ -2331,7 +2359,7 @@
       "tags": [],
       "language": "Go",
       "stars": 1898,
-      "pushedAt": "2026-09-30T07:17:20Z",
+      "pushedAt": "2026-10-01T07:40:49Z",
       "openIssues": 22,
       "archived": false,
       "license": "MIT",
@@ -2465,7 +2493,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 5544,
+      "stars": 5543,
       "pushedAt": "2026-05-09T07:25:56Z",
       "openIssues": 34,
       "archived": false,
@@ -2537,7 +2565,7 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 7615,
+      "stars": 7613,
       "pushedAt": "2026-09-30T16:48:36Z",
       "openIssues": 41,
       "archived": false,
@@ -2563,7 +2591,7 @@
         "DeepMind"
       ],
       "language": "Python",
-      "stars": 265,
+      "stars": 266,
       "pushedAt": "2026-08-03T13:19:39Z",
       "openIssues": 2,
       "archived": false,
@@ -2609,20 +2637,6 @@
       "githubUrl": "https://github.com/DAMO-NLP-SG/CoI-Agent",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2410.13185",
-      "category": "autonomous-research",
-      "tags": [
-        "EMNLP-Findings"
-      ],
-      "language": "Python",
-      "stars": 511,
-      "pushedAt": "2025-01-15T06:31:22Z",
-      "openIssues": 12,
-      "license": "Apache-2.0",
-      "description": "Official code for paper: Chain of Ideas: Revolutionizing Research via Novel Idea Development with LLM Agents",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Chain of Ideas: Revolutionizing Research Via Novel Idea Development with LLM Agents",
         "venue": "Findings of EMNLP 2025",
@@ -2632,7 +2646,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.13185",
         "citations": 122
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "EMNLP-Findings"
+      ],
+      "language": "Python",
+      "stars": 511,
+      "pushedAt": "2025-01-15T06:31:22Z",
+      "openIssues": 12,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "Official code for paper: Chain of Ideas: Revolutionizing Research via Novel Idea Development with LLM Agents",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "coscientist",
@@ -2641,20 +2673,6 @@
       "githubUrl": "https://github.com/gomesgroup/coscientist",
       "homepage": null,
       "paper": "https://www.nature.com/articles/s41586-023-06792-0",
-      "category": "chem-drug",
-      "tags": [
-        "Nature"
-      ],
-      "language": "Python",
-      "stars": 211,
-      "pushedAt": "2025-08-11T18:19:13Z",
-      "openIssues": 3,
-      "license": null,
-      "description": null,
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Autonomous chemical research with large language models",
         "venue": "Nature",
@@ -2664,7 +2682,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41586-023-06792-0",
         "citations": 1352
-      }
+      },
+      "category": "chem-drug",
+      "tags": [
+        "Nature"
+      ],
+      "language": "Python",
+      "stars": 211,
+      "pushedAt": "2025-08-11T18:19:13Z",
+      "openIssues": 3,
+      "archived": false,
+      "license": null,
+      "description": null,
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "crest",
@@ -2673,20 +2709,6 @@
       "githubUrl": "https://github.com/zhang21mit/CRESt",
       "homepage": null,
       "paper": "https://doi.org/10.1038/s41586-025-09640-5",
-      "category": "chem-drug",
-      "tags": [
-        "Nature"
-      ],
-      "language": "Python",
-      "stars": 25,
-      "pushedAt": "2025-09-13T17:45:07Z",
-      "openIssues": 0,
-      "license": null,
-      "description": "Automated robotic platform for conducting electrochemical reactions at MIT",
-      "status": "archived",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "A multimodal robotic platform for multi-element electrocatalyst discovery",
         "venue": "Nature",
@@ -2696,7 +2718,25 @@
         "firstAuthor": "Zhen Zhang",
         "paperUrl": "https://doi.org/10.1038/s41586-025-09640-5",
         "citations": 0
-      }
+      },
+      "category": "chem-drug",
+      "tags": [
+        "Nature"
+      ],
+      "language": "Python",
+      "stars": 25,
+      "pushedAt": "2025-09-13T17:45:07Z",
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Automated robotic platform for conducting electrochemical reactions at MIT",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "crisp",
@@ -2705,20 +2745,6 @@
       "githubUrl": "https://github.com/FT-ZHOU-ZZZ/CRISP",
       "homepage": null,
       "paper": "https://doi.org/10.1038/s41591-026-04703-0",
-      "category": "models",
-      "tags": [
-        "Nature-Medicine"
-      ],
-      "language": "Python",
-      "stars": 6,
-      "pushedAt": "2026-05-13T14:01:24Z",
-      "openIssues": 0,
-      "license": null,
-      "description": "Foundation Model for Intraoperative Frozen Section",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "A clinically-oriented foundation model for intraoperative pathology.",
         "venue": "Nature Medicine",
@@ -2728,7 +2754,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41591-026-04703-0",
         "citations": 0
-      }
+      },
+      "category": "models",
+      "tags": [
+        "Nature-Medicine"
+      ],
+      "language": "Python",
+      "stars": 6,
+      "pushedAt": "2026-05-13T14:01:24Z",
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Foundation Model for Intraoperative Frozen Section",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "crispr-gpt",
@@ -2775,20 +2819,6 @@
       "githubUrl": "https://github.com/zhu-minjun/Researcher",
       "homepage": "http://ai-researcher.net",
       "paper": "https://arxiv.org/abs/2411.00816",
-      "category": "autonomous-research",
-      "tags": [
-        "ICLR"
-      ],
-      "language": "Jupyter Notebook",
-      "stars": 404,
-      "pushedAt": "2026-03-05T14:29:20Z",
-      "openIssues": 11,
-      "license": null,
-      "description": "CycleResearcher: Improving Automated Research via Automated Review",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "CycleResearcher: Improving Automated Research via Automated Review",
         "venue": "International Conference on Learning Representations",
@@ -2798,7 +2828,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2411.00816",
         "citations": 161
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "ICLR"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 404,
+      "pushedAt": "2026-03-05T14:29:20Z",
+      "openIssues": 11,
+      "archived": false,
+      "license": null,
+      "description": "CycleResearcher: Improving Automated Research via Automated Review",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "darwin",
@@ -2871,7 +2919,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 1809,
+      "stars": 1810,
       "pushedAt": "2026-09-28T20:38:04Z",
       "openIssues": 9,
       "archived": false,
@@ -2891,20 +2939,6 @@
       "githubUrl": "https://github.com/Ayanami0730/deep_research_bench",
       "homepage": "https://arxiv.org/pdf/2506.11763",
       "paper": "https://arxiv.org/abs/2506.11763",
-      "category": "benchmarks",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 837,
-      "pushedAt": "2026-09-29T11:17:31Z",
-      "openIssues": 24,
-      "license": "Apache-2.0",
-      "description": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
         "venue": "arXiv.org",
@@ -2914,7 +2948,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2506.11763",
         "citations": 246
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 837,
+      "pushedAt": "2026-09-29T11:17:31Z",
+      "openIssues": 24,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "deepanalyze",
@@ -2923,20 +2975,6 @@
       "githubUrl": "https://github.com/ruc-datalab/DeepAnalyze",
       "homepage": "https://ruc-deepanalyze.github.io",
       "paper": "https://arxiv.org/abs/2510.16872",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 4668,
-      "pushedAt": "2026-09-23T13:41:15Z",
-      "openIssues": 25,
-      "license": "MIT",
-      "description": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "DeepAnalyze: Agentic Large Language Models for Autonomous Data Science",
         "venue": "arXiv.org",
@@ -2946,7 +2984,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2510.16872",
         "citations": 59
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 4668,
+      "pushedAt": "2026-09-23T13:41:15Z",
+      "openIssues": 25,
+      "archived": false,
+      "license": "MIT",
+      "description": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "deepresearch",
@@ -2971,7 +3027,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 20003,
+      "stars": 20005,
       "pushedAt": "2026-02-27T13:12:11Z",
       "openIssues": 96,
       "archived": false,
@@ -3231,20 +3287,6 @@
       "githubUrl": "https://github.com/guosyjlu/DS-Agent",
       "homepage": null,
       "paper": "https://doi.org/10.48550/arXiv.2402.17453",
-      "category": "autonomous-research",
-      "tags": [
-        "ICML"
-      ],
-      "language": "Python",
-      "stars": 241,
-      "pushedAt": "2024-12-03T01:21:23Z",
-      "openIssues": 18,
-      "license": null,
-      "description": "Official implementation of \"DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning\" in ICML'24",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning",
         "venue": "International Conference on Machine Learning",
@@ -3254,7 +3296,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2402.17453",
         "citations": 154
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "ICML"
+      ],
+      "language": "Python",
+      "stars": 241,
+      "pushedAt": "2024-12-03T01:21:23Z",
+      "openIssues": 18,
+      "archived": false,
+      "license": null,
+      "description": "Official implementation of \"DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning\" in ICML'24",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "dxdirector",
@@ -3263,20 +3323,6 @@
       "githubUrl": "https://github.com/xsc1234/DxDirector",
       "homepage": null,
       "paper": "https://doi.org/10.1038/s41467-026-71928-5",
-      "category": "clinical-health",
-      "tags": [
-        "Nature-Communications"
-      ],
-      "language": "Python",
-      "stars": 4,
-      "pushedAt": "2026-04-26T03:19:26Z",
-      "openIssues": 0,
-      "license": null,
-      "description": "Source Code for DxDirector",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "DxDirector: an agentic large language model driving the full-process clinical diagnosis",
         "venue": "Nature Communications",
@@ -3286,7 +3332,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41467-026-71928-5",
         "citations": 1
-      }
+      },
+      "category": "clinical-health",
+      "tags": [
+        "Nature-Communications"
+      ],
+      "language": "Python",
+      "stars": 4,
+      "pushedAt": "2026-04-26T03:19:26Z",
+      "openIssues": 0,
+      "archived": false,
+      "license": null,
+      "description": "Source Code for DxDirector",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "eas-diagnosis",
@@ -3514,9 +3578,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 5025,
-      "pushedAt": "2026-09-30T15:14:31Z",
-      "openIssues": 62,
+      "stars": 5024,
+      "pushedAt": "2026-10-01T09:39:13Z",
+      "openIssues": 63,
       "archived": false,
       "license": "Apache-2.0",
       "description": "🔬 Harness Vibe Research with Self-evolving AI Scientists",
@@ -3640,20 +3704,6 @@
       "githubUrl": "https://github.com/google-deepmind/funsearch",
       "homepage": null,
       "paper": "https://doi.org/10.1038/s41586-023-06924-6",
-      "category": "autonomous-research",
-      "tags": [
-        "Nature"
-      ],
-      "language": "Jupyter Notebook",
-      "stars": 1126,
-      "pushedAt": "2024-02-05T10:32:18Z",
-      "openIssues": 8,
-      "license": "Apache-2.0",
-      "description": null,
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Mathematical discoveries from program search with large language models",
         "venue": "Nature",
@@ -3663,7 +3713,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41586-023-06924-6",
         "citations": 1368
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "Nature"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 1126,
+      "pushedAt": "2024-02-05T10:32:18Z",
+      "openIssues": 8,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "geneclaw",
@@ -3728,18 +3796,23 @@
       "githubUrl": "https://github.com/assafelovic/gpt-researcher",
       "homepage": "https://gptr.dev",
       "paper": null,
+      "paperMeta": null,
       "category": "literature-writing",
       "tags": [],
       "language": "Python",
-      "stars": 29856,
+      "stars": 29857,
       "pushedAt": "2026-09-26T17:46:25Z",
       "openIssues": 20,
+      "archived": false,
       "license": "Apache-2.0",
       "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
       "status": "active",
+      "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01"
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "gptbioinsightor",
@@ -3913,9 +3986,9 @@
         "Nous-Research"
       ],
       "language": "Python",
-      "stars": 250363,
-      "pushedAt": "2026-10-01T01:36:20Z",
-      "openIssues": 47731,
+      "stars": 250449,
+      "pushedAt": "2026-10-01T10:07:45Z",
+      "openIssues": 47694,
       "archived": false,
       "license": "MIT",
       "description": "The agent that grows with you",
@@ -3970,20 +4043,6 @@
       "githubUrl": "https://github.com/ChicagoHAI/hypothesis-generation",
       "homepage": "https://arxiv.org/abs/2410.17309",
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.12",
-      "category": "autonomous-research",
-      "tags": [
-        "ACL"
-      ],
-      "language": "Python",
-      "stars": 133,
-      "pushedAt": "2025-11-12T04:09:47Z",
-      "openIssues": 22,
-      "license": "MIT",
-      "description": "This is the official repository for HypoGeniC (Hypothesis Generation in Context) and HypoRefine, which are automated, data-driven tools that leverage large language models to generate hypothesis for open-domain research. For more details, please see the original paper using the link below.",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Literature Meets Data: A Synergistic Approach to Hypothesis Generation",
         "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
@@ -3993,7 +4052,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.12",
         "citations": 3
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "ACL"
+      ],
+      "language": "Python",
+      "stars": 133,
+      "pushedAt": "2025-11-12T04:09:47Z",
+      "openIssues": 22,
+      "archived": false,
+      "license": "MIT",
+      "description": "This is the official repository for HypoGeniC (Hypothesis Generation in Context) and HypoRefine, which are automated, data-driven tools that leverage large language models to generate hypothesis for open-domain research. For more details, please see the original paper using the link below.",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "ian",
@@ -4131,7 +4208,7 @@
       "tags": [],
       "language": "Rust",
       "stars": 12638,
-      "pushedAt": "2026-09-30T02:47:49Z",
+      "pushedAt": "2026-10-01T02:54:24Z",
       "openIssues": 1537,
       "archived": false,
       "license": "Apache-2.0",
@@ -4165,7 +4242,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 591,
+      "stars": 592,
       "pushedAt": "2026-04-04T08:03:48Z",
       "openIssues": 2,
       "archived": false,
@@ -4438,20 +4515,6 @@
       "githubUrl": "https://github.com/allenai/marg-reviewer",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2401.04259",
-      "category": "literature-writing",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 64,
-      "pushedAt": "2026-03-05T21:06:05Z",
-      "openIssues": 2,
-      "license": "Apache-2.0",
-      "description": "Code/data for MARG (multi-agent review generation)",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "MARG: Multi-Agent Review Generation for Scientific Papers",
         "venue": "arXiv.org",
@@ -4461,7 +4524,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2401.04259",
         "citations": 120
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 64,
+      "pushedAt": "2026-03-05T21:06:05Z",
+      "openIssues": 2,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "Code/data for MARG (multi-agent review generation)",
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "matclaw",
@@ -4500,7 +4581,7 @@
         "Renmin-University"
       ],
       "language": "Python",
-      "stars": 376,
+      "stars": 377,
       "pushedAt": "2026-04-07T06:33:19Z",
       "openIssues": 1,
       "archived": false,
@@ -4760,7 +4841,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 3491,
+      "stars": 3493,
       "pushedAt": "2026-06-07T04:57:05Z",
       "openIssues": 17,
       "archived": false,
@@ -4855,8 +4936,8 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 741,
-      "pushedAt": "2026-10-01T01:09:17Z",
+      "stars": 742,
+      "pushedAt": "2026-10-01T06:26:47Z",
       "openIssues": 3,
       "archived": false,
       "license": "MIT",
@@ -4875,20 +4956,6 @@
       "githubUrl": "https://github.com/metauto-ai/Mindstorm",
       "homepage": "https://arxiv.org/abs/2305.17066",
       "paper": "https://arxiv.org/abs/2305.17066",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 82,
-      "pushedAt": "2025-03-11T07:18:27Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "description": "🧠 Societies of Mind & Economy of Minds",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Mindstorms in Natural Language-Based Societies of Mind",
         "venue": "arXiv.org",
@@ -4898,7 +4965,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2305.17066",
         "citations": 1
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 82,
+      "pushedAt": "2025-03-11T07:18:27Z",
+      "openIssues": 1,
+      "archived": false,
+      "license": "MIT",
+      "description": "🧠 Societies of Mind & Economy of Minds",
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "mira",
@@ -5041,20 +5126,6 @@
       "githubUrl": "https://github.com/ZonglinY/MOOSE-Chem",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2410.07076",
-      "category": "chem-drug",
-      "tags": [
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 59,
-      "pushedAt": "2025-11-12T15:23:13Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "description": "[ICLR 2025] <MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses>",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
         "venue": "International Conference on Learning Representations",
@@ -5064,7 +5135,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.07076",
         "citations": 82
-      }
+      },
+      "category": "chem-drug",
+      "tags": [
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 59,
+      "pushedAt": "2025-11-12T15:23:13Z",
+      "openIssues": 1,
+      "archived": false,
+      "license": "MIT",
+      "description": "[ICLR 2025] <MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses>",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "multi-agent-ai-systems-for-bio-clinical-analysis",
@@ -5111,9 +5200,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "Go",
-      "stars": 51764,
-      "pushedAt": "2026-09-30T06:27:27Z",
-      "openIssues": 1742,
+      "stars": 51779,
+      "pushedAt": "2026-10-01T10:01:12Z",
+      "openIssues": 1739,
       "archived": false,
       "license": null,
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
@@ -5208,8 +5297,8 @@
         "MCP"
       ],
       "language": "Python",
-      "stars": 48703,
-      "pushedAt": "2026-09-30T17:14:17Z",
+      "stars": 48711,
+      "pushedAt": "2026-10-01T10:05:00Z",
       "openIssues": 810,
       "archived": false,
       "license": "MIT",
@@ -5232,9 +5321,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 30863,
-      "pushedAt": "2026-09-30T16:28:18Z",
-      "openIssues": 1108,
+      "stars": 30865,
+      "pushedAt": "2026-10-01T08:07:08Z",
+      "openIssues": 1101,
       "archived": false,
       "license": "MIT",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
@@ -5282,9 +5371,9 @@
         "NVIDIA"
       ],
       "language": "TypeScript",
-      "stars": 22615,
-      "pushedAt": "2026-10-01T00:47:06Z",
-      "openIssues": 778,
+      "stars": 22624,
+      "pushedAt": "2026-10-01T10:05:41Z",
+      "openIssues": 761,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
@@ -5310,7 +5399,7 @@
       "language": "Python",
       "stars": 155,
       "pushedAt": "2026-09-16T22:17:29Z",
-      "openIssues": 54,
+      "openIssues": 55,
       "archived": false,
       "license": "Apache-2.0",
       "description": "AI Scientist by Chicago Human+AI Lab",
@@ -5354,20 +5443,6 @@
       "githubUrl": "https://github.com/NoviScl/AI-Researcher",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2409.04109",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 407,
-      "pushedAt": "2025-08-07T16:45:26Z",
-      "openIssues": 9,
-      "license": "MIT",
-      "description": null,
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
         "venue": "arXiv.org",
@@ -5377,7 +5452,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2409.04109",
         "citations": 477
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 407,
+      "pushedAt": "2025-08-07T16:45:26Z",
+      "openIssues": 9,
+      "archived": false,
+      "license": "MIT",
+      "description": null,
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "nsclc-virtual-tumor",
@@ -5544,7 +5637,7 @@
         "bioRxiv"
       ],
       "language": "Python",
-      "stars": 1212,
+      "stars": 1213,
       "pushedAt": "2026-09-23T05:34:16Z",
       "openIssues": 10,
       "archived": false,
@@ -5691,7 +5784,7 @@
       "tags": [],
       "language": "TypeScript",
       "stars": 6972,
-      "pushedAt": "2026-09-28T10:02:15Z",
+      "pushedAt": "2026-10-01T04:07:28Z",
       "openIssues": 6,
       "archived": false,
       "license": "MIT",
@@ -5710,20 +5803,6 @@
       "githubUrl": "https://github.com/xlang-ai/OpenAgents",
       "homepage": "https://arxiv.org/abs/2310.10634",
       "paper": "https://arxiv.org/abs/2310.10634",
-      "category": "platforms",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 4862,
-      "pushedAt": "2024-11-18T09:39:29Z",
-      "openIssues": 15,
-      "license": "Apache-2.0",
-      "description": "[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "OpenAgents: An Open Platform for Language Agents in the Wild",
         "venue": "arXiv.org",
@@ -5733,7 +5812,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2310.10634",
         "citations": 167
-      }
+      },
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 4862,
+      "pushedAt": "2024-11-18T09:39:29Z",
+      "openIssues": 15,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "openagi",
@@ -5742,20 +5839,6 @@
       "githubUrl": "https://github.com/agiresearch/OpenAGI",
       "homepage": "https://docs.aios.foundation",
       "paper": "https://arxiv.org/abs/2304.04370",
-      "category": "platforms",
-      "tags": [
-        "NeurIPS"
-      ],
-      "language": "Python",
-      "stars": 2287,
-      "pushedAt": "2024-11-28T15:48:29Z",
-      "openIssues": 10,
-      "license": "MIT",
-      "description": "OpenAGI: When LLM Meets Domain Experts",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "OpenAGI: When LLM Meets Domain Experts",
         "venue": "Neural Information Processing Systems",
@@ -5765,7 +5848,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2304.04370",
         "citations": 371
-      }
+      },
+      "category": "platforms",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 2287,
+      "pushedAt": "2024-11-28T15:48:29Z",
+      "openIssues": 10,
+      "archived": false,
+      "license": "MIT",
+      "description": "OpenAGI: When LLM Meets Domain Experts",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "openclaw",
@@ -5778,9 +5879,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 390995,
-      "pushedAt": "2026-10-01T02:03:24Z",
-      "openIssues": 9187,
+      "stars": 391102,
+      "pushedAt": "2026-10-01T10:14:09Z",
+      "openIssues": 9137,
       "archived": false,
       "license": "MIT",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
@@ -5828,7 +5929,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 15894,
+      "stars": 15901,
       "pushedAt": "2026-06-04T02:42:40Z",
       "openIssues": 92,
       "archived": false,
@@ -5888,9 +5989,9 @@
         "JCST"
       ],
       "language": "TypeScript",
-      "stars": 39684,
-      "pushedAt": "2026-10-01T02:00:10Z",
-      "openIssues": 178,
+      "stars": 39712,
+      "pushedAt": "2026-10-01T09:36:15Z",
+      "openIssues": 177,
       "archived": false,
       "license": "MIT",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
@@ -5938,9 +6039,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 3876,
+      "stars": 3879,
       "pushedAt": "2026-10-01T01:16:26Z",
-      "openIssues": 41,
+      "openIssues": 42,
       "archived": false,
       "license": "Apache-2.0",
       "description": "The open-source AI workbench for scientific research",
@@ -5964,7 +6065,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 7740,
+      "stars": 7741,
       "pushedAt": "2026-08-12T15:21:07Z",
       "openIssues": 53,
       "archived": false,
@@ -6089,7 +6190,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 3616,
+      "stars": 3621,
       "pushedAt": "2026-09-17T16:56:07Z",
       "openIssues": 0,
       "archived": false,
@@ -6110,20 +6211,6 @@
       "githubUrl": "https://github.com/Paper2Poster/Paper2Poster",
       "homepage": "https://paper2poster.github.io/",
       "paper": "https://arxiv.org/abs/2505.21497",
-      "category": "literature-writing",
-      "tags": [
-        "NeurIPS"
-      ],
-      "language": "Python",
-      "stars": 3972,
-      "pushedAt": "2026-06-08T14:53:00Z",
-      "openIssues": 26,
-      "license": "MIT",
-      "description": "[NeurIPS 2025] Open-source Multi-agent Poster Generation from Papers",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers",
         "venue": "Neural Information Processing Systems",
@@ -6133,7 +6220,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2505.21497",
         "citations": 62
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 3972,
+      "pushedAt": "2026-06-08T14:53:00Z",
+      "openIssues": 26,
+      "archived": false,
+      "license": "MIT",
+      "description": "[NeurIPS 2025] Open-source Multi-agent Poster Generation from Papers",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "paper_claw-pigeondan1",
@@ -6149,7 +6254,7 @@
       ],
       "language": "Python",
       "stars": 38,
-      "pushedAt": "2026-09-30T06:04:02Z",
+      "pushedAt": "2026-10-01T06:37:54Z",
       "openIssues": 1,
       "archived": false,
       "license": "MIT",
@@ -6375,9 +6480,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 110779,
-      "pushedAt": "2026-10-01T00:06:05Z",
-      "openIssues": 234,
+      "stars": 110890,
+      "pushedAt": "2026-10-01T09:37:03Z",
+      "openIssues": 244,
       "archived": false,
       "license": "MIT",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
@@ -6399,7 +6504,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 8135,
+      "stars": 8138,
       "pushedAt": "2026-09-10T09:28:22Z",
       "openIssues": 10,
       "archived": false,
@@ -6423,7 +6528,7 @@
       "category": "platforms",
       "tags": [],
       "language": "Go",
-      "stars": 30025,
+      "stars": 30028,
       "pushedAt": "2026-09-24T17:14:08Z",
       "openIssues": 59,
       "archived": false,
@@ -6447,7 +6552,7 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 1355,
+      "stars": 1356,
       "pushedAt": "2026-07-02T01:44:55Z",
       "openIssues": 26,
       "archived": false,
@@ -6491,20 +6596,6 @@
       "githubUrl": "https://github.com/icip-cas/PPTAgent",
       "homepage": "https://arxiv.org/abs/2501.03936",
       "paper": "https://arxiv.org/abs/2501.03936",
-      "category": "literature-writing",
-      "tags": [
-        "EMNLP"
-      ],
-      "language": "Python",
-      "stars": 5078,
-      "pushedAt": "2026-09-28T21:30:54Z",
-      "openIssues": 16,
-      "license": "MIT",
-      "description": "An Agentic Framework for Reflective PowerPoint Generation",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
         "venue": "Conference on Empirical Methods in Natural Language Processing",
@@ -6514,7 +6605,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2501.03936",
         "citations": 105
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "EMNLP"
+      ],
+      "language": "Python",
+      "stars": 5078,
+      "pushedAt": "2026-09-28T21:30:54Z",
+      "openIssues": 16,
+      "archived": false,
+      "license": "MIT",
+      "description": "An Agentic Framework for Reflective PowerPoint Generation",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "prismer",
@@ -6539,6 +6648,26 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "promptbio",
+      "name": "PromptBio",
+      "repo": "DeepMed-Lab-ECNU/PromptBio",
+      "githubUrl": "https://github.com/DeepMed-Lab-ECNU/PromptBio",
+      "homepage": null,
+      "paper": "https://doi.org/10.1101/2025.07.09.663734",
+      "category": "bio-omics",
+      "tags": [],
+      "language": null,
+      "stars": 1,
+      "pushedAt": "2024-06-21T12:36:37Z",
+      "openIssues": 1,
+      "license": null,
+      "description": null,
+      "status": "archived",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "protagents",
@@ -6920,20 +7049,6 @@
       "githubUrl": "https://github.com/Future-House/robin",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2505.13400",
-      "category": "bio-omics",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 719,
-      "pushedAt": "2026-04-21T23:58:38Z",
-      "openIssues": 5,
-      "license": "Apache-2.0",
-      "description": "Robin: A multi-agent system for automating scientific discovery",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Robin: A multi-agent system for automating scientific discovery",
         "venue": "arXiv.org",
@@ -6943,7 +7058,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2505.13400",
         "citations": 87
-      }
+      },
+      "category": "bio-omics",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 720,
+      "pushedAt": "2026-04-21T23:58:38Z",
+      "openIssues": 5,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "Robin: A multi-agent system for automating scientific discovery",
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "rs-paperclaw",
@@ -7205,7 +7338,7 @@
         "Advanced-Materials"
       ],
       "language": "Python",
-      "stars": 638,
+      "stars": 637,
       "pushedAt": "2025-05-10T02:24:17Z",
       "openIssues": 11,
       "archived": false,
@@ -7315,7 +7448,7 @@
       "language": "Python",
       "stars": 242,
       "pushedAt": "2026-08-21T17:09:07Z",
-      "openIssues": 3,
+      "openIssues": 4,
       "archived": false,
       "license": "Apache-2.0",
       "description": null,
@@ -7383,20 +7516,6 @@
       "githubUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "homepage": "https://arxiv.org/abs/2609.00065",
       "paper": "https://arxiv.org/abs/2609.00065",
-      "category": "platforms",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 47248,
-      "pushedAt": "2026-10-01T00:14:57Z",
-      "openIssues": 26,
-      "license": "MIT",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 168 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
         "venue": "arXiv",
@@ -7406,7 +7525,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2609.00065",
         "citations": 1
-      }
+      },
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 47254,
+      "pushedAt": "2026-10-01T00:14:57Z",
+      "openIssues": 26,
+      "archived": false,
+      "license": "MIT",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 168 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "scmultisim",
@@ -7451,18 +7588,23 @@
       "githubUrl": "https://github.com/InternScience/scp",
       "homepage": null,
       "paper": null,
+      "paperMeta": null,
       "category": "platforms",
       "tags": [],
       "language": "Jupyter Notebook",
       "stars": 168,
       "pushedAt": "2026-06-03T09:48:41Z",
       "openIssues": 1,
+      "archived": false,
       "license": "MIT",
       "description": null,
-      "status": "active",
+      "status": "stale",
+      "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01"
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "scperturb",
@@ -7542,20 +7684,6 @@
       "githubUrl": "https://github.com/PeterGriffinJin/Search-R1",
       "homepage": "https://arxiv.org/pdf/2503.09516",
       "paper": "https://arxiv.org/abs/2503.09516",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 5471,
-      "pushedAt": "2025-11-13T21:56:33Z",
-      "openIssues": 37,
-      "license": "Apache-2.0",
-      "description": "Search-R1: An Efficient, Scalable RL Training Framework for Reasoning & Search Engine Calling interleaved LLM based on veRL",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning",
         "venue": "arXiv.org",
@@ -7565,7 +7693,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2503.09516",
         "citations": 1525
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 5471,
+      "pushedAt": "2025-11-13T21:56:33Z",
+      "openIssues": 37,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "Search-R1: An Efficient, Scalable RL Training Framework for Reasoning & Search Engine Calling interleaved LLM based on veRL",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "shinkaevolve",
@@ -7574,20 +7720,6 @@
       "githubUrl": "https://github.com/SakanaAI/ShinkaEvolve",
       "homepage": "https://sakanaai.github.io/ShinkaEvolve/",
       "paper": "https://arxiv.org/abs/2509.19349",
-      "category": "autonomous-research",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 1423,
-      "pushedAt": "2026-09-24T06:14:27Z",
-      "openIssues": 7,
-      "license": "Apache-2.0",
-      "description": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
         "venue": "arXiv.org",
@@ -7597,7 +7729,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2509.19349",
         "citations": 158
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 1423,
+      "pushedAt": "2026-09-24T06:14:27Z",
+      "openIssues": 7,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "skillclaw",
@@ -7622,7 +7772,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 2656,
+      "stars": 2657,
       "pushedAt": "2026-08-17T08:48:07Z",
       "openIssues": 40,
       "archived": false,
@@ -7658,7 +7808,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 17910,
+      "stars": 17922,
       "pushedAt": "2026-09-30T23:37:09Z",
       "openIssues": 45,
       "archived": false,
@@ -7767,7 +7917,7 @@
         "Cell"
       ],
       "language": "Python",
-      "stars": 189,
+      "stars": 190,
       "pushedAt": "2026-07-24T19:29:11Z",
       "openIssues": 3,
       "archived": false,
@@ -7862,20 +8012,6 @@
       "githubUrl": "https://github.com/InternScience/SurveyForge",
       "homepage": null,
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.609",
-      "category": "literature-writing",
-      "tags": [
-        "ACL"
-      ],
-      "language": "Python",
-      "stars": 333,
-      "pushedAt": "2025-08-27T07:33:54Z",
-      "openIssues": 1,
-      "license": null,
-      "description": "(ACL-2025 main conference) SurveyForge: On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "SURVEYFORGE : On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing",
         "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
@@ -7885,7 +8021,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.609",
         "citations": 6
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "ACL"
+      ],
+      "language": "Python",
+      "stars": 333,
+      "pushedAt": "2025-08-27T07:33:54Z",
+      "openIssues": 1,
+      "archived": false,
+      "license": null,
+      "description": "(ACL-2025 main conference) SurveyForge: On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "surveyx",
@@ -7894,20 +8048,6 @@
       "githubUrl": "https://github.com/IAAR-Shanghai/SurveyX",
       "homepage": "http://www.surveyx.cn",
       "paper": "https://arxiv.org/abs/2502.14776",
-      "category": "literature-writing",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "TeX",
-      "stars": 994,
-      "pushedAt": "2026-01-12T15:53:59Z",
-      "openIssues": 36,
-      "license": null,
-      "description": "Academic Survey Paper Generation.",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "SurveyX: Academic Survey Automation via Large Language Models",
         "venue": "arXiv.org",
@@ -7917,7 +8057,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2502.14776",
         "citations": 32
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "TeX",
+      "stars": 994,
+      "pushedAt": "2026-01-12T15:53:59Z",
+      "openIssues": 36,
+      "archived": false,
+      "license": null,
+      "description": "Academic Survey Paper Generation.",
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "suspicion-agent",
@@ -7926,20 +8084,6 @@
       "githubUrl": "https://github.com/CR-Gjx/Suspicion-Agent",
       "homepage": null,
       "paper": "https://arxiv.org/abs/2309.17277",
-      "category": "others",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 167,
-      "pushedAt": "2023-11-08T08:02:01Z",
-      "openIssues": 1,
-      "license": null,
-      "description": "The implementation of \"Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4\"",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4",
         "venue": "arXiv.org",
@@ -7949,7 +8093,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2309.17277",
         "citations": 86
-      }
+      },
+      "category": "others",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 167,
+      "pushedAt": "2023-11-08T08:02:01Z",
+      "openIssues": 1,
+      "archived": false,
+      "license": null,
+      "description": "The implementation of \"Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4\"",
+      "status": "stale",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "tahoe-100m",
@@ -8140,7 +8302,7 @@
         "Science"
       ],
       "language": "Python",
-      "stars": 109,
+      "stars": 111,
       "pushedAt": "2026-09-17T06:11:41Z",
       "openIssues": 0,
       "archived": false,
@@ -8165,7 +8327,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "TypeScript",
-      "stars": 3619,
+      "stars": 3620,
       "pushedAt": "2026-03-30T12:34:57Z",
       "openIssues": 75,
       "archived": false,
@@ -8300,9 +8462,9 @@
         "Nature"
       ],
       "language": "Jupyter Notebook",
-      "stars": 739,
+      "stars": 738,
       "pushedAt": "2025-12-31T04:15:53Z",
-      "openIssues": 6,
+      "openIssues": 7,
       "archived": false,
       "license": "MIT",
       "description": "A virtual lab of LLM agents for science research",
@@ -8320,20 +8482,6 @@
       "githubUrl": "https://github.com/InternScience/Virtual-Scientists",
       "homepage": "https://open-sciencelab.github.io/Virtual-Scientists/",
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.1368",
-      "category": "autonomous-research",
-      "tags": [
-        "ACL"
-      ],
-      "language": "Python",
-      "stars": 145,
-      "pushedAt": "2025-07-26T07:49:01Z",
-      "openIssues": 0,
-      "license": "Apache-2.0",
-      "description": "[ACL 2025] Multi-Agent System for Science of Science",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
         "venue": "Annual Meeting of the Association for Computational Linguistics",
@@ -8343,7 +8491,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.18653/v1/2025.acl-long.1368",
         "citations": 84
-      }
+      },
+      "category": "autonomous-research",
+      "tags": [
+        "ACL"
+      ],
+      "language": "Python",
+      "stars": 145,
+      "pushedAt": "2025-07-26T07:49:01Z",
+      "openIssues": 0,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "[ACL 2025] Multi-Agent System for Science of Science",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "voyager",
@@ -8352,18 +8518,6 @@
       "githubUrl": "https://github.com/MineDojo/Voyager",
       "homepage": "https://voyager.minedojo.org/",
       "paper": "https://arxiv.org/abs/2305.16291",
-      "category": "platforms",
-      "tags": [],
-      "language": "JavaScript",
-      "stars": 7235,
-      "pushedAt": "2024-04-03T18:51:36Z",
-      "openIssues": 7,
-      "license": "MIT",
-      "description": "An Open-Ended Embodied Agent with Large Language Models",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
         "venue": "Trans. Mach. Learn. Res.",
@@ -8373,7 +8527,23 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2305.16291",
         "citations": 2444
-      }
+      },
+      "category": "platforms",
+      "tags": [],
+      "language": "JavaScript",
+      "stars": 7235,
+      "pushedAt": "2024-04-03T18:51:36Z",
+      "openIssues": 7,
+      "archived": false,
+      "license": "MIT",
+      "description": "An Open-Ended Embodied Agent with Large Language Models",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "webthinker",
@@ -8382,20 +8552,6 @@
       "githubUrl": "https://github.com/RUC-NLPIR/WebThinker",
       "homepage": "https://foremost-beechnut-8ed.notion.site/WebThinker-Empowering-Large-Reasoning-Models-with-Deep-Research-Capability-d13158a27d924a4b9df7f9ab94066b64",
       "paper": "https://arxiv.org/abs/2504.21776",
-      "category": "literature-writing",
-      "tags": [
-        "NeurIPS"
-      ],
-      "language": "Python",
-      "stars": 1471,
-      "pushedAt": "2025-12-08T03:40:49Z",
-      "openIssues": 11,
-      "license": "MIT",
-      "description": "[NeurIPS 2025] 🌐 WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
-      "status": "stable",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "paperMeta": {
         "title": "WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
         "venue": "Neural Information Processing Systems",
@@ -8405,7 +8561,25 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2504.21776",
         "citations": 350
-      }
+      },
+      "category": "literature-writing",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 1471,
+      "pushedAt": "2025-12-08T03:40:49Z",
+      "openIssues": 11,
+      "archived": false,
+      "license": "MIT",
+      "description": "[NeurIPS 2025] 🌐 WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "why-machines-dont-speak-biology",
@@ -8453,8 +8627,8 @@
       "tags": [],
       "language": "Rust",
       "stars": 1179,
-      "pushedAt": "2026-09-30T23:47:11Z",
-      "openIssues": 6,
+      "pushedAt": "2026-10-01T10:10:27Z",
+      "openIssues": 8,
       "archived": false,
       "license": "AGPL-3.0",
       "description": "Open-source, local-first desktop AI research workbench for scientific computing with Python/R, MCP bioinformatics tools, SSH/WSL/GPU runtimes, and OpenAI/Anthropic models.",
@@ -8540,18 +8714,23 @@
       "githubUrl": "https://github.com/OpenBMB/XAgent",
       "homepage": "https://blog.x-agent.net/blog/xagent/",
       "paper": null,
+      "paperMeta": null,
       "category": "platforms",
       "tags": [],
       "language": "Python",
       "stars": 8551,
       "pushedAt": "2026-07-31T03:30:54Z",
       "openIssues": 57,
+      "archived": false,
       "license": "Apache-2.0",
       "description": "An Autonomous LLM Agent for Complex Task Solving",
       "status": "active",
+      "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01"
+      "listedAt": "2026-10-01",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "xunzi",
@@ -8599,9 +8778,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 32921,
-      "pushedAt": "2026-10-01T01:51:16Z",
-      "openIssues": 778,
+      "stars": 32923,
+      "pushedAt": "2026-10-01T09:58:10Z",
+      "openIssues": 807,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
@@ -8614,7 +8793,7 @@
     }
   ],
   "counts": {
-    "total": 285,
+    "total": 286,
     "gone": 1
   }
 }

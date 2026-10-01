@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T04:03:53Z",
+  "generatedAt": "2026-10-01T07:51:59Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -2377,6 +2377,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "crisp",
+      "name": "CRISP",
+      "repo": "FT-ZHOU-ZZZ/CRISP",
+      "githubUrl": "https://github.com/FT-ZHOU-ZZZ/CRISP",
+      "homepage": null,
+      "paper": "https://doi.org/10.1038/s41591-026-04703-0",
+      "category": "models",
+      "tags": [
+        "Nature-Medicine"
+      ],
+      "language": "Python",
+      "stars": 6,
+      "pushedAt": "2026-05-13T14:01:24Z",
+      "openIssues": 0,
+      "license": null,
+      "description": "Foundation Model for Intraoperative Frozen Section",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "A clinically-oriented foundation model for intraoperative pathology.",
+        "venue": "Nature Medicine",
+        "doi": "10.1038/s41591-026-04703-0",
+        "year": "2026.09",
+        "authors": "Zihan Zhao, Feng-Tao Zhou, Rong-Gang Li, Bing Chu, Xin-Ke Zhang, Xueyi Zheng, Ke Zheng, Xiao-Bo Wen, Jia-Bo Ma, Yi-Hui Wang, Jie-Wei Chen, Cheng-You Zheng, Jiang-Yu Zhang, Yong-Qin Wen, Jia-Jia Meng, Zi-Qi Zeng, Xiao-Qing Li, Jing Li, Dan Xie, Ya-Ping Ye, Yu Wang, Hao Chen, Mu-yan Cai",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.1038/s41591-026-04703-0",
+        "citations": 0
+      }
     },
     {
       "slug": "crispr-gpt",
@@ -7403,7 +7435,7 @@
     }
   ],
   "counts": {
-    "total": 246,
+    "total": 247,
     "gone": 1
   }
 }

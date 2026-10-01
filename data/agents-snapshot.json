@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:08:40Z",
+  "generatedAt": "2026-10-01T15:21:00Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -149,9 +149,9 @@
       "paper": "https://doi.org/10.1093/bioinformatics/btag250",
       "paperMeta": {
         "title": "Agentomics: an agentic system that autonomously develops novel state-of-the-art solutions for biomedical machine learning tasks",
-        "venue": "bioRxiv",
+        "venue": "Bioinformatics",
         "doi": "10.1093/bioinformatics/btag250",
-        "year": "2026.01",
+        "year": "2026",
         "authors": "Vlastimil Martinek, Andrea Gariboldi, Dimosthenis Tzimotoudis, Mark Galea, Elissavet Zacharopoulou, Aitor Alberdi Escudero, Edward Blake, David Čechák, Luke Cassar, Alessandro Balestrucci, Panagiotis Alexiou",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1093/bioinformatics/btag250",
@@ -159,8 +159,7 @@
       },
       "category": "autonomous-research",
       "tags": [
-        "Bioinformatics",
-        "bioRxiv"
+        "Bioinformatics"
       ],
       "language": "Python",
       "stars": 37,
@@ -185,9 +184,9 @@
       "paper": "https://arxiv.org/abs/2406.12708",
       "paperMeta": {
         "title": "AgentReview: Exploring Peer Review Dynamics with LLM Agents",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "venue": "EMNLP",
         "doi": "10.48550/arXiv.2406.12708",
-        "year": "2024.06",
+        "year": "2025",
         "authors": "Yiqiao Jin, Qin-Lin Zhao, Yiyang Wang, Hao Chen, Kaijie Zhu, Yijia Xiao, Jin-Dong Wang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2406.12708",
@@ -823,9 +822,9 @@
       "paper": "https://arxiv.org/abs/2406.10252",
       "paperMeta": {
         "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
-        "venue": "Neural Information Processing Systems",
+        "venue": "NeurIPS",
         "doi": "10.48550/arXiv.2406.10252",
-        "year": "2024.06",
+        "year": "2024",
         "authors": "Yidong Wang, Qi Guo, Wen-Jin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan Zhang, Xinyu Dai, Min Zhang, Qing-Song Wen, Wei Ye, Shi-Kun Zhang, Yue Zhang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2406.10252",
@@ -1225,7 +1224,7 @@
         "title": "Making large language models reliable data science programming copilots for biomedical research",
         "venue": "Nature-BME",
         "doi": "10.1038/s41551-025-01587-2",
-        "year": "2025.01",
+        "year": "2026",
         "authors": "Zifeng Wang, Benjamin P. Danek, Ziwei Yang, Zheng Chen, Jimeng Sun",
         "firstAuthor": "Zifeng Wang",
         "paperUrl": "https://www.nature.com/articles/s41551-025-01587-2",
@@ -1388,7 +1387,7 @@
       "paper": "https://doi.org/10.1093/bioinformatics/btag355",
       "paperMeta": {
         "title": "BioMedGraphica: an all-in-one platform for joint textual biomedical prior knowledge and numeric graph generation",
-        "venue": "Bioinform.",
+        "venue": "Bioinformatics",
         "doi": "10.1093/bioinformatics/btag355",
         "year": "2026.06",
         "authors": "Heming Zhang, Shunning Liang, Tim Xu, Wenyu Li, Di Huang, Yuhan Dong, Guang-Fu Li, Philip Miller, Peter Goedegebuure, Marco Sardiello, Jonathan Cooper, W. Buchser, Patricia Dickson, Ryan C. Fields, Carlos Cruchaga, Yixin Chen, M. Province, Philip R. O. Payne, Fuhai Li",
@@ -1757,11 +1756,11 @@
       "repo": "ArcInstitute/cell-eval",
       "githubUrl": "https://github.com/ArcInstitute/cell-eval",
       "homepage": null,
-      "paper": "https://doi.org/10.1016/j.cell.2026.00921-9",
+      "paper": "https://doi.org/10.1016/j.cell.2026.07.052",
       "paperMeta": {
         "title": "Predicting cellular responses to perturbation across diverse contexts with State",
         "venue": "Cell",
-        "doi": "10.1016/j.cell.2026.00921-9",
+        "doi": "10.1016/j.cell.2026.07.052",
         "year": "2026.09",
         "authors": "Abhinav K. Adduri, Dhruv Gautam, Beatrice Bevilacqua, et al. (Hani Goodarzi, Yusuf H. Roohani)",
         "firstAuthor": "",
@@ -1796,9 +1795,9 @@
       "paper": "https://www.nature.com/articles/s41592-024-02241-6",
       "paperMeta": {
         "title": "Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
-        "venue": "bioRxiv",
+        "venue": "Nature Methods",
         "doi": "10.1038/s41592-024-02241-6",
-        "year": "2022.01",
+        "year": "2024",
         "authors": "Srinivas Niranj Chandrasekaran, B. Cimini, A. Goodale, Lisa Miller, M. Kost-Alimova, Nasim Jamali, John G Doench, Briana Fritchman, A. Skepner, Michelle Melanson, John Arevalo, Juan C. Caicedo, Daniel Kuhn, D. Hernandez, Jim Berstler, Hamdah Shafqat-Abbasi, D. Root, Sussane Swalley, Shantanu Singh, Anne E Carpenter",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-024-02241-6",
@@ -1806,7 +1805,7 @@
       },
       "category": "datasets",
       "tags": [
-        "bioRxiv"
+        "Nature-Methods"
       ],
       "language": null,
       "stars": 140,
@@ -2036,12 +2035,12 @@
       "repo": "DPX-CN/ChatRadio-Valuer",
       "githubUrl": "https://github.com/DPX-CN/ChatRadio-Valuer",
       "homepage": null,
-      "paper": "https://www.semanticscholar.org/paper/ecab6c8b4052a09127340a7fcfcc0b1550435b63",
+      "paper": "https://doi.org/10.1109/TBME.2025.3597325",
       "paperMeta": {
         "title": "ChatRadio-Valuer: A Chat Large Language Model for Generalizable Radiology Impression Generation on Multi-institution and Multi-system Data.",
         "venue": "IEEE-TBME",
         "doi": "10.1109/TBME.2025.3597325",
-        "year": "2025.08",
+        "year": "2026.03",
         "authors": "Tuo Zhang",
         "firstAuthor": "Tuo Zhang",
         "paperUrl": "https://www.semanticscholar.org/paper/ecab6c8b4052a09127340a7fcfcc0b1550435b63",
@@ -2821,7 +2820,7 @@
       "paper": "https://arxiv.org/abs/2411.00816",
       "paperMeta": {
         "title": "CycleResearcher: Improving Automated Research via Automated Review",
-        "venue": "International Conference on Learning Representations",
+        "venue": "ICLR",
         "doi": "10.48550/arXiv.2411.00816",
         "year": "2025",
         "authors": "Yixuan Weng, Minjun Zhu, Guangsheng Bao, Hongbo Zhang, Jin-Dong Wang, Yue Zhang, Linyi Yang",
@@ -3289,9 +3288,9 @@
       "paper": "https://doi.org/10.48550/arXiv.2402.17453",
       "paperMeta": {
         "title": "DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning",
-        "venue": "International Conference on Machine Learning",
+        "venue": "ICML",
         "doi": "10.48550/arXiv.2402.17453",
-        "year": "2024.02",
+        "year": "2024",
         "authors": "Siyuan Guo, Cheng Deng, Ying Wen, Hechang Chen, Yi Chang, Jun Wang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2402.17453",
@@ -4045,7 +4044,7 @@
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.12",
       "paperMeta": {
         "title": "Literature Meets Data: A Synergistic Approach to Hypothesis Generation",
-        "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "venue": "ACL",
         "doi": "10.18653/v1/2025.acl-long.12",
         "year": "2025",
         "authors": "Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, Chenhao Tan",
@@ -4326,7 +4325,7 @@
       "paper": "https://doi.org/10.18653/v1/2025.emnlp-main.603",
       "paperMeta": {
         "title": "LIDDIA: Language-based Intelligent Drug Discovery Agent",
-        "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "venue": "EMNLP",
         "doi": "10.18653/v1/2025.emnlp-main.603",
         "year": "2025",
         "authors": "",
@@ -5128,7 +5127,7 @@
       "paper": "https://arxiv.org/abs/2410.07076",
       "paperMeta": {
         "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
-        "venue": "International Conference on Learning Representations",
+        "venue": "ICLR",
         "doi": "10.48550/arXiv.2410.07076",
         "year": "2025",
         "authors": "Zonglin Yang, Wan-Hao Liu, Ben Gao, Tong Xie, Yu-Qiang Li, Wan-Li Ouyang, Soujanya Poria, Erik Cambria, Dong-Zhan Zhou",
@@ -5718,11 +5717,11 @@
       "repo": "kaiwang13/Oncoformer",
       "githubUrl": "https://github.com/kaiwang13/Oncoformer",
       "homepage": null,
-      "paper": "https://doi.org/10.1016/j.cell.2026.00807-X",
+      "paper": "https://doi.org/10.1016/j.cell.2026.07.009",
       "paperMeta": {
         "title": "Advancing cancer detection and treatment using longitudinal routine clinical data",
         "venue": "Cell",
-        "doi": "10.1016/j.cell.2026.00807-X",
+        "doi": "10.1016/j.cell.2026.07.009",
         "year": "2026.09",
         "authors": "Fei Liu, et al. (Kang Zhang, Eric Oermann)",
         "firstAuthor": "",
@@ -5841,9 +5840,9 @@
       "paper": "https://arxiv.org/abs/2304.04370",
       "paperMeta": {
         "title": "OpenAGI: When LLM Meets Domain Experts",
-        "venue": "Neural Information Processing Systems",
+        "venue": "NeurIPS",
         "doi": "10.48550/arXiv.2304.04370",
-        "year": "2023.04",
+        "year": "2023",
         "authors": "Yingqiang Ge, Wenyue Hua, Kai Mei, Jianchao Ji, Juntao Tan, Shuyuan Xu, Zelong Li, Yongfeng Zhang",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2304.04370",
@@ -5975,7 +5974,7 @@
       "paper": "https://doi.org/10.1007/s11390-025-6000-0",
       "paperMeta": {
         "title": "From MOOC to MAIC: Reimagine Online Teaching and Learning Through LLM-Driven Agents",
-        "venue": "Journal of Computational Science and Technology",
+        "venue": "Journal of Computer Science and Technology",
         "doi": "10.1007/s11390-025-6000-0",
         "year": "2026.04",
         "authors": "Jifan Yu, Daniel Zhang-Li, Zheyuan Zhang, Yucheng Wang, Hao-Xuan Li, J. Lim, Zhanduo Hao, Shangqing Tu, Lu Zhang, Xuefang Dai, Jianxiao Jiang, Sheng Yang, Fei Qin, Zexin Li, Bing Liu, Xin Cong, Bin Xu, Lei Hou, Manling Li, Juan-Zi Li, Hui-Qin Liu, Yu Zhang, Zhi-Yuan Liu, Maochen Sun",
@@ -6213,9 +6212,9 @@
       "paper": "https://arxiv.org/abs/2505.21497",
       "paperMeta": {
         "title": "Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers",
-        "venue": "Neural Information Processing Systems",
+        "venue": "NeurIPS",
         "doi": "10.48550/arXiv.2505.21497",
-        "year": "2025.05",
+        "year": "2025",
         "authors": "Wei Pang, K. Lin, Xiang-Ru Jian, Xi He, Philip H. S. Torr",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2505.21497",
@@ -6598,9 +6597,9 @@
       "paper": "https://arxiv.org/abs/2501.03936",
       "paperMeta": {
         "title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "venue": "EMNLP",
         "doi": "10.48550/arXiv.2501.03936",
-        "year": "2025.01",
+        "year": "2025",
         "authors": "Hao Zheng, Xinyan Guan, Hao Kong, Wen-Kai Zhang, Jia Zheng, Wei-Xiang Zhou, Hongyu Lin, Yaojie Lu, Xian-Pei Han, Le Sun",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2501.03936",
@@ -7253,7 +7252,7 @@
       "paper": "https://doi.org/10.1002/advs.202500870",
       "paperMeta": {
         "title": "scCompass: An Integrated Multi‐Species scRNA‐seq Database for AI‐Ready",
-        "venue": "Advancement of science",
+        "venue": "Advanced Science",
         "doi": "10.1002/advs.202500870",
         "year": "2025.05",
         "authors": "Pengfei Wang, Wenhao Liu, Jiajia Wang, Yana Liu, Pengjiang Li, Ping Xu, Wen-Tao Cui, Ran Zhang, Qingqing Long, Zhi-Long Hu, Chen Fang, Jing-Xi Dong, Chunyang Zhang, Yan Chen, Chengrui Wang, Guo-Le Liu, Hanyu Xie, Yi-Yang Zhang, Meng Xiao, Shu-Bai Chen, Haiping Jiang, Yiqiang Chen, Ge Yang, Shi-Hua Zhang, Zhen Meng, Xuezhi Wang, Gui-Hai Feng, Xin Li, Yuanchun Zhou",
@@ -7262,7 +7261,9 @@
         "citations": 11
       },
       "category": "datasets",
-      "tags": [],
+      "tags": [
+        "Advanced-Science"
+      ],
       "language": "Jupyter Notebook",
       "stars": 9,
       "pushedAt": "2026-09-20T01:36:28Z",
@@ -7324,7 +7325,7 @@
       "paper": "https://doi.org/10.1002/adma.202413523",
       "paperMeta": {
         "title": "SciAgents: Automating Scientific Discovery Through Bioinspired Multi‐Agent Intelligent Graph Reasoning",
-        "venue": "Advances in Materials",
+        "venue": "Advanced Materials",
         "doi": "10.1002/adma.202413523",
         "year": "2024.12",
         "authors": "Alireza Ghafarollahi, Markus J. Buehler",
@@ -7615,9 +7616,9 @@
       "paper": "https://www.nature.com/articles/s41592-023-02144-y",
       "paperMeta": {
         "title": "scPerturb: harmonized single-cell perturbation data",
-        "venue": "bioRxiv",
+        "venue": "Nature Methods",
         "doi": "10.1038/s41592-023-02144-y",
-        "year": "2023.01",
+        "year": "2024",
         "authors": "Stefan Peidli, Tessa D. Green, Ciyue Shen, Torsten Gross, Joseph K. Min, Samuele Garda, Bo Yuan, L. Schumacher, J. Taylor-King, D. Marks, Augustin Luna, N. Blüthgen, C. Sander",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.1038/s41592-023-02144-y",
@@ -7625,7 +7626,7 @@
       },
       "category": "datasets",
       "tags": [
-        "bioRxiv"
+        "Nature-Methods"
       ],
       "language": "Jupyter Notebook",
       "stars": 189,
@@ -7901,11 +7902,11 @@
       "repo": "ArcInstitute/SRAgent",
       "githubUrl": "https://github.com/ArcInstitute/SRAgent",
       "homepage": null,
-      "paper": "https://doi.org/10.1016/j.cell.2026.00998-0",
+      "paper": "https://doi.org/10.1016/j.cell.2026.08.025",
       "paperMeta": {
         "title": "scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository",
         "venue": "Cell",
-        "doi": "10.1016/j.cell.2026.00998-0",
+        "doi": "10.1016/j.cell.2026.08.025",
         "year": "2026.09",
         "authors": "Nicholas D. Youngblut, Christopher Carpenter, et al. (Hani Goodarzi, Yusuf H. Roohani)",
         "firstAuthor": "",
@@ -8014,7 +8015,7 @@
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.609",
       "paperMeta": {
         "title": "SURVEYFORGE : On the Outline Heuristics, Memory-Driven Generation, and Multi-dimensional Evaluation for Automated Survey Writing",
-        "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "venue": "ACL",
         "doi": "10.18653/v1/2025.acl-long.609",
         "year": "2025",
         "authors": "Xiangchao Yan, Shiyang Feng, Jiakang Yuan, Renqiu Xia, Bin Wang, Lei Bai, Bo Zhang",
@@ -8484,7 +8485,7 @@
       "paper": "https://doi.org/10.18653/v1/2025.acl-long.1368",
       "paperMeta": {
         "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "venue": "ACL",
         "doi": "10.18653/v1/2025.acl-long.1368",
         "year": "2025",
         "authors": "Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jin-Zhe Li, Biqing Qi, Qi Wu, Hui Li, Wan-Li Ouyang, Philip H. S. Torr, Bo-Wen Zhou, Nan-Qing Dong",
@@ -8554,9 +8555,9 @@
       "paper": "https://arxiv.org/abs/2504.21776",
       "paperMeta": {
         "title": "WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
-        "venue": "Neural Information Processing Systems",
+        "venue": "NeurIPS",
         "doi": "10.48550/arXiv.2504.21776",
-        "year": "2025.04",
+        "year": "2025",
         "authors": "Xiaoxi Li, Jiajie Jin, Guan-Ting Dong, Hong-Jin Qian, Yongkang Wu, Ji-Rong Wen, Yutao Zhu, Zhi-Cheng Dou",
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2504.21776",

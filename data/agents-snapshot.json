@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T09:13:44Z",
+  "generatedAt": "2026-10-01T09:26:57Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -204,6 +204,38 @@
         "firstAuthor": "",
         "paperUrl": "https://doi.org/10.48550/arXiv.2406.12708",
         "citations": 121
+      }
+    },
+    {
+      "slug": "agents",
+      "name": "agents",
+      "repo": "aiwaves-cn/agents",
+      "githubUrl": "https://github.com/aiwaves-cn/agents",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2309.07870",
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 5965,
+      "pushedAt": "2024-09-26T03:12:53Z",
+      "openIssues": 49,
+      "license": "Apache-2.0",
+      "description": "An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2309.07870",
+        "year": "2023.09",
+        "authors": "Wangchunshu Zhou, Y. Jiang, Long Li, Jialong Wu, Tiannan Wang, Shi Qiu, Jintian Zhang, Jing Chen, Rui-Pu Wu, Shuai Wang, Shiding Zhu, Jiyu Chen, Wen-Tao Zhang, Xiangru Tang, Ningyu Zhang, Hua-Jun Chen, Peng Cui, Mrinmaya Sachan",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2309.07870",
+        "citations": 151
       }
     },
     {
@@ -1601,6 +1633,38 @@
       "retiredStars": null
     },
     {
+      "slug": "camel",
+      "name": "camel",
+      "repo": "camel-ai/camel",
+      "githubUrl": "https://github.com/camel-ai/camel",
+      "homepage": "https://docs.camel-ai.org/",
+      "paper": "https://arxiv.org/abs/2303.17760",
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 17798,
+      "pushedAt": "2026-09-30T04:46:03Z",
+      "openIssues": 522,
+      "license": "Apache-2.0",
+      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2303.17760",
+        "year": "2023",
+        "authors": "G. Li, Hasan Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2303.17760",
+        "citations": 417
+      }
+    },
+    {
       "slug": "caribou",
       "name": "CARIBOU",
       "repo": "rose-research-group/CARIBOU",
@@ -1868,6 +1932,38 @@
       "sourceUrl": null,
       "retiredReason": "idle",
       "retiredStars": 2
+    },
+    {
+      "slug": "chatdev",
+      "name": "ChatDev",
+      "repo": "OpenBMB/ChatDev",
+      "githubUrl": "https://github.com/OpenBMB/ChatDev",
+      "homepage": "https://arxiv.org/abs/2307.07924",
+      "paper": "https://arxiv.org/abs/2307.07924",
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 34432,
+      "pushedAt": "2026-07-24T08:01:27Z",
+      "openIssues": 81,
+      "license": "Apache-2.0",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Communicative Agents for Software Development",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2307.07924",
+        "year": "2023",
+        "authors": "Cheng Qian, Wei Liu, Xin Cong, Cheng Yang, Weize Chen, Yusheng Su, Juyuan Xu, Zhi-Yuan Liu, Maosong Sun",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2307.07924",
+        "citations": 410
+      }
     },
     {
       "slug": "chatmoldata",
@@ -4764,6 +4860,38 @@
       "retiredStars": null
     },
     {
+      "slug": "mindstorm",
+      "name": "Mindstorm",
+      "repo": "metauto-ai/Mindstorm",
+      "githubUrl": "https://github.com/metauto-ai/Mindstorm",
+      "homepage": "https://arxiv.org/abs/2305.17066",
+      "paper": "https://arxiv.org/abs/2305.17066",
+      "category": "autonomous-research",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 82,
+      "pushedAt": "2025-03-11T07:18:27Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "description": "🧠 Societies of Mind & Economy of Minds",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Mindstorms in Natural Language-Based Societies of Mind",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2305.17066",
+        "year": "2023.05",
+        "authors": "",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2305.17066",
+        "citations": 1
+      }
+    },
+    {
       "slug": "mira",
       "name": "MIRA",
       "repo": "Dyke-F/MIRA",
@@ -5565,6 +5693,70 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "openagents",
+      "name": "OpenAgents",
+      "repo": "xlang-ai/OpenAgents",
+      "githubUrl": "https://github.com/xlang-ai/OpenAgents",
+      "homepage": "https://arxiv.org/abs/2310.10634",
+      "paper": "https://arxiv.org/abs/2310.10634",
+      "category": "platforms",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 4862,
+      "pushedAt": "2024-11-18T09:39:29Z",
+      "openIssues": 15,
+      "license": "Apache-2.0",
+      "description": "[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "OpenAgents: An Open Platform for Language Agents in the Wild",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2310.10634",
+        "year": "2023.10",
+        "authors": "Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng Shi, Luoxuan Weng, Yitao Liu, T. Hua, Jun Zhao, Qian Liu, Che Liu, Leo Liu, Yiheng Xu, Hongjin Su, Dongchan Shin, Cai-Ming Xiong, Tao Yu",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2310.10634",
+        "citations": 167
+      }
+    },
+    {
+      "slug": "openagi",
+      "name": "OpenAGI",
+      "repo": "agiresearch/OpenAGI",
+      "githubUrl": "https://github.com/agiresearch/OpenAGI",
+      "homepage": "https://docs.aios.foundation",
+      "paper": "https://arxiv.org/abs/2304.04370",
+      "category": "platforms",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 2287,
+      "pushedAt": "2024-11-28T15:48:29Z",
+      "openIssues": 10,
+      "license": "MIT",
+      "description": "OpenAGI: When LLM Meets Domain Experts",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "OpenAGI: When LLM Meets Domain Experts",
+        "venue": "Neural Information Processing Systems",
+        "doi": "10.48550/arXiv.2304.04370",
+        "year": "2023.04",
+        "authors": "Yingqiang Ge, Wenyue Hua, Kai Mei, Jianchao Ji, Juntao Tan, Shuyuan Xu, Zelong Li, Yongfeng Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2304.04370",
+        "citations": 371
+      }
     },
     {
       "slug": "openclaw",
@@ -7715,6 +7907,38 @@
       }
     },
     {
+      "slug": "suspicion-agent",
+      "name": "Suspicion-Agent",
+      "repo": "CR-Gjx/Suspicion-Agent",
+      "githubUrl": "https://github.com/CR-Gjx/Suspicion-Agent",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2309.17277",
+      "category": "others",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 167,
+      "pushedAt": "2023-11-08T08:02:01Z",
+      "openIssues": 1,
+      "license": null,
+      "description": "The implementation of \"Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4\"",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2309.17277",
+        "year": "2023.09",
+        "authors": "Jiaxian Guo, Bo Yang, Paul Yoo, Bill Yuchen Lin, Yusuke Iwasawa, Yutaka Matsuo",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2309.17277",
+        "citations": 86
+      }
+    },
+    {
       "slug": "tahoe-100m",
       "name": "Tahoe-100M",
       "repo": "huggingface.co/tahoebio/Tahoe-100M",
@@ -8107,6 +8331,36 @@
       }
     },
     {
+      "slug": "voyager",
+      "name": "Voyager",
+      "repo": "MineDojo/Voyager",
+      "githubUrl": "https://github.com/MineDojo/Voyager",
+      "homepage": "https://voyager.minedojo.org/",
+      "paper": "https://arxiv.org/abs/2305.16291",
+      "category": "platforms",
+      "tags": [],
+      "language": "JavaScript",
+      "stars": 7235,
+      "pushedAt": "2024-04-03T18:51:36Z",
+      "openIssues": 7,
+      "license": "MIT",
+      "description": "An Open-Ended Embodied Agent with Large Language Models",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01",
+      "paperMeta": {
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "venue": "Trans. Mach. Learn. Res.",
+        "doi": "10.48550/arXiv.2305.16291",
+        "year": "2023.05",
+        "authors": "Guanzhi Wang, Yuqi Xie, Yunfan Jiang, A. Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi (Jim) Fan, Anima Anandkumar",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2305.16291",
+        "citations": 2444
+      }
+    },
+    {
       "slug": "webthinker",
       "name": "WebThinker",
       "repo": "RUC-NLPIR/WebThinker",
@@ -8265,6 +8519,26 @@
       "listedAt": "2026-09-19"
     },
     {
+      "slug": "xagent",
+      "name": "XAgent",
+      "repo": "OpenBMB/XAgent",
+      "githubUrl": "https://github.com/OpenBMB/XAgent",
+      "homepage": "https://blog.x-agent.net/blog/xagent/",
+      "paper": null,
+      "category": "platforms",
+      "tags": [],
+      "language": "Python",
+      "stars": 8551,
+      "pushedAt": "2026-07-31T03:30:54Z",
+      "openIssues": 57,
+      "license": "Apache-2.0",
+      "description": "An Autonomous LLM Agent for Complex Task Solving",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-01"
+    },
+    {
       "slug": "xunzi",
       "name": "XunZi",
       "repo": "biocuckooHXH/XunZi",
@@ -8325,7 +8599,7 @@
     }
   ],
   "counts": {
-    "total": 276,
+    "total": 285,
     "gone": 1
   }
 }

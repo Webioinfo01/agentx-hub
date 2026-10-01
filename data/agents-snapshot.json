@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T03:45:15Z",
+  "generatedAt": "2026-10-01T04:03:53Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -53,7 +53,9 @@
         "citations": 15
       },
       "category": "reviews",
-      "tags": [],
+      "tags": [
+        "Innovation"
+      ],
       "language": null,
       "stars": 0,
       "pushedAt": null,

@@ -23,7 +23,7 @@
 
 AgentX 是一个追踪科研 AI agent 的社区网站：带实时 GitHub 指标的策展目录、来自真正用过这些工具的研究者的 Verified Run 实测评价、并排对比，以及月度生态报告。收录免费、人工编辑、只看匹配度 —— 与 star 数无关。
 
-**在线使用：<https://agentx.webioinfo.top/>** —— 本仓库是网站背后注册表的公开镜像；数据由内容管线自动同步，请勿直接修改本仓库中的数据文件（见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)）。
+**在线使用：<https://agentx.webioinfo.top/>** —— 本仓库是网站背后注册表的开源主场。
 
 ## 使用网站
 
@@ -127,7 +127,7 @@ Huang S, Lang M, Chen Z, Yang C, Huang X, et al. 2026. From foundation models to
 
 ## 开发
 
-本仓库是注册表的只读公开镜像，由内容管线自动同步：快照数据、`agentx` 技能和文档。请勿向本仓库提交 `data/` 的改动——下一次同步会将其覆盖。建议 agent、贡献评审或使用注册表的方式见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）；站点应用代码另行开发，不在本仓库。
+本仓库是注册表的开源主场：快照数据、`agentx` 技能和文档。维护者添加流水线和参与方式见 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)（英文）；站点应用代码另行开发，不在本仓库。
 
 ## 许可
 

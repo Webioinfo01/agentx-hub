@@ -27,9 +27,7 @@ researchers who actually used the tools, side-by-side comparison, and monthly
 ecosystem reports. Listing is free and editorial — based on fit, not stars.
 
 **Try it live: <https://agentx.webioinfo.top/>** — this repository is the
-public mirror of the registry behind the site. Registry data here is
-synced automatically, so please don't edit data files in this repository
-(see [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md)).
+open home of the registry behind the site.
 
 ## Using the site
 
@@ -188,11 +186,9 @@ Huang S, Lang M, Chen Z, Yang C, Huang X, et al. 2026. From foundation models to
 
 ## Development
 
-This repository is a read-only public mirror maintained by the registry's
-content pipeline: the snapshot, the `agentx` skill, and documentation are
-synced here automatically. Don't commit changes to `data/` in this
-repository — they will be overwritten by the next sync. How to suggest an
-agent, contribute reviews, or work with the registry is documented in
+This repository is the open home of the registry: the snapshot, the
+`agentx` skill, and documentation. The maintainer add pipeline and the
+contribution paths are documented in
 [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md); the site's application
 code is developed separately.
 

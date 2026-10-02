@@ -8,8 +8,7 @@ than any listing. For code and registry data, read on.
 
 ## What this repository is
 
-The public mirror of the AgentX registry, kept in sync automatically by
-the registry's content pipeline:
+The open home of the AgentX registry:
 
 - `data/agents-snapshot.json` — the registry itself: every agent record
   with provenance, refreshed daily from GitHub.
@@ -17,12 +16,10 @@ the registry's content pipeline:
   API (search, recommend, compare).
 - `docs/` — this guide and the [API reference](./API.md).
 
-This checkout is read-only: commits touching `data/` will be overwritten
-by the next sync, so don't hand-edit them here. Suggest new agents
-through the issue tracker (see below) — the maintainers apply them
-through the curation pipeline. The website's application code and the
-registry's write path live outside this repository; the `awescholar` CLI
-(`pip install awescholar`) remains the tool that maintainers use.
+The website's application code is developed in a separate private
+repository and is not part of this one. Everything a contributor needs to
+add or maintain registry records — the `awescholar` CLI
+(`pip install awescholar`) — works on any checkout of this repository.
 
 ## Engineering Taste
 

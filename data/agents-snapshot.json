@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:27:59Z",
+  "generatedAt": "2026-10-02T12:57:13.871Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -4291,7 +4291,7 @@
       "repo": "Snowflake-AI-Research/HybridDeepResearch",
       "githubUrl": "https://github.com/Snowflake-AI-Research/HybridDeepResearch",
       "homepage": null,
-      "paper": "https://arxiv.org/abs/2609.09410",
+      "paper": null,
       "category": "benchmarks",
       "tags": [
         "arXiv"
@@ -4306,16 +4306,7 @@
       "source": "manual",
       "sourceUrl": null,
       "listedAt": "2026-10-02",
-      "paperMeta": {
-        "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
-        "venue": "arXiv.org",
-        "doi": "10.48550/arXiv.2311.12022",
-        "year": "2023.11",
-        "authors": "David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael, Samuel R. Bowman",
-        "firstAuthor": "",
-        "paperUrl": "https://doi.org/10.48550/arXiv.2311.12022",
-        "citations": 3519
-      }
+      "paperMeta": null
     },
     {
       "slug": "hypothesis-generation",

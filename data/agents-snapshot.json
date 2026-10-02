@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:26:51Z",
+  "generatedAt": "2026-10-02T12:27:59Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -34,6 +34,28 @@
       "source": "awesome-ai-meets-biology",
       "sourceUrl": "https://github.com/Webioinfo01/Awesome-AI-Meets-Biology",
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "activescibench",
+      "name": "ActiveSciBench",
+      "repo": "scientific-discovery/LLM-AutoSciLab",
+      "githubUrl": "https://github.com/scientific-discovery/LLM-AutoSciLab",
+      "homepage": null,
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 6,
+      "pushedAt": "2026-10-01T16:55:37Z",
+      "openIssues": 1,
+      "license": null,
+      "description": "[NeurIPS 2026] LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
     },
     {
       "slug": "advancing-battery-research-through-large-language-models",
@@ -76,16 +98,6 @@
       "githubUrl": "https://github.com/THUDM/AgentBench",
       "homepage": null,
       "paper": "https://doi.org/10.48550/arXiv.2308.03688",
-      "paperMeta": {
-        "title": "AgentBench: Evaluating LLMs as Agents",
-        "venue": "ICLR",
-        "doi": "10.48550/arXiv.2308.03688",
-        "year": "2023.08",
-        "authors": "Xiao Liu, Hao Yu, Hanchen Zhang, Yi-Fan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Yu-Xian Gu, Han Ding, Kaiwen Men, Kejuan Yang, Shu-Dan Zhang, Xiang Deng, Ao-Han Zeng, Zheng-Xiao Du, Chenhui Zhang, Sheng-Qi Shen, Tianjun Zhang, Sheng Shen, Yu Su, Huan Sun, Minlie Huang, Yu-Xiao Dong, Jie Tang",
-        "firstAuthor": "Xiao Liu",
-        "paperUrl": "https://doi.org/10.48550/arXiv.2308.03688",
-        "citations": 1393
-      },
       "category": "benchmarks",
       "tags": [
         "Tsinghua",
@@ -95,16 +107,22 @@
       "stars": 3761,
       "pushedAt": "2026-02-08T17:01:05Z",
       "openIssues": 79,
-      "archived": false,
       "license": "Apache-2.0",
       "description": "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)",
-      "status": "stable",
-      "autoStableExempt": false,
+      "status": "stale",
       "source": "manual",
       "sourceUrl": null,
       "listedAt": "2026-10-02",
-      "retiredReason": null,
-      "retiredStars": null
+      "paperMeta": {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "venue": "ICLR",
+        "doi": "10.48550/arXiv.2308.03688",
+        "year": "2023.08",
+        "authors": "Xiao Liu, Hao Yu, Hanchen Zhang, Yi-Fan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Yu-Xian Gu, Han Ding, Kaiwen Men, Kejuan Yang, Shu-Dan Zhang, Xiang Deng, Ao-Han Zeng, Zheng-Xiao Du, Chenhui Zhang, Sheng-Qi Shen, Tianjun Zhang, Sheng Shen, Yu Su, Huan Sun, Minlie Huang, Yu-Xiao Dong, Jie Tang",
+        "firstAuthor": "Xiao Liu",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2308.03688",
+        "citations": 1393
+      }
     },
     {
       "slug": "agentlaboratory",
@@ -129,7 +147,7 @@
         "EMNLP-Findings"
       ],
       "language": "Python",
-      "stars": 5879,
+      "stars": 5876,
       "pushedAt": "2025-08-20T21:46:43Z",
       "openIssues": 61,
       "archived": false,
@@ -234,7 +252,7 @@
         "EMNLP"
       ],
       "language": "Jupyter Notebook",
-      "stars": 508,
+      "stars": 503,
       "pushedAt": "2026-05-10T21:39:43Z",
       "openIssues": 1,
       "archived": false,
@@ -244,9 +262,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "agents",
@@ -280,9 +298,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "agentteams",
@@ -297,9 +315,9 @@
         "Alibaba"
       ],
       "language": "Go",
-      "stars": 5693,
+      "stars": 5687,
       "pushedAt": "2026-09-23T06:25:55Z",
-      "openIssues": 246,
+      "openIssues": 227,
       "archived": false,
       "license": "Apache-2.0",
       "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
@@ -370,7 +388,7 @@
         "arXiv"
       ],
       "language": "Jupyter Notebook",
-      "stars": 14648,
+      "stars": 14646,
       "pushedAt": "2025-12-19T07:46:21Z",
       "openIssues": 121,
       "archived": false,
@@ -407,7 +425,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 7255,
+      "stars": 7250,
       "pushedAt": "2025-12-19T07:46:32Z",
       "openIssues": 79,
       "archived": false,
@@ -545,7 +563,7 @@
         "Claude-Code"
       ],
       "language": "Python",
-      "stars": 16894,
+      "stars": 16865,
       "pushedAt": "2026-09-29T05:26:25Z",
       "openIssues": 69,
       "archived": false,
@@ -616,7 +634,7 @@
         "ACL-Findings"
       ],
       "language": "Python",
-      "stars": 1748,
+      "stars": 1749,
       "pushedAt": "2025-10-16T06:38:48Z",
       "openIssues": 33,
       "archived": false,
@@ -746,9 +764,31 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
+    },
+    {
+      "slug": "automedbench",
+      "name": "AutoMedBench",
+      "repo": "AutoMedBench/AutoMedBench",
+      "githubUrl": "https://github.com/AutoMedBench/AutoMedBench",
+      "homepage": null,
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": null,
+      "stars": 62,
+      "pushedAt": "2026-07-09T13:03:35Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "description": "MedAutoBench — Medical AutoResearch Benchmark for Autonomous AI Agents",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
     },
     {
       "slug": "autoresearch",
@@ -763,7 +803,7 @@
         "Karpathy"
       ],
       "language": "Python",
-      "stars": 97138,
+      "stars": 97090,
       "pushedAt": "2026-03-26T00:07:37Z",
       "openIssues": 195,
       "archived": false,
@@ -813,7 +853,7 @@
         "Claude-Code"
       ],
       "language": "Shell",
-      "stars": 6504,
+      "stars": 6500,
       "pushedAt": "2026-08-12T22:28:18Z",
       "openIssues": 6,
       "archived": false,
@@ -837,7 +877,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 14565,
+      "stars": 14570,
       "pushedAt": "2026-08-19T03:35:13Z",
       "openIssues": 14,
       "archived": false,
@@ -882,9 +922,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "avatar",
@@ -918,9 +958,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "avoiding-common-failures-in-ai-for-health",
@@ -977,7 +1017,7 @@
       "tags": [],
       "language": null,
       "stars": 40,
-      "pushedAt": "2026-10-02T03:19:27Z",
+      "pushedAt": "2026-10-01T08:33:04Z",
       "openIssues": 0,
       "archived": false,
       "license": "MPL-2.0",
@@ -1046,9 +1086,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 270,
-      "pushedAt": "2026-10-02T08:22:59Z",
-      "openIssues": 174,
+      "stars": 268,
+      "pushedAt": "2026-10-01T07:24:47Z",
+      "openIssues": 171,
       "archived": false,
       "license": "MIT",
       "description": "Track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.",
@@ -1158,12 +1198,10 @@
       "archived": true,
       "license": null,
       "description": "BioAgents: An AI scientist framework for autonomous deep research in biological sciences. Multi-agent system combining literature analysis agents with data scientist agents to enable deep research automation through user feedback integration and iterative scientific discovery. Inspired by advances in Edison Kosmos, Sakana AI, K-Dense and others.",
-      "status": "gone",
+      "status": "active",
       "autoStableExempt": false,
       "source": "claw4science.org",
-      "sourceUrl": "https://claw4science.org",
-      "retiredReason": "owner-archived",
-      "retiredStars": 184
+      "sourceUrl": "https://claw4science.org"
     },
     {
       "slug": "biobrain",
@@ -1476,7 +1514,7 @@
         "Science"
       ],
       "language": "Python",
-      "stars": 3934,
+      "stars": 3929,
       "pushedAt": "2026-09-28T19:18:11Z",
       "openIssues": 118,
       "archived": false,
@@ -1545,9 +1583,9 @@
         "NVIDIA"
       ],
       "language": "Python",
-      "stars": 861,
-      "pushedAt": "2026-10-01T16:58:42Z",
-      "openIssues": 246,
+      "stars": 862,
+      "pushedAt": "2026-10-01T04:08:58Z",
+      "openIssues": 247,
       "archived": false,
       "license": null,
       "description": "BioNeMo Recipes: For building and adapting AI models in drug discovery at scale",
@@ -1712,9 +1750,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 17803,
+      "stars": 17798,
       "pushedAt": "2026-09-30T04:46:03Z",
-      "openIssues": 526,
+      "openIssues": 522,
       "archived": false,
       "license": "Apache-2.0",
       "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
@@ -1722,9 +1760,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "caribou",
@@ -1918,7 +1956,7 @@
         "Nature-Methods"
       ],
       "language": "Python",
-      "stars": 265,
+      "stars": 264,
       "pushedAt": "2026-06-02T18:18:33Z",
       "openIssues": 8,
       "archived": false,
@@ -1955,7 +1993,7 @@
         "Nature-Biotechnology"
       ],
       "language": "Jupyter Notebook",
-      "stars": 222,
+      "stars": 221,
       "pushedAt": "2026-05-12T17:27:29Z",
       "openIssues": 0,
       "archived": false,
@@ -2027,9 +2065,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "chatmoldata",
@@ -2168,7 +2206,7 @@
       ],
       "language": "Python",
       "stars": 161,
-      "pushedAt": "2026-10-01T19:46:03Z",
+      "pushedAt": "2026-10-01T06:34:40Z",
       "openIssues": 26,
       "archived": false,
       "license": "Apache-2.0",
@@ -2191,7 +2229,7 @@
       "category": "literature-writing",
       "tags": [],
       "language": "Python",
-      "stars": 308,
+      "stars": 313,
       "pushedAt": "2026-08-18T01:44:45Z",
       "openIssues": 2,
       "archived": false,
@@ -2240,7 +2278,7 @@
       "tags": [],
       "language": "Python",
       "stars": 778,
-      "pushedAt": "2026-10-02T09:43:38Z",
+      "pushedAt": "2026-10-01T10:05:46Z",
       "openIssues": 8,
       "archived": false,
       "license": "MIT",
@@ -2298,7 +2336,7 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 912,
+      "stars": 904,
       "pushedAt": "2026-09-20T05:45:35Z",
       "openIssues": 52,
       "archived": false,
@@ -2322,9 +2360,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Python",
-      "stars": 1149,
-      "pushedAt": "2026-10-02T08:47:11Z",
-      "openIssues": 47,
+      "stars": 1150,
+      "pushedAt": "2026-10-01T09:03:13Z",
+      "openIssues": 44,
       "archived": false,
       "license": "MIT",
       "description": "🦖 ClawBio - The first bioinformatics-native AI agent skill library. Local-first. Reproducible. Open. Free.",
@@ -2346,7 +2384,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 4168,
+      "stars": 4166,
       "pushedAt": "2026-08-27T02:55:53Z",
       "openIssues": 258,
       "archived": false,
@@ -2395,8 +2433,8 @@
       "tags": [],
       "language": "Go",
       "stars": 1898,
-      "pushedAt": "2026-10-02T07:28:14Z",
-      "openIssues": 23,
+      "pushedAt": "2026-10-01T07:40:49Z",
+      "openIssues": 22,
       "archived": false,
       "license": "MIT",
       "description": "A Kubernetes-native control plane for AI agent instance management, with governed AI access, runtime orchestration, and reusable resources across multiple agent runtimes.",
@@ -2553,7 +2591,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 1458,
+      "stars": 1459,
       "pushedAt": "2026-07-03T18:24:33Z",
       "openIssues": 4,
       "archived": false,
@@ -2698,9 +2736,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "coscientist",
@@ -2734,9 +2772,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "crest",
@@ -2770,9 +2808,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "crisp",
@@ -2806,9 +2844,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "crispr-gpt",
@@ -2880,9 +2918,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "darwin",
@@ -2956,8 +2994,8 @@
       "tags": [],
       "language": "Python",
       "stars": 1810,
-      "pushedAt": "2026-10-01T18:33:26Z",
-      "openIssues": 0,
+      "pushedAt": "2026-09-28T20:38:04Z",
+      "openIssues": 9,
       "archived": false,
       "license": "MIT",
       "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
@@ -3001,9 +3039,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "deepanalyze",
@@ -3037,9 +3075,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "deepresearch",
@@ -3064,7 +3102,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 20003,
+      "stars": 20005,
       "pushedAt": "2026-02-27T13:12:11Z",
       "openIssues": 96,
       "archived": false,
@@ -3099,7 +3137,7 @@
         "ICLR"
       ],
       "language": "TypeScript",
-      "stars": 3349,
+      "stars": 3347,
       "pushedAt": "2026-06-28T16:39:26Z",
       "openIssues": 16,
       "archived": false,
@@ -3123,7 +3161,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "JavaScript",
-      "stars": 1148,
+      "stars": 1147,
       "pushedAt": "2026-09-17T18:45:41Z",
       "openIssues": 19,
       "archived": false,
@@ -3349,9 +3387,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "dxdirector",
@@ -3385,9 +3423,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "eas-diagnosis",
@@ -3462,7 +3500,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 16965,
+      "stars": 16958,
       "pushedAt": "2026-09-28T02:33:22Z",
       "openIssues": 13,
       "archived": false,
@@ -3615,9 +3653,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 4957,
-      "pushedAt": "2026-10-01T12:59:21Z",
-      "openIssues": 66,
+      "stars": 5024,
+      "pushedAt": "2026-10-01T09:39:13Z",
+      "openIssues": 63,
       "archived": false,
       "license": "Apache-2.0",
       "description": "🔬 Harness Vibe Research with Self-evolving AI Scientists",
@@ -3639,7 +3677,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 3042,
+      "stars": 3041,
       "pushedAt": "2026-09-05T00:55:34Z",
       "openIssues": 147,
       "archived": false,
@@ -3766,9 +3804,31 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
+    },
+    {
+      "slug": "geneb",
+      "name": "GENEB",
+      "repo": "darlednik/GENEB",
+      "githubUrl": "https://github.com/darlednik/GENEB",
+      "homepage": null,
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 46,
+      "pushedAt": "2026-08-22T16:55:36Z",
+      "openIssues": 0,
+      "license": "Apache-2.0",
+      "description": "GENEB: ICML 2026 benchmark for genomic foundation models across 100 tasks and 13 functional categories.",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
     },
     {
       "slug": "geneclaw",
@@ -3827,6 +3887,38 @@
       "listedAt": "2026-09-19"
     },
     {
+      "slug": "gpqa",
+      "name": "GPQA",
+      "repo": "idavidrein/gpqa",
+      "githubUrl": "https://github.com/idavidrein/gpqa",
+      "homepage": "https://arxiv.org/abs/2311.12022",
+      "paper": "https://arxiv.org/abs/2311.12022",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 540,
+      "pushedAt": "2024-09-30T21:12:05Z",
+      "openIssues": 10,
+      "license": "MIT",
+      "description": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "SciMaster: Towards General-Purpose Scientific AI Agents, Part I. X-Master as Foundation: Can We Lead on Humanity's Last Exam?",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2507.05241",
+        "year": "2025.07",
+        "authors": "Jingyi Chai, Shuo Tang, Rui Ye, Yuwen Du, Xinyu Zhu, Meng Zhou, Yanfeng Wang, E. Weinan, Yuzhi Zhang, Lin-Feng Zhang, Si-Heng Chen",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2507.05241",
+        "citations": 45
+      }
+    },
+    {
       "slug": "gpt-researcher",
       "name": "gpt-researcher",
       "repo": "assafelovic/gpt-researcher",
@@ -3837,9 +3929,9 @@
       "category": "literature-writing",
       "tags": [],
       "language": "Python",
-      "stars": 29869,
-      "pushedAt": "2026-10-01T19:33:35Z",
-      "openIssues": 21,
+      "stars": 29857,
+      "pushedAt": "2026-09-26T17:46:25Z",
+      "openIssues": 20,
       "archived": false,
       "license": "Apache-2.0",
       "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
@@ -3847,9 +3939,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "gptbioinsightor",
@@ -3958,6 +4050,20 @@
       "githubUrl": "https://github.com/harbor-framework/harbor",
       "homepage": "https://harborframework.com/",
       "paper": "https://doi.org/10.48550/arXiv.2609.04298",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 5765,
+      "pushedAt": "2026-10-01T15:35:19Z",
+      "openIssues": 969,
+      "license": "Apache-2.0",
+      "description": "Framework for evaluating and improving agents ",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
         "venue": "arXiv",
@@ -3967,25 +4073,30 @@
         "firstAuthor": "Lin Shi",
         "paperUrl": "https://doi.org/10.48550/arXiv.2609.04298",
         "citations": 1
-      },
+      }
+    },
+    {
+      "slug": "healthagentbench",
+      "name": "HealthAgentBench",
+      "repo": "microsoft/HealthAgentBench",
+      "githubUrl": "https://github.com/microsoft/HealthAgentBench",
+      "homepage": null,
+      "paper": null,
       "category": "benchmarks",
       "tags": [
+        "Microsoft",
         "arXiv"
       ],
       "language": "Python",
-      "stars": 5785,
-      "pushedAt": "2026-10-01T15:35:19Z",
-      "openIssues": 973,
-      "archived": false,
-      "license": "Apache-2.0",
-      "description": "Framework for evaluating and improving agents ",
+      "stars": 54,
+      "pushedAt": "2026-10-02T05:45:13Z",
+      "openIssues": 24,
+      "license": "MIT",
+      "description": null,
       "status": "active",
-      "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-02",
-      "retiredReason": null,
-      "retiredStars": null
+      "listedAt": "2026-10-02"
     },
     {
       "slug": "healthclaw",
@@ -3998,7 +4109,7 @@
       "category": "clinical-health",
       "tags": [],
       "language": "Python",
-      "stars": 130,
+      "stars": 151,
       "pushedAt": "2026-07-27T08:28:47Z",
       "openIssues": 1,
       "archived": false,
@@ -4059,9 +4170,9 @@
         "Nous-Research"
       ],
       "language": "Python",
-      "stars": 250676,
-      "pushedAt": "2026-10-02T09:51:43Z",
-      "openIssues": 48324,
+      "stars": 250449,
+      "pushedAt": "2026-10-01T10:07:45Z",
+      "openIssues": 47694,
       "archived": false,
       "license": "MIT",
       "description": "The agent that grows with you",
@@ -4116,16 +4227,6 @@
       "githubUrl": "https://github.com/princeton-pli/hal-harness",
       "homepage": null,
       "paper": "https://doi.org/10.48550/arXiv.2510.11977",
-      "paperMeta": {
-        "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
-        "venue": "ICLR",
-        "doi": "10.48550/arXiv.2510.11977",
-        "year": "2025.10",
-        "authors": "Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S. Siegel, Boyi Wei, Tianci Xue, Zi-Ru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, Bo-Tao Yu, Amit Arora, Dongyoon Hahm, H. Trivedi, Huan Sun, Ju-Yong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, D. Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan",
-        "firstAuthor": "Sayash Kapoor",
-        "paperUrl": "https://doi.org/10.48550/arXiv.2510.11977",
-        "citations": 81
-      },
       "category": "benchmarks",
       "tags": [
         "Princeton",
@@ -4135,16 +4236,86 @@
       "stars": 311,
       "pushedAt": "2026-07-01T16:40:48Z",
       "openIssues": 3,
-      "archived": true,
       "license": null,
       "description": null,
-      "status": "gone",
-      "autoStableExempt": false,
+      "status": "active",
       "source": "manual",
       "sourceUrl": null,
       "listedAt": "2026-10-02",
-      "retiredReason": "owner-archived",
-      "retiredStars": 311
+      "paperMeta": {
+        "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+        "venue": "ICLR",
+        "doi": "10.48550/arXiv.2510.11977",
+        "year": "2025.10",
+        "authors": "Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S. Siegel, Boyi Wei, Tianci Xue, Zi-Ru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, Bo-Tao Yu, Amit Arora, Dongyoon Hahm, H. Trivedi, Huan Sun, Ju-Yong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, D. Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan",
+        "firstAuthor": "Sayash Kapoor",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2510.11977",
+        "citations": 81
+      }
+    },
+    {
+      "slug": "humanity-s-last-exam",
+      "name": "Humanity's Last Exam",
+      "repo": "centerforaisafety/hle",
+      "githubUrl": "https://github.com/centerforaisafety/hle",
+      "homepage": "https://lastexam.ai",
+      "paper": "https://arxiv.org/abs/2501.14249",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 1707,
+      "pushedAt": "2026-09-23T15:38:48Z",
+      "openIssues": 10,
+      "license": "MIT",
+      "description": "Humanity's Last Exam",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "Benchmarking Hybrid Deep Research Across Database Querying and Web Search",
+        "venue": "arXiv",
+        "doi": "10.48550/arXiv.2609.09410",
+        "year": "2026.09",
+        "authors": "Ruo-Fan Wu, Pei-Ran Xu, Xiao-Long Li, Fan-Yuan Shu, Soyoung Yoon, Yi-Te Wang, Xiaodong Yu, Bo-Yi Liu, Feng Yan, De-Biao Li, Yuxiong He, Zhe-Wei Yao",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2609.09410",
+        "citations": 0
+      }
+    },
+    {
+      "slug": "hybriddeepresearch",
+      "name": "HybridDeepResearch",
+      "repo": "Snowflake-AI-Research/HybridDeepResearch",
+      "githubUrl": "https://github.com/Snowflake-AI-Research/HybridDeepResearch",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2609.09410",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 2,
+      "pushedAt": "2026-09-22T18:39:07Z",
+      "openIssues": 0,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2311.12022",
+        "year": "2023.11",
+        "authors": "David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael, Samuel R. Bowman",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2311.12022",
+        "citations": 3519
+      }
     },
     {
       "slug": "hypothesis-generation",
@@ -4178,9 +4349,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "ian",
@@ -4317,9 +4488,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 12637,
+      "stars": 12638,
       "pushedAt": "2026-10-01T02:54:24Z",
-      "openIssues": 1538,
+      "openIssues": 1537,
       "archived": false,
       "license": "Apache-2.0",
       "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
@@ -4353,12 +4524,12 @@
       ],
       "language": "Python",
       "stars": 592,
-      "pushedAt": "2026-10-02T05:28:44Z",
+      "pushedAt": "2026-04-04T08:03:48Z",
       "openIssues": 2,
       "archived": false,
       "license": null,
       "description": "Kosmos: An AI Scientist for Autonomous Discovery - An implementation and adaptation to be driven by Claude Code or API - Based on the Kosmos AI Paper -  https://arxiv.org/abs/2511.02824",
-      "status": "active",
+      "status": "stale",
       "autoStableExempt": false,
       "source": "claw4science.org",
       "sourceUrl": "https://claw4science.org",
@@ -4379,7 +4550,7 @@
         "Stanford"
       ],
       "language": null,
-      "stars": 1053,
+      "stars": 1052,
       "pushedAt": "2026-03-19T06:37:52Z",
       "openIssues": 4,
       "archived": false,
@@ -4650,9 +4821,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "matclaw",
@@ -4705,6 +4876,28 @@
       "retiredStars": null
     },
     {
+      "slug": "mcp-atlas",
+      "name": "MCP Atlas",
+      "repo": "scaleapi/mcp-atlas",
+      "githubUrl": "https://github.com/scaleapi/mcp-atlas",
+      "homepage": null,
+      "paper": "https://arxiv.org/html/2602.00933",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 157,
+      "pushedAt": "2026-10-01T19:04:33Z",
+      "openIssues": 32,
+      "license": "MIT",
+      "description": "MCP Atlas",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
+    },
+    {
       "slug": "mdcrow",
       "name": "MDCrow",
       "repo": "ur-whitelab/MDCrow",
@@ -4727,6 +4920,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "medagents-bench",
+      "name": "MedAgents-Bench",
+      "repo": "gersteinlab/MedicalAgentsBench",
+      "githubUrl": "https://github.com/gersteinlab/MedicalAgentsBench",
+      "homepage": "https://arxiv.org/abs/2503.07459",
+      "paper": "https://arxiv.org/abs/2503.07459",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Jupyter Notebook",
+      "stars": 87,
+      "pushedAt": "2026-08-18T07:45:44Z",
+      "openIssues": 8,
+      "license": "MIT",
+      "description": "[Patterns] MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2503.07459",
+        "year": "2025",
+        "authors": "Xiangru Tang, Daniel Shao, Jiwoong Sohn, Jiapeng Chen, Jiayi Zhang, Jinyu Xiang, Fang Wu, Yilun Zhao, Chenglin Wu, Wenqi Shi, Arman Cohan, Mark Gerstein",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2503.07459",
+        "citations": 12
+      }
     },
     {
       "slug": "medclaw-paulzhang",
@@ -4811,7 +5036,7 @@
       "category": "bio-omics",
       "tags": [],
       "language": "TeX",
-      "stars": 615,
+      "stars": 641,
       "pushedAt": "2026-03-12T07:34:39Z",
       "openIssues": 6,
       "archived": false,
@@ -4951,7 +5176,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 3459,
+      "stars": 3493,
       "pushedAt": "2026-06-07T04:57:05Z",
       "openIssues": 17,
       "archived": false,
@@ -5046,9 +5271,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 743,
-      "pushedAt": "2026-10-01T17:15:39Z",
-      "openIssues": 8,
+      "stars": 742,
+      "pushedAt": "2026-10-01T06:26:47Z",
+      "openIssues": 3,
       "archived": false,
       "license": "MIT",
       "description": "🦀An agentic AI assistant that lives in your chats, inspired by nanoclaw and incorporating some of its design ideas. Built with Rust 🦀",
@@ -5091,9 +5316,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "mira",
@@ -5166,6 +5391,38 @@
       "retiredReason": null,
       "retiredStars": null,
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "mle-bench",
+      "name": "MLE-bench",
+      "repo": "openai/mle-bench",
+      "githubUrl": "https://github.com/openai/mle-bench",
+      "homepage": "https://openai.com/index/mle-bench/",
+      "paper": "https://arxiv.org/abs/2410.07095",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 1764,
+      "pushedAt": "2026-04-24T17:33:44Z",
+      "openIssues": 13,
+      "license": "MIT",
+      "description": "MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2410.07095",
+        "year": "2024.10",
+        "authors": "Jun Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, E. Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng, Aleksander Madry",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2410.07095",
+        "citations": 443
+      }
     },
     {
       "slug": "mllmcelltype",
@@ -5261,9 +5518,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "multi-agent-ai-systems-for-bio-clinical-analysis",
@@ -5310,9 +5567,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "Go",
-      "stars": 51845,
-      "pushedAt": "2026-10-01T10:21:08Z",
-      "openIssues": 1749,
+      "stars": 51779,
+      "pushedAt": "2026-10-01T10:01:12Z",
+      "openIssues": 1739,
       "archived": false,
       "license": null,
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
@@ -5407,9 +5664,9 @@
         "MCP"
       ],
       "language": "Python",
-      "stars": 48744,
-      "pushedAt": "2026-10-02T06:14:24Z",
-      "openIssues": 816,
+      "stars": 48711,
+      "pushedAt": "2026-10-01T10:05:00Z",
+      "openIssues": 810,
       "archived": false,
       "license": "MIT",
       "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
@@ -5431,9 +5688,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 30868,
-      "pushedAt": "2026-10-01T21:19:11Z",
-      "openIssues": 1084,
+      "stars": 30865,
+      "pushedAt": "2026-10-01T08:07:08Z",
+      "openIssues": 1101,
       "archived": false,
       "license": "MIT",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
@@ -5455,7 +5712,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 1337,
+      "stars": 1369,
       "pushedAt": "2026-08-25T09:28:09Z",
       "openIssues": 7,
       "archived": false,
@@ -5481,9 +5738,9 @@
         "NVIDIA"
       ],
       "language": "TypeScript",
-      "stars": 22638,
-      "pushedAt": "2026-10-02T09:39:02Z",
-      "openIssues": 748,
+      "stars": 22624,
+      "pushedAt": "2026-10-01T10:05:41Z",
+      "openIssues": 761,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
@@ -5509,7 +5766,7 @@
       "language": "Python",
       "stars": 155,
       "pushedAt": "2026-09-16T22:17:29Z",
-      "openIssues": 56,
+      "openIssues": 55,
       "archived": false,
       "license": "Apache-2.0",
       "description": "AI Scientist by Chicago Human+AI Lab",
@@ -5534,7 +5791,7 @@
       ],
       "language": "Python",
       "stars": 91,
-      "pushedAt": "2026-10-01T18:12:03Z",
+      "pushedAt": "2026-09-29T20:43:29Z",
       "openIssues": 0,
       "archived": false,
       "license": "MIT",
@@ -5568,7 +5825,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 408,
+      "stars": 407,
       "pushedAt": "2025-08-07T16:45:26Z",
       "openIssues": 9,
       "archived": false,
@@ -5578,9 +5835,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "nsclc-virtual-tumor",
@@ -5627,7 +5884,7 @@
       "category": "platforms",
       "tags": [],
       "language": "Zig",
-      "stars": 8104,
+      "stars": 8103,
       "pushedAt": "2026-09-27T06:27:45Z",
       "openIssues": 67,
       "archived": false,
@@ -5747,7 +6004,7 @@
         "bioRxiv"
       ],
       "language": "Python",
-      "stars": 1215,
+      "stars": 1213,
       "pushedAt": "2026-09-23T05:34:16Z",
       "openIssues": 10,
       "archived": false,
@@ -5893,7 +6150,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "TypeScript",
-      "stars": 6974,
+      "stars": 6972,
       "pushedAt": "2026-10-01T04:07:28Z",
       "openIssues": 6,
       "archived": false,
@@ -5938,9 +6195,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "openagi",
@@ -5974,9 +6231,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "openclaw",
@@ -5989,9 +6246,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 391193,
-      "pushedAt": "2026-10-02T09:51:26Z",
-      "openIssues": 9156,
+      "stars": 391102,
+      "pushedAt": "2026-10-01T10:14:09Z",
+      "openIssues": 9137,
       "archived": false,
       "license": "MIT",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
@@ -6039,13 +6296,13 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 15909,
+      "stars": 15901,
       "pushedAt": "2026-06-04T02:42:40Z",
       "openIssues": 92,
       "archived": false,
       "license": "MIT",
       "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
-      "status": "stale",
+      "status": "active",
       "autoStableExempt": false,
       "source": "claw4science.org",
       "sourceUrl": "https://claw4science.org",
@@ -6099,9 +6356,9 @@
         "JCST"
       ],
       "language": "TypeScript",
-      "stars": 39793,
-      "pushedAt": "2026-10-02T08:44:55Z",
-      "openIssues": 180,
+      "stars": 39712,
+      "pushedAt": "2026-10-01T09:36:15Z",
+      "openIssues": 177,
       "archived": false,
       "license": "MIT",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
@@ -6125,7 +6382,7 @@
         "TIGER-AI-Lab"
       ],
       "language": "Python",
-      "stars": 1255,
+      "stars": 1254,
       "pushedAt": "2026-06-10T17:32:58Z",
       "openIssues": 5,
       "archived": false,
@@ -6149,9 +6406,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 3896,
-      "pushedAt": "2026-10-02T09:43:31Z",
-      "openIssues": 6,
+      "stars": 3879,
+      "pushedAt": "2026-10-01T01:16:26Z",
+      "openIssues": 42,
       "archived": false,
       "license": "Apache-2.0",
       "description": "The open-source AI workbench for scientific research",
@@ -6175,7 +6432,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 7740,
+      "stars": 7741,
       "pushedAt": "2026-08-12T15:21:07Z",
       "openIssues": 53,
       "archived": false,
@@ -6257,6 +6514,20 @@
       "githubUrl": "https://github.com/xlang-ai/OSWorld",
       "homepage": "https://os-world.github.io",
       "paper": "https://doi.org/10.48550/arXiv.2404.07972",
+      "category": "benchmarks",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 3170,
+      "pushedAt": "2026-09-14T16:08:47Z",
+      "openIssues": 211,
+      "license": "Apache-2.0",
+      "description": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
         "venue": "NeurIPS",
@@ -6266,25 +6537,7 @@
         "firstAuthor": "Tianbao Xie",
         "paperUrl": "https://doi.org/10.48550/arXiv.2404.07972",
         "citations": 1261
-      },
-      "category": "benchmarks",
-      "tags": [
-        "NeurIPS"
-      ],
-      "language": "Python",
-      "stars": 3170,
-      "pushedAt": "2026-09-14T16:08:47Z",
-      "openIssues": 211,
-      "archived": false,
-      "license": "Apache-2.0",
-      "description": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
-      "status": "active",
-      "autoStableExempt": false,
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
-      "retiredReason": null,
-      "retiredStars": null
+      }
     },
     {
       "slug": "pantheonos",
@@ -6301,7 +6554,7 @@
       "language": "Python",
       "stars": 488,
       "pushedAt": "2026-09-30T03:51:06Z",
-      "openIssues": 25,
+      "openIssues": 24,
       "archived": false,
       "license": "BSD-2-Clause",
       "description": "A general, evolvable, and distributed agent framework & harness for data science.",
@@ -6336,7 +6589,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 3631,
+      "stars": 3621,
       "pushedAt": "2026-09-17T16:56:07Z",
       "openIssues": 0,
       "archived": false,
@@ -6382,9 +6635,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "paper_claw-pigeondan1",
@@ -6400,7 +6653,7 @@
       ],
       "language": "Python",
       "stars": 38,
-      "pushedAt": "2026-10-02T06:21:20Z",
+      "pushedAt": "2026-10-01T06:37:54Z",
       "openIssues": 1,
       "archived": false,
       "license": "MIT",
@@ -6411,6 +6664,39 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "paperbench",
+      "name": "PaperBench",
+      "repo": "openai/frontier-evals",
+      "githubUrl": "https://github.com/openai/frontier-evals",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2504.01848",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv",
+        "ICML"
+      ],
+      "language": "Python",
+      "stars": 1304,
+      "pushedAt": "2026-04-21T20:53:31Z",
+      "openIssues": 71,
+      "license": "MIT",
+      "description": "OpenAI Frontier Evals",
+      "status": "stable",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+        "venue": "International Conference on Machine Learning",
+        "doi": "10.48550/arXiv.2504.01848",
+        "year": "2025.04",
+        "authors": "Giulio Starace, Oliver Jaffe, Dane Sherburn, James Aung, Jun Shern Chan, Leon Maksin, Rachel Dias, E. Mays, Benjamin Kinsella, Wyatt Thompson, Johannes Heidecke, Amelia Glaese, Tejal Patwardhan",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2504.01848",
+        "citations": 302
+      }
     },
     {
       "slug": "paperclaw-0xmerl99",
@@ -6581,6 +6867,38 @@
       "retiredStars": 141
     },
     {
+      "slug": "patientagentbench",
+      "name": "PatientAgentBench",
+      "repo": "amazon-science/PatientAgentBench",
+      "githubUrl": "https://github.com/amazon-science/PatientAgentBench",
+      "homepage": "https://arxiv.org/abs/2607.25485",
+      "paper": "https://arxiv.org/abs/2607.25485",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 30,
+      "pushedAt": "2026-09-19T00:40:28Z",
+      "openIssues": 2,
+      "license": null,
+      "description": "PatientAgentBench: A Benchmark Framework for Evaluating Patient-Facing Health AI Agents",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "PatientAgentBench: A Benchmark Framework for Evaluating Patient-Facing Health AI Agents",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2607.25485",
+        "year": "2026.07",
+        "authors": "Korosh Vatanparvar, Ashutosh Joshi, Maria Xenochristou, M. Hashemi, Prasad Kasu, D. Bansal, Daniel Lopez-Martinez, Anchal Nema, Ramya Ganesan, Will Kimbrough, Alex Woody, Yadunandana Rao, Dilek Hakkani-Tur, Wilko Schulz-Mahlendorf",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2607.25485",
+        "citations": 1
+      }
+    },
+    {
       "slug": "pepti-agent",
       "name": "Pepti-Agent",
       "repo": "BioTender-max/peptide-agent",
@@ -6626,9 +6944,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 111512,
-      "pushedAt": "2026-10-02T09:40:14Z",
-      "openIssues": 256,
+      "stars": 110890,
+      "pushedAt": "2026-10-01T09:37:03Z",
+      "openIssues": 244,
       "archived": false,
       "license": "MIT",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
@@ -6650,7 +6968,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 8141,
+      "stars": 8138,
       "pushedAt": "2026-09-10T09:28:22Z",
       "openIssues": 10,
       "archived": false,
@@ -6674,7 +6992,7 @@
       "category": "platforms",
       "tags": [],
       "language": "Go",
-      "stars": 30026,
+      "stars": 30028,
       "pushedAt": "2026-09-24T17:14:08Z",
       "openIssues": 59,
       "archived": false,
@@ -6757,9 +7075,9 @@
         "EMNLP"
       ],
       "language": "Python",
-      "stars": 5081,
+      "stars": 5078,
       "pushedAt": "2026-09-28T21:30:54Z",
-      "openIssues": 17,
+      "openIssues": 16,
       "archived": false,
       "license": "MIT",
       "description": "An Agentic Framework for Reflective PowerPoint Generation",
@@ -6767,9 +7085,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "prismer",
@@ -6782,7 +7100,7 @@
       "category": "literature-writing",
       "tags": [],
       "language": "TypeScript",
-      "stars": 784,
+      "stars": 799,
       "pushedAt": "2026-06-24T04:36:01Z",
       "openIssues": 9,
       "archived": false,
@@ -6802,23 +7120,18 @@
       "githubUrl": "https://github.com/DeepMed-Lab-ECNU/PromptBio",
       "homepage": "https://www.promptbio.ai/",
       "paper": "https://doi.org/10.1101/2025.07.05.663295",
-      "paperMeta": null,
       "category": "bio-omics",
       "tags": [],
       "language": null,
       "stars": 1,
       "pushedAt": "2024-06-21T12:36:37Z",
       "openIssues": 1,
-      "archived": false,
       "license": null,
       "description": null,
       "status": "archived",
-      "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
-      "retiredReason": "idle",
-      "retiredStars": 1
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "protagents",
@@ -6988,9 +7301,9 @@
         "Microsoft"
       ],
       "language": "Python",
-      "stars": 14820,
+      "stars": 14816,
       "pushedAt": "2026-09-30T01:47:31Z",
-      "openIssues": 233,
+      "openIssues": 232,
       "archived": false,
       "license": "MIT",
       "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
@@ -7000,6 +7313,38 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "re-bench",
+      "name": "RE-Bench",
+      "repo": "METR/RE-Bench",
+      "githubUrl": "https://github.com/METR/RE-Bench",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2411.15114",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 167,
+      "pushedAt": "2025-10-16T18:52:05Z",
+      "openIssues": 7,
+      "license": "MIT",
+      "description": null,
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2411.15114",
+        "year": "2024.11",
+        "authors": "Hjalmar Wijk, T. Lin, Joel Becker, Sami Jawhar, Neev Parikh, Thomas Broadley, Lawrence Chan, Michael Chen, Joshua Clymer, Jai Dhyani, Elena Ericheva, Katharyn Garcia, Brian Goodrich, Nikola Jurkovic, Megan Kinniment, Aron Lajko, Seraphina Nix, L. Sato, William Saunders, M. Taran, Ben West, Elizabeth Barnes",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2411.15114",
+        "citations": 164
+      }
     },
     {
       "slug": "readdy-cell",
@@ -7102,12 +7447,10 @@
       "archived": true,
       "license": null,
       "description": "AI-Powered Research Desktop App",
-      "status": "gone",
+      "status": "stale",
       "autoStableExempt": false,
       "source": "claw4science.org",
-      "sourceUrl": "https://claw4science.org",
-      "retiredReason": "owner-archived",
-      "retiredStars": 65
+      "sourceUrl": "https://claw4science.org"
     },
     {
       "slug": "researchclaw-ymx10086",
@@ -7215,7 +7558,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 722,
+      "stars": 720,
       "pushedAt": "2026-04-21T23:58:38Z",
       "openIssues": 5,
       "archived": false,
@@ -7225,9 +7568,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "rs-paperclaw",
@@ -7243,8 +7586,8 @@
       ],
       "language": "Python",
       "stars": 220,
-      "pushedAt": "2026-10-01T11:16:31Z",
-      "openIssues": 1370,
+      "pushedAt": "2026-09-30T10:51:34Z",
+      "openIssues": 1363,
       "archived": false,
       "license": null,
       "description": "🦞 Stop reading remote sensing papaers manually — RS-PaperClaw auto-tracks, auto-analyzes, and auto-digests remote sensing papers. ",
@@ -7553,12 +7896,48 @@
       "retiredStars": 2
     },
     {
+      "slug": "scicode",
+      "name": "SciCode",
+      "repo": "scicode-bench/SciCode",
+      "githubUrl": "https://github.com/scicode-bench/SciCode",
+      "homepage": null,
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 233,
+      "pushedAt": "2026-09-28T17:21:13Z",
+      "openIssues": 23,
+      "license": "Apache-2.0",
+      "description": "A benchmark that challenges language models to code solutions for scientific problems",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
+    },
+    {
       "slug": "scienceagentbench",
       "name": "ScienceAgentBench",
       "repo": "OSU-NLP-Group/ScienceAgentBench",
       "githubUrl": "https://github.com/OSU-NLP-Group/ScienceAgentBench",
       "homepage": "https://osu-nlp-group.github.io/ScienceAgentBench",
       "paper": "https://doi.org/10.48550/arXiv.2410.05080",
+      "category": "benchmarks",
+      "tags": [
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 174,
+      "pushedAt": "2026-07-18T05:25:41Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "description": "[ICLR'25] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
         "venue": "ICLR",
@@ -7568,25 +7947,7 @@
         "firstAuthor": "Ziru Chen",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.05080",
         "citations": 215
-      },
-      "category": "benchmarks",
-      "tags": [
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 174,
-      "pushedAt": "2026-07-18T05:25:41Z",
-      "openIssues": 0,
-      "archived": false,
-      "license": "MIT",
-      "description": "[ICLR'25] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
-      "status": "active",
-      "autoStableExempt": false,
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
-      "retiredReason": null,
-      "retiredStars": null
+      }
     },
     {
       "slug": "scienceclaw-beita6969",
@@ -7635,7 +7996,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 243,
+      "stars": 242,
       "pushedAt": "2026-08-21T17:09:07Z",
       "openIssues": 4,
       "archived": false,
@@ -7720,19 +8081,19 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 47342,
-      "pushedAt": "2026-10-01T22:42:43Z",
-      "openIssues": 28,
+      "stars": 47254,
+      "pushedAt": "2026-10-01T00:14:57Z",
+      "openIssues": 26,
       "archived": false,
       "license": "MIT",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 168 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "status": "active",
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "scmultisim",
@@ -7791,9 +8152,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "scperturb",
@@ -7823,7 +8184,7 @@
       "archived": false,
       "license": "MIT",
       "description": "scPerturb: A resource and a python/R tool for single-cell perturbation data",
-      "status": "stable",
+      "status": "stale",
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
@@ -7888,7 +8249,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 5472,
+      "stars": 5471,
       "pushedAt": "2025-11-13T21:56:33Z",
       "openIssues": 37,
       "archived": false,
@@ -7898,9 +8259,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "shinkaevolve",
@@ -7924,7 +8285,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 1424,
+      "stars": 1423,
       "pushedAt": "2026-09-24T06:14:27Z",
       "openIssues": 7,
       "archived": false,
@@ -7934,9 +8295,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "skillclaw",
@@ -7961,7 +8322,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 2659,
+      "stars": 2657,
       "pushedAt": "2026-08-17T08:48:07Z",
       "openIssues": 40,
       "archived": false,
@@ -7997,7 +8358,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 17950,
+      "stars": 17922,
       "pushedAt": "2026-09-30T23:37:09Z",
       "openIssues": 45,
       "archived": false,
@@ -8195,6 +8556,38 @@
       "retiredStars": null
     },
     {
+      "slug": "supergpqa",
+      "name": "SuperGPQA",
+      "repo": "SuperGPQA/SuperGPQA",
+      "githubUrl": "https://github.com/SuperGPQA/SuperGPQA",
+      "homepage": null,
+      "paper": "https://arxiv.org/abs/2502.14739",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 193,
+      "pushedAt": "2025-04-30T16:48:06Z",
+      "openIssues": 6,
+      "license": null,
+      "description": null,
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2502.14739",
+        "year": "2025",
+        "authors": "M-A-P Team, Xin-Run Du, Yi-Fan Yao, Kaijing Ma, Bingli Wang, Tianyu Zheng, Kang Zhu, Minghao Liu, Yiming Liang, Xiaolong Jin, Zhen-Nan Wei, Chujie Zheng, Kaixin Deng, Shuyue Guo, Shian Jia, Sichao Jiang, Y. Liao, Rui Li, Qinrui Li, Sirun Li, Yizhi Li, Yunwen Li, Dehua Ma, Yuansheng Ni, Haoran Que, Qi-Yao Wang, Zhoufutu Wen, Si-Xuan Wu, Tianshun Xing, Ming Xu, Zhen-Zhu Yang, Ze Wang, Junting Zhou, Yu Bai, Xing-Yuan Bu, Chenglin Cai, Liang Chen, Yifan Chen, Chengtuo Cheng, Tianhao Cheng, Keyi Ding, Siming Huang, Yun-Jing Huang, Yaoru Li, Yi-Zhe Li, Zhaoqun Li, Tianhao Liang, Chengdong Lin, Hongquan Lin, Yi-Hui Ma, Z. Peng, Zifan Peng, Qige Qi, Shi Qiu, Xing-Wei Qu, Yizhou Tan, Zi-Li Wang, Chenqing Wang, Hao Wang, Yiya Wang, Yubo Wang, Jia-Jun Xu, Kexin Yang, Ru-Qing Yuan, Yuan-Hao Yue, Tianyang Zhan, Chun Zhang, Jing-Yun Zhang, Xiyue Zhang, Xingjian Zhang, Yue Zhang, Yong-Chi Zhao, Xiangyu Zheng, Chenghua Zhong, Yang Gao, Zhoujun Li, Dayiheng Liu, Qian Liu, Tianyu Liu, Shi-Wen Ni, Junran Peng, Yujia Qin, Wenbo Su, Guoyin Wang, Shi Wang, Jian Yang, Min Yang, Mengxuan Cao, Xiang Yue, Zhaoxiang Zhang, Wangchunshu Zhou, Jiaheng Liu, Qunshu Lin, Wenhao Huang, Ge Zhang",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2502.14739",
+        "citations": 259
+      }
+    },
+    {
       "slug": "surveyforge",
       "name": "SurveyForge",
       "repo": "InternScience/SurveyForge",
@@ -8226,9 +8619,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "surveyx",
@@ -8262,9 +8655,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "suspicion-agent",
@@ -8298,9 +8691,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "swe-bench",
@@ -8309,6 +8702,21 @@
       "githubUrl": "https://github.com/SWE-bench/SWE-bench",
       "homepage": "https://www.swebench.com",
       "paper": "https://doi.org/10.48550/arXiv.2310.06770",
+      "category": "benchmarks",
+      "tags": [
+        "Princeton",
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 5948,
+      "pushedAt": "2026-09-18T05:08:56Z",
+      "openIssues": 24,
+      "license": "MIT",
+      "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
         "venue": "ICLR",
@@ -8318,26 +8726,7 @@
         "firstAuthor": "Carlos E. Jimenez",
         "paperUrl": "https://doi.org/10.48550/arXiv.2310.06770",
         "citations": 4056
-      },
-      "category": "benchmarks",
-      "tags": [
-        "Princeton",
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 5949,
-      "pushedAt": "2026-09-18T05:08:56Z",
-      "openIssues": 24,
-      "archived": false,
-      "license": "MIT",
-      "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
-      "status": "active",
-      "autoStableExempt": false,
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
-      "retiredReason": null,
-      "retiredStars": null
+      }
     },
     {
       "slug": "tahoe-100m",
@@ -8372,6 +8761,38 @@
       "source": "manual",
       "sourceUrl": null,
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "tau2-bench",
+      "name": "Tau2-Bench",
+      "repo": "sierra-research/tau2-bench",
+      "githubUrl": "https://github.com/sierra-research/tau2-bench",
+      "homepage": "https://www.taubench.com",
+      "paper": "https://arxiv.org/abs/2506.07982",
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 2156,
+      "pushedAt": "2026-09-28T19:42:48Z",
+      "openIssues": 242,
+      "license": "MIT",
+      "description": "τ-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "paperMeta": {
+        "title": "τ2-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+        "venue": "arXiv.org",
+        "doi": "10.48550/arXiv.2506.07982",
+        "year": "2025.06",
+        "authors": "Victor Barrès, Honghua Dong, Soham Ray, Xujie Si, Karthik Narasimhan",
+        "firstAuthor": "",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2506.07982",
+        "citations": 546
+      }
     },
     {
       "slug": "tcm-agent",
@@ -8421,7 +8842,7 @@
       "language": "Jupyter Notebook",
       "stars": 1291,
       "pushedAt": "2025-07-13T17:44:10Z",
-      "openIssues": 71,
+      "openIssues": 68,
       "archived": false,
       "license": "MIT",
       "description": "Therapeutics Commons (TDC): Multimodal Foundation for Therapeutic Science",
@@ -8432,6 +8853,26 @@
       "retiredReason": null,
       "retiredStars": null,
       "listedAt": "2026-09-19"
+    },
+    {
+      "slug": "terminal-bench-2-0",
+      "name": "Terminal-Bench 2.0",
+      "repo": "harbor-framework/terminal-bench-2",
+      "githubUrl": "https://github.com/harbor-framework/terminal-bench-2",
+      "homepage": null,
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [],
+      "language": "Shell",
+      "stars": 417,
+      "pushedAt": "2026-04-30T05:53:32Z",
+      "openIssues": 50,
+      "license": "Apache-2.0",
+      "description": null,
+      "status": "stale",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
     },
     {
       "slug": "teroseek",
@@ -8555,7 +8996,7 @@
       "language": "TypeScript",
       "stars": 3620,
       "pushedAt": "2026-03-30T12:34:57Z",
-      "openIssues": 72,
+      "openIssues": 75,
       "archived": false,
       "license": "MIT",
       "description": "TinyAGI is the agent teams orchestrator for One Person Company. (fka TinyClaw)",
@@ -8565,6 +9006,28 @@
       "sourceUrl": "https://claw4science.org",
       "retiredReason": null,
       "retiredStars": null
+    },
+    {
+      "slug": "toolathlon",
+      "name": "Toolathlon",
+      "repo": "hkust-nlp/Toolathlon",
+      "githubUrl": "https://github.com/hkust-nlp/Toolathlon",
+      "homepage": "https://toolathlon.xyz/",
+      "paper": null,
+      "category": "benchmarks",
+      "tags": [
+        "HKUST"
+      ],
+      "language": "Python",
+      "stars": 491,
+      "pushedAt": "2026-08-18T18:27:01Z",
+      "openIssues": 28,
+      "license": null,
+      "description": "[ICLR 2026] The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution",
+      "status": "active",
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02"
     },
     {
       "slug": "tooluniverse",
@@ -8581,8 +9044,8 @@
       ],
       "language": "Python",
       "stars": 1715,
-      "pushedAt": "2026-10-02T05:15:04Z",
-      "openIssues": 19,
+      "pushedAt": "2026-09-30T12:39:58Z",
+      "openIssues": 16,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Democratizing AI scientists with ToolUniverse",
@@ -8733,9 +9196,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "voyager",
@@ -8757,7 +9220,7 @@
       "category": "platforms",
       "tags": [],
       "language": "JavaScript",
-      "stars": 7237,
+      "stars": 7235,
       "pushedAt": "2024-04-03T18:51:36Z",
       "openIssues": 7,
       "archived": false,
@@ -8767,9 +9230,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "webthinker",
@@ -8803,9 +9266,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "why-machines-dont-speak-biology",
@@ -8852,9 +9315,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Rust",
-      "stars": 998,
-      "pushedAt": "2026-10-02T09:21:11Z",
-      "openIssues": 4,
+      "stars": 1179,
+      "pushedAt": "2026-10-01T10:10:27Z",
+      "openIssues": 8,
       "archived": false,
       "license": "AGPL-3.0",
       "description": "Open-source, local-first desktop AI research workbench for scientific computing with Python/R, MCP bioinformatics tools, SSH/WSL/GPU runtimes, and OpenAI/Anthropic models.",
@@ -8954,9 +9417,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
+      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null,
-      "listedAt": "2026-10-01"
+      "retiredStars": null
     },
     {
       "slug": "xunzi",
@@ -9004,9 +9467,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 32928,
-      "pushedAt": "2026-10-02T04:26:28Z",
-      "openIssues": 861,
+      "stars": 32923,
+      "pushedAt": "2026-10-01T09:58:10Z",
+      "openIssues": 807,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
@@ -9019,7 +9482,7 @@
     }
   ],
   "counts": {
-    "total": 292,
+    "total": 310,
     "gone": 1
   }
 }

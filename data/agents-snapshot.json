@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T03:24:20Z",
+  "generatedAt": "2026-10-02T12:26:51Z",
   "agents": [
     {
       "slug": "a-world-model-of-the-virtual-cell",
@@ -76,21 +76,6 @@
       "githubUrl": "https://github.com/THUDM/AgentBench",
       "homepage": null,
       "paper": "https://doi.org/10.48550/arXiv.2308.03688",
-      "category": "benchmarks",
-      "tags": [
-        "Tsinghua",
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 3761,
-      "pushedAt": "2026-02-08T17:01:05Z",
-      "openIssues": 79,
-      "license": "Apache-2.0",
-      "description": "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)",
-      "status": "stale",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "AgentBench: Evaluating LLMs as Agents",
         "venue": "ICLR",
@@ -100,7 +85,26 @@
         "firstAuthor": "Xiao Liu",
         "paperUrl": "https://doi.org/10.48550/arXiv.2308.03688",
         "citations": 1393
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "Tsinghua",
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 3761,
+      "pushedAt": "2026-02-08T17:01:05Z",
+      "openIssues": 79,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)",
+      "status": "stable",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "agentlaboratory",
@@ -125,7 +129,7 @@
         "EMNLP-Findings"
       ],
       "language": "Python",
-      "stars": 5876,
+      "stars": 5879,
       "pushedAt": "2025-08-20T21:46:43Z",
       "openIssues": 61,
       "archived": false,
@@ -230,7 +234,7 @@
         "EMNLP"
       ],
       "language": "Jupyter Notebook",
-      "stars": 503,
+      "stars": 508,
       "pushedAt": "2026-05-10T21:39:43Z",
       "openIssues": 1,
       "archived": false,
@@ -240,9 +244,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "agents",
@@ -276,9 +280,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "agentteams",
@@ -293,9 +297,9 @@
         "Alibaba"
       ],
       "language": "Go",
-      "stars": 5687,
+      "stars": 5693,
       "pushedAt": "2026-09-23T06:25:55Z",
-      "openIssues": 227,
+      "openIssues": 246,
       "archived": false,
       "license": "Apache-2.0",
       "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
@@ -366,7 +370,7 @@
         "arXiv"
       ],
       "language": "Jupyter Notebook",
-      "stars": 14646,
+      "stars": 14648,
       "pushedAt": "2025-12-19T07:46:21Z",
       "openIssues": 121,
       "archived": false,
@@ -403,7 +407,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 7250,
+      "stars": 7255,
       "pushedAt": "2025-12-19T07:46:32Z",
       "openIssues": 79,
       "archived": false,
@@ -541,7 +545,7 @@
         "Claude-Code"
       ],
       "language": "Python",
-      "stars": 16865,
+      "stars": 16894,
       "pushedAt": "2026-09-29T05:26:25Z",
       "openIssues": 69,
       "archived": false,
@@ -612,7 +616,7 @@
         "ACL-Findings"
       ],
       "language": "Python",
-      "stars": 1749,
+      "stars": 1748,
       "pushedAt": "2025-10-16T06:38:48Z",
       "openIssues": 33,
       "archived": false,
@@ -742,9 +746,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "autoresearch",
@@ -759,7 +763,7 @@
         "Karpathy"
       ],
       "language": "Python",
-      "stars": 97090,
+      "stars": 97138,
       "pushedAt": "2026-03-26T00:07:37Z",
       "openIssues": 195,
       "archived": false,
@@ -809,7 +813,7 @@
         "Claude-Code"
       ],
       "language": "Shell",
-      "stars": 6500,
+      "stars": 6504,
       "pushedAt": "2026-08-12T22:28:18Z",
       "openIssues": 6,
       "archived": false,
@@ -833,7 +837,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 14570,
+      "stars": 14565,
       "pushedAt": "2026-08-19T03:35:13Z",
       "openIssues": 14,
       "archived": false,
@@ -878,9 +882,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "avatar",
@@ -914,9 +918,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "avoiding-common-failures-in-ai-for-health",
@@ -973,7 +977,7 @@
       "tags": [],
       "language": null,
       "stars": 40,
-      "pushedAt": "2026-10-01T08:33:04Z",
+      "pushedAt": "2026-10-02T03:19:27Z",
       "openIssues": 0,
       "archived": false,
       "license": "MPL-2.0",
@@ -1042,9 +1046,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 268,
-      "pushedAt": "2026-10-01T07:24:47Z",
-      "openIssues": 171,
+      "stars": 270,
+      "pushedAt": "2026-10-02T08:22:59Z",
+      "openIssues": 174,
       "archived": false,
       "license": "MIT",
       "description": "Track 20,710+ AI benchmark, eval, dataset, and data-quality records from 37 public sources, with linked evidence and daily updates.",
@@ -1154,10 +1158,12 @@
       "archived": true,
       "license": null,
       "description": "BioAgents: An AI scientist framework for autonomous deep research in biological sciences. Multi-agent system combining literature analysis agents with data scientist agents to enable deep research automation through user feedback integration and iterative scientific discovery. Inspired by advances in Edison Kosmos, Sakana AI, K-Dense and others.",
-      "status": "active",
+      "status": "gone",
       "autoStableExempt": false,
       "source": "claw4science.org",
-      "sourceUrl": "https://claw4science.org"
+      "sourceUrl": "https://claw4science.org",
+      "retiredReason": "owner-archived",
+      "retiredStars": 184
     },
     {
       "slug": "biobrain",
@@ -1470,7 +1476,7 @@
         "Science"
       ],
       "language": "Python",
-      "stars": 3929,
+      "stars": 3934,
       "pushedAt": "2026-09-28T19:18:11Z",
       "openIssues": 118,
       "archived": false,
@@ -1539,9 +1545,9 @@
         "NVIDIA"
       ],
       "language": "Python",
-      "stars": 862,
-      "pushedAt": "2026-10-01T04:08:58Z",
-      "openIssues": 247,
+      "stars": 861,
+      "pushedAt": "2026-10-01T16:58:42Z",
+      "openIssues": 246,
       "archived": false,
       "license": null,
       "description": "BioNeMo Recipes: For building and adapting AI models in drug discovery at scale",
@@ -1706,9 +1712,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 17798,
+      "stars": 17803,
       "pushedAt": "2026-09-30T04:46:03Z",
-      "openIssues": 522,
+      "openIssues": 526,
       "archived": false,
       "license": "Apache-2.0",
       "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
@@ -1716,9 +1722,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "caribou",
@@ -1798,7 +1804,7 @@
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.00921-9",
         "citations": 153
       },
-      "category": "benchmarks",
+      "category": "models",
       "tags": [
         "Cell"
       ],
@@ -1912,7 +1918,7 @@
         "Nature-Methods"
       ],
       "language": "Python",
-      "stars": 264,
+      "stars": 265,
       "pushedAt": "2026-06-02T18:18:33Z",
       "openIssues": 8,
       "archived": false,
@@ -1949,7 +1955,7 @@
         "Nature-Biotechnology"
       ],
       "language": "Jupyter Notebook",
-      "stars": 221,
+      "stars": 222,
       "pushedAt": "2026-05-12T17:27:29Z",
       "openIssues": 0,
       "archived": false,
@@ -2021,9 +2027,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "chatmoldata",
@@ -2162,7 +2168,7 @@
       ],
       "language": "Python",
       "stars": 161,
-      "pushedAt": "2026-10-01T06:34:40Z",
+      "pushedAt": "2026-10-01T19:46:03Z",
       "openIssues": 26,
       "archived": false,
       "license": "Apache-2.0",
@@ -2185,7 +2191,7 @@
       "category": "literature-writing",
       "tags": [],
       "language": "Python",
-      "stars": 313,
+      "stars": 308,
       "pushedAt": "2026-08-18T01:44:45Z",
       "openIssues": 2,
       "archived": false,
@@ -2234,7 +2240,7 @@
       "tags": [],
       "language": "Python",
       "stars": 778,
-      "pushedAt": "2026-10-01T10:05:46Z",
+      "pushedAt": "2026-10-02T09:43:38Z",
       "openIssues": 8,
       "archived": false,
       "license": "MIT",
@@ -2292,7 +2298,7 @@
       "category": "benchmarks",
       "tags": [],
       "language": "Python",
-      "stars": 904,
+      "stars": 912,
       "pushedAt": "2026-09-20T05:45:35Z",
       "openIssues": 52,
       "archived": false,
@@ -2316,9 +2322,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Python",
-      "stars": 1150,
-      "pushedAt": "2026-10-01T09:03:13Z",
-      "openIssues": 44,
+      "stars": 1149,
+      "pushedAt": "2026-10-02T08:47:11Z",
+      "openIssues": 47,
       "archived": false,
       "license": "MIT",
       "description": "🦖 ClawBio - The first bioinformatics-native AI agent skill library. Local-first. Reproducible. Open. Free.",
@@ -2340,7 +2346,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 4166,
+      "stars": 4168,
       "pushedAt": "2026-08-27T02:55:53Z",
       "openIssues": 258,
       "archived": false,
@@ -2389,8 +2395,8 @@
       "tags": [],
       "language": "Go",
       "stars": 1898,
-      "pushedAt": "2026-10-01T07:40:49Z",
-      "openIssues": 22,
+      "pushedAt": "2026-10-02T07:28:14Z",
+      "openIssues": 23,
       "archived": false,
       "license": "MIT",
       "description": "A Kubernetes-native control plane for AI agent instance management, with governed AI access, runtime orchestration, and reusable resources across multiple agent runtimes.",
@@ -2547,7 +2553,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 1459,
+      "stars": 1458,
       "pushedAt": "2026-07-03T18:24:33Z",
       "openIssues": 4,
       "archived": false,
@@ -2692,9 +2698,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "coscientist",
@@ -2728,9 +2734,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "crest",
@@ -2764,9 +2770,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "crisp",
@@ -2800,9 +2806,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "crispr-gpt",
@@ -2874,9 +2880,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "darwin",
@@ -2950,8 +2956,8 @@
       "tags": [],
       "language": "Python",
       "stars": 1810,
-      "pushedAt": "2026-09-28T20:38:04Z",
-      "openIssues": 9,
+      "pushedAt": "2026-10-01T18:33:26Z",
+      "openIssues": 0,
       "archived": false,
       "license": "MIT",
       "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
@@ -2995,9 +3001,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "deepanalyze",
@@ -3031,9 +3037,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "deepresearch",
@@ -3058,7 +3064,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 20005,
+      "stars": 20003,
       "pushedAt": "2026-02-27T13:12:11Z",
       "openIssues": 96,
       "archived": false,
@@ -3093,7 +3099,7 @@
         "ICLR"
       ],
       "language": "TypeScript",
-      "stars": 3347,
+      "stars": 3349,
       "pushedAt": "2026-06-28T16:39:26Z",
       "openIssues": 16,
       "archived": false,
@@ -3117,7 +3123,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "JavaScript",
-      "stars": 1147,
+      "stars": 1148,
       "pushedAt": "2026-09-17T18:45:41Z",
       "openIssues": 19,
       "archived": false,
@@ -3343,9 +3349,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "dxdirector",
@@ -3379,9 +3385,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "eas-diagnosis",
@@ -3456,7 +3462,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "Python",
-      "stars": 16958,
+      "stars": 16965,
       "pushedAt": "2026-09-28T02:33:22Z",
       "openIssues": 13,
       "archived": false,
@@ -3609,9 +3615,9 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 5024,
-      "pushedAt": "2026-10-01T09:39:13Z",
-      "openIssues": 63,
+      "stars": 4957,
+      "pushedAt": "2026-10-01T12:59:21Z",
+      "openIssues": 66,
       "archived": false,
       "license": "Apache-2.0",
       "description": "🔬 Harness Vibe Research with Self-evolving AI Scientists",
@@ -3633,7 +3639,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 3041,
+      "stars": 3042,
       "pushedAt": "2026-09-05T00:55:34Z",
       "openIssues": 147,
       "archived": false,
@@ -3760,9 +3766,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "geneclaw",
@@ -3831,9 +3837,9 @@
       "category": "literature-writing",
       "tags": [],
       "language": "Python",
-      "stars": 29857,
-      "pushedAt": "2026-09-26T17:46:25Z",
-      "openIssues": 20,
+      "stars": 29869,
+      "pushedAt": "2026-10-01T19:33:35Z",
+      "openIssues": 21,
       "archived": false,
       "license": "Apache-2.0",
       "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
@@ -3841,9 +3847,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "gptbioinsightor",
@@ -3952,20 +3958,6 @@
       "githubUrl": "https://github.com/harbor-framework/harbor",
       "homepage": "https://harborframework.com/",
       "paper": "https://doi.org/10.48550/arXiv.2609.04298",
-      "category": "benchmarks",
-      "tags": [
-        "arXiv"
-      ],
-      "language": "Python",
-      "stars": 5765,
-      "pushedAt": "2026-10-01T15:35:19Z",
-      "openIssues": 969,
-      "license": "Apache-2.0",
-      "description": "Framework for evaluating and improving agents ",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
         "venue": "arXiv",
@@ -3975,7 +3967,25 @@
         "firstAuthor": "Lin Shi",
         "paperUrl": "https://doi.org/10.48550/arXiv.2609.04298",
         "citations": 1
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "arXiv"
+      ],
+      "language": "Python",
+      "stars": 5785,
+      "pushedAt": "2026-10-01T15:35:19Z",
+      "openIssues": 973,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "Framework for evaluating and improving agents ",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "healthclaw",
@@ -3988,7 +3998,7 @@
       "category": "clinical-health",
       "tags": [],
       "language": "Python",
-      "stars": 151,
+      "stars": 130,
       "pushedAt": "2026-07-27T08:28:47Z",
       "openIssues": 1,
       "archived": false,
@@ -4049,9 +4059,9 @@
         "Nous-Research"
       ],
       "language": "Python",
-      "stars": 250449,
-      "pushedAt": "2026-10-01T10:07:45Z",
-      "openIssues": 47694,
+      "stars": 250676,
+      "pushedAt": "2026-10-02T09:51:43Z",
+      "openIssues": 48324,
       "archived": false,
       "license": "MIT",
       "description": "The agent that grows with you",
@@ -4106,21 +4116,6 @@
       "githubUrl": "https://github.com/princeton-pli/hal-harness",
       "homepage": null,
       "paper": "https://doi.org/10.48550/arXiv.2510.11977",
-      "category": "benchmarks",
-      "tags": [
-        "Princeton",
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 311,
-      "pushedAt": "2026-07-01T16:40:48Z",
-      "openIssues": 3,
-      "license": null,
-      "description": null,
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
         "venue": "ICLR",
@@ -4130,7 +4125,26 @@
         "firstAuthor": "Sayash Kapoor",
         "paperUrl": "https://doi.org/10.48550/arXiv.2510.11977",
         "citations": 81
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "Princeton",
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 311,
+      "pushedAt": "2026-07-01T16:40:48Z",
+      "openIssues": 3,
+      "archived": true,
+      "license": null,
+      "description": null,
+      "status": "gone",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "retiredReason": "owner-archived",
+      "retiredStars": 311
     },
     {
       "slug": "hypothesis-generation",
@@ -4164,9 +4178,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "ian",
@@ -4303,9 +4317,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 12638,
+      "stars": 12637,
       "pushedAt": "2026-10-01T02:54:24Z",
-      "openIssues": 1537,
+      "openIssues": 1538,
       "archived": false,
       "license": "Apache-2.0",
       "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
@@ -4339,12 +4353,12 @@
       ],
       "language": "Python",
       "stars": 592,
-      "pushedAt": "2026-04-04T08:03:48Z",
+      "pushedAt": "2026-10-02T05:28:44Z",
       "openIssues": 2,
       "archived": false,
       "license": null,
       "description": "Kosmos: An AI Scientist for Autonomous Discovery - An implementation and adaptation to be driven by Claude Code or API - Based on the Kosmos AI Paper -  https://arxiv.org/abs/2511.02824",
-      "status": "stale",
+      "status": "active",
       "autoStableExempt": false,
       "source": "claw4science.org",
       "sourceUrl": "https://claw4science.org",
@@ -4365,7 +4379,7 @@
         "Stanford"
       ],
       "language": null,
-      "stars": 1052,
+      "stars": 1053,
       "pushedAt": "2026-03-19T06:37:52Z",
       "openIssues": 4,
       "archived": false,
@@ -4636,9 +4650,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "matclaw",
@@ -4797,7 +4811,7 @@
       "category": "bio-omics",
       "tags": [],
       "language": "TeX",
-      "stars": 641,
+      "stars": 615,
       "pushedAt": "2026-03-12T07:34:39Z",
       "openIssues": 6,
       "archived": false,
@@ -4937,7 +4951,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 3493,
+      "stars": 3459,
       "pushedAt": "2026-06-07T04:57:05Z",
       "openIssues": 17,
       "archived": false,
@@ -5032,9 +5046,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 742,
-      "pushedAt": "2026-10-01T06:26:47Z",
-      "openIssues": 3,
+      "stars": 743,
+      "pushedAt": "2026-10-01T17:15:39Z",
+      "openIssues": 8,
       "archived": false,
       "license": "MIT",
       "description": "🦀An agentic AI assistant that lives in your chats, inspired by nanoclaw and incorporating some of its design ideas. Built with Rust 🦀",
@@ -5077,9 +5091,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "mira",
@@ -5247,9 +5261,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "multi-agent-ai-systems-for-bio-clinical-analysis",
@@ -5296,9 +5310,9 @@
       "category": "orchestration",
       "tags": [],
       "language": "Go",
-      "stars": 51779,
-      "pushedAt": "2026-10-01T10:01:12Z",
-      "openIssues": 1739,
+      "stars": 51845,
+      "pushedAt": "2026-10-01T10:21:08Z",
+      "openIssues": 1749,
       "archived": false,
       "license": null,
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
@@ -5393,9 +5407,9 @@
         "MCP"
       ],
       "language": "Python",
-      "stars": 48711,
-      "pushedAt": "2026-10-01T10:05:00Z",
-      "openIssues": 810,
+      "stars": 48744,
+      "pushedAt": "2026-10-02T06:14:24Z",
+      "openIssues": 816,
       "archived": false,
       "license": "MIT",
       "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
@@ -5417,9 +5431,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 30865,
-      "pushedAt": "2026-10-01T08:07:08Z",
-      "openIssues": 1101,
+      "stars": 30868,
+      "pushedAt": "2026-10-01T21:19:11Z",
+      "openIssues": 1084,
       "archived": false,
       "license": "MIT",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
@@ -5441,7 +5455,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "Python",
-      "stars": 1369,
+      "stars": 1337,
       "pushedAt": "2026-08-25T09:28:09Z",
       "openIssues": 7,
       "archived": false,
@@ -5467,9 +5481,9 @@
         "NVIDIA"
       ],
       "language": "TypeScript",
-      "stars": 22624,
-      "pushedAt": "2026-10-01T10:05:41Z",
-      "openIssues": 761,
+      "stars": 22638,
+      "pushedAt": "2026-10-02T09:39:02Z",
+      "openIssues": 748,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
@@ -5495,7 +5509,7 @@
       "language": "Python",
       "stars": 155,
       "pushedAt": "2026-09-16T22:17:29Z",
-      "openIssues": 55,
+      "openIssues": 56,
       "archived": false,
       "license": "Apache-2.0",
       "description": "AI Scientist by Chicago Human+AI Lab",
@@ -5520,7 +5534,7 @@
       ],
       "language": "Python",
       "stars": 91,
-      "pushedAt": "2026-09-29T20:43:29Z",
+      "pushedAt": "2026-10-01T18:12:03Z",
       "openIssues": 0,
       "archived": false,
       "license": "MIT",
@@ -5554,7 +5568,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 407,
+      "stars": 408,
       "pushedAt": "2025-08-07T16:45:26Z",
       "openIssues": 9,
       "archived": false,
@@ -5564,9 +5578,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "nsclc-virtual-tumor",
@@ -5613,7 +5627,7 @@
       "category": "platforms",
       "tags": [],
       "language": "Zig",
-      "stars": 8103,
+      "stars": 8104,
       "pushedAt": "2026-09-27T06:27:45Z",
       "openIssues": 67,
       "archived": false,
@@ -5733,7 +5747,7 @@
         "bioRxiv"
       ],
       "language": "Python",
-      "stars": 1213,
+      "stars": 1215,
       "pushedAt": "2026-09-23T05:34:16Z",
       "openIssues": 10,
       "archived": false,
@@ -5879,7 +5893,7 @@
       "category": "orchestration",
       "tags": [],
       "language": "TypeScript",
-      "stars": 6972,
+      "stars": 6974,
       "pushedAt": "2026-10-01T04:07:28Z",
       "openIssues": 6,
       "archived": false,
@@ -5924,9 +5938,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "openagi",
@@ -5960,9 +5974,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "openclaw",
@@ -5975,9 +5989,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 391102,
-      "pushedAt": "2026-10-01T10:14:09Z",
-      "openIssues": 9137,
+      "stars": 391193,
+      "pushedAt": "2026-10-02T09:51:26Z",
+      "openIssues": 9156,
       "archived": false,
       "license": "MIT",
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
@@ -6025,13 +6039,13 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 15901,
+      "stars": 15909,
       "pushedAt": "2026-06-04T02:42:40Z",
       "openIssues": 92,
       "archived": false,
       "license": "MIT",
       "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
-      "status": "active",
+      "status": "stale",
       "autoStableExempt": false,
       "source": "claw4science.org",
       "sourceUrl": "https://claw4science.org",
@@ -6085,9 +6099,9 @@
         "JCST"
       ],
       "language": "TypeScript",
-      "stars": 39712,
-      "pushedAt": "2026-10-01T09:36:15Z",
-      "openIssues": 177,
+      "stars": 39793,
+      "pushedAt": "2026-10-02T08:44:55Z",
+      "openIssues": 180,
       "archived": false,
       "license": "MIT",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
@@ -6111,7 +6125,7 @@
         "TIGER-AI-Lab"
       ],
       "language": "Python",
-      "stars": 1254,
+      "stars": 1255,
       "pushedAt": "2026-06-10T17:32:58Z",
       "openIssues": 5,
       "archived": false,
@@ -6135,9 +6149,9 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 3879,
-      "pushedAt": "2026-10-01T01:16:26Z",
-      "openIssues": 42,
+      "stars": 3896,
+      "pushedAt": "2026-10-02T09:43:31Z",
+      "openIssues": 6,
       "archived": false,
       "license": "Apache-2.0",
       "description": "The open-source AI workbench for scientific research",
@@ -6161,7 +6175,7 @@
         "HKUDS"
       ],
       "language": "Python",
-      "stars": 7741,
+      "stars": 7740,
       "pushedAt": "2026-08-12T15:21:07Z",
       "openIssues": 53,
       "archived": false,
@@ -6243,20 +6257,6 @@
       "githubUrl": "https://github.com/xlang-ai/OSWorld",
       "homepage": "https://os-world.github.io",
       "paper": "https://doi.org/10.48550/arXiv.2404.07972",
-      "category": "benchmarks",
-      "tags": [
-        "NeurIPS"
-      ],
-      "language": "Python",
-      "stars": 3170,
-      "pushedAt": "2026-09-14T16:08:47Z",
-      "openIssues": 211,
-      "license": "Apache-2.0",
-      "description": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
         "venue": "NeurIPS",
@@ -6266,7 +6266,25 @@
         "firstAuthor": "Tianbao Xie",
         "paperUrl": "https://doi.org/10.48550/arXiv.2404.07972",
         "citations": 1261
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "NeurIPS"
+      ],
+      "language": "Python",
+      "stars": 3170,
+      "pushedAt": "2026-09-14T16:08:47Z",
+      "openIssues": 211,
+      "archived": false,
+      "license": "Apache-2.0",
+      "description": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "pantheonos",
@@ -6283,7 +6301,7 @@
       "language": "Python",
       "stars": 488,
       "pushedAt": "2026-09-30T03:51:06Z",
-      "openIssues": 24,
+      "openIssues": 25,
       "archived": false,
       "license": "BSD-2-Clause",
       "description": "A general, evolvable, and distributed agent framework & harness for data science.",
@@ -6318,7 +6336,7 @@
         "Nature"
       ],
       "language": "Python",
-      "stars": 3621,
+      "stars": 3631,
       "pushedAt": "2026-09-17T16:56:07Z",
       "openIssues": 0,
       "archived": false,
@@ -6364,9 +6382,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "paper_claw-pigeondan1",
@@ -6382,7 +6400,7 @@
       ],
       "language": "Python",
       "stars": 38,
-      "pushedAt": "2026-10-01T06:37:54Z",
+      "pushedAt": "2026-10-02T06:21:20Z",
       "openIssues": 1,
       "archived": false,
       "license": "MIT",
@@ -6608,9 +6626,9 @@
       "category": "platforms",
       "tags": [],
       "language": "TypeScript",
-      "stars": 110890,
-      "pushedAt": "2026-10-01T09:37:03Z",
-      "openIssues": 244,
+      "stars": 111512,
+      "pushedAt": "2026-10-02T09:40:14Z",
+      "openIssues": 256,
       "archived": false,
       "license": "MIT",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
@@ -6632,7 +6650,7 @@
       "category": "autonomous-research",
       "tags": [],
       "language": "TypeScript",
-      "stars": 8138,
+      "stars": 8141,
       "pushedAt": "2026-09-10T09:28:22Z",
       "openIssues": 10,
       "archived": false,
@@ -6656,7 +6674,7 @@
       "category": "platforms",
       "tags": [],
       "language": "Go",
-      "stars": 30028,
+      "stars": 30026,
       "pushedAt": "2026-09-24T17:14:08Z",
       "openIssues": 59,
       "archived": false,
@@ -6739,9 +6757,9 @@
         "EMNLP"
       ],
       "language": "Python",
-      "stars": 5078,
+      "stars": 5081,
       "pushedAt": "2026-09-28T21:30:54Z",
-      "openIssues": 16,
+      "openIssues": 17,
       "archived": false,
       "license": "MIT",
       "description": "An Agentic Framework for Reflective PowerPoint Generation",
@@ -6749,9 +6767,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "prismer",
@@ -6764,7 +6782,7 @@
       "category": "literature-writing",
       "tags": [],
       "language": "TypeScript",
-      "stars": 799,
+      "stars": 784,
       "pushedAt": "2026-06-24T04:36:01Z",
       "openIssues": 9,
       "archived": false,
@@ -6784,18 +6802,23 @@
       "githubUrl": "https://github.com/DeepMed-Lab-ECNU/PromptBio",
       "homepage": "https://www.promptbio.ai/",
       "paper": "https://doi.org/10.1101/2025.07.05.663295",
+      "paperMeta": null,
       "category": "bio-omics",
       "tags": [],
       "language": null,
       "stars": 1,
       "pushedAt": "2024-06-21T12:36:37Z",
       "openIssues": 1,
+      "archived": false,
       "license": null,
       "description": null,
       "status": "archived",
+      "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01"
+      "listedAt": "2026-10-01",
+      "retiredReason": "idle",
+      "retiredStars": 1
     },
     {
       "slug": "protagents",
@@ -6965,9 +6988,9 @@
         "Microsoft"
       ],
       "language": "Python",
-      "stars": 14816,
+      "stars": 14820,
       "pushedAt": "2026-09-30T01:47:31Z",
-      "openIssues": 232,
+      "openIssues": 233,
       "archived": false,
       "license": "MIT",
       "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
@@ -7079,10 +7102,12 @@
       "archived": true,
       "license": null,
       "description": "AI-Powered Research Desktop App",
-      "status": "stale",
+      "status": "gone",
       "autoStableExempt": false,
       "source": "claw4science.org",
-      "sourceUrl": "https://claw4science.org"
+      "sourceUrl": "https://claw4science.org",
+      "retiredReason": "owner-archived",
+      "retiredStars": 65
     },
     {
       "slug": "researchclaw-ymx10086",
@@ -7190,7 +7215,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 720,
+      "stars": 722,
       "pushedAt": "2026-04-21T23:58:38Z",
       "openIssues": 5,
       "archived": false,
@@ -7200,9 +7225,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "rs-paperclaw",
@@ -7218,8 +7243,8 @@
       ],
       "language": "Python",
       "stars": 220,
-      "pushedAt": "2026-09-30T10:51:34Z",
-      "openIssues": 1363,
+      "pushedAt": "2026-10-01T11:16:31Z",
+      "openIssues": 1370,
       "archived": false,
       "license": null,
       "description": "🦞 Stop reading remote sensing papaers manually — RS-PaperClaw auto-tracks, auto-analyzes, and auto-digests remote sensing papers. ",
@@ -7534,20 +7559,6 @@
       "githubUrl": "https://github.com/OSU-NLP-Group/ScienceAgentBench",
       "homepage": "https://osu-nlp-group.github.io/ScienceAgentBench",
       "paper": "https://doi.org/10.48550/arXiv.2410.05080",
-      "category": "benchmarks",
-      "tags": [
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 174,
-      "pushedAt": "2026-07-18T05:25:41Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "description": "[ICLR'25] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
         "venue": "ICLR",
@@ -7557,7 +7568,25 @@
         "firstAuthor": "Ziru Chen",
         "paperUrl": "https://doi.org/10.48550/arXiv.2410.05080",
         "citations": 215
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 174,
+      "pushedAt": "2026-07-18T05:25:41Z",
+      "openIssues": 0,
+      "archived": false,
+      "license": "MIT",
+      "description": "[ICLR'25] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "scienceclaw-beita6969",
@@ -7606,7 +7635,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 242,
+      "stars": 243,
       "pushedAt": "2026-08-21T17:09:07Z",
       "openIssues": 4,
       "archived": false,
@@ -7691,19 +7720,19 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 47254,
-      "pushedAt": "2026-10-01T00:14:57Z",
-      "openIssues": 26,
+      "stars": 47342,
+      "pushedAt": "2026-10-01T22:42:43Z",
+      "openIssues": 28,
       "archived": false,
       "license": "MIT",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 168 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "status": "active",
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "scmultisim",
@@ -7762,9 +7791,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "scperturb",
@@ -7794,7 +7823,7 @@
       "archived": false,
       "license": "MIT",
       "description": "scPerturb: A resource and a python/R tool for single-cell perturbation data",
-      "status": "stale",
+      "status": "stable",
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
@@ -7859,7 +7888,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 5471,
+      "stars": 5472,
       "pushedAt": "2025-11-13T21:56:33Z",
       "openIssues": 37,
       "archived": false,
@@ -7869,9 +7898,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "shinkaevolve",
@@ -7895,7 +7924,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 1423,
+      "stars": 1424,
       "pushedAt": "2026-09-24T06:14:27Z",
       "openIssues": 7,
       "archived": false,
@@ -7905,9 +7934,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "skillclaw",
@@ -7932,7 +7961,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 2657,
+      "stars": 2659,
       "pushedAt": "2026-08-17T08:48:07Z",
       "openIssues": 40,
       "archived": false,
@@ -7968,7 +7997,7 @@
         "arXiv"
       ],
       "language": "Python",
-      "stars": 17922,
+      "stars": 17950,
       "pushedAt": "2026-09-30T23:37:09Z",
       "openIssues": 45,
       "archived": false,
@@ -8197,9 +8226,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "surveyx",
@@ -8233,9 +8262,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "suspicion-agent",
@@ -8269,9 +8298,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "swe-bench",
@@ -8280,21 +8309,6 @@
       "githubUrl": "https://github.com/SWE-bench/SWE-bench",
       "homepage": "https://www.swebench.com",
       "paper": "https://doi.org/10.48550/arXiv.2310.06770",
-      "category": "benchmarks",
-      "tags": [
-        "Princeton",
-        "ICLR"
-      ],
-      "language": "Python",
-      "stars": 5948,
-      "pushedAt": "2026-09-18T05:08:56Z",
-      "openIssues": 24,
-      "license": "MIT",
-      "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
-      "status": "active",
-      "source": "manual",
-      "sourceUrl": null,
-      "listedAt": "2026-10-02",
       "paperMeta": {
         "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
         "venue": "ICLR",
@@ -8304,7 +8318,26 @@
         "firstAuthor": "Carlos E. Jimenez",
         "paperUrl": "https://doi.org/10.48550/arXiv.2310.06770",
         "citations": 4056
-      }
+      },
+      "category": "benchmarks",
+      "tags": [
+        "Princeton",
+        "ICLR"
+      ],
+      "language": "Python",
+      "stars": 5949,
+      "pushedAt": "2026-09-18T05:08:56Z",
+      "openIssues": 24,
+      "archived": false,
+      "license": "MIT",
+      "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+      "status": "active",
+      "autoStableExempt": false,
+      "source": "manual",
+      "sourceUrl": null,
+      "listedAt": "2026-10-02",
+      "retiredReason": null,
+      "retiredStars": null
     },
     {
       "slug": "tahoe-100m",
@@ -8388,7 +8421,7 @@
       "language": "Jupyter Notebook",
       "stars": 1291,
       "pushedAt": "2025-07-13T17:44:10Z",
-      "openIssues": 68,
+      "openIssues": 71,
       "archived": false,
       "license": "MIT",
       "description": "Therapeutics Commons (TDC): Multimodal Foundation for Therapeutic Science",
@@ -8522,7 +8555,7 @@
       "language": "TypeScript",
       "stars": 3620,
       "pushedAt": "2026-03-30T12:34:57Z",
-      "openIssues": 75,
+      "openIssues": 72,
       "archived": false,
       "license": "MIT",
       "description": "TinyAGI is the agent teams orchestrator for One Person Company. (fka TinyClaw)",
@@ -8548,8 +8581,8 @@
       ],
       "language": "Python",
       "stars": 1715,
-      "pushedAt": "2026-09-30T12:39:58Z",
-      "openIssues": 16,
+      "pushedAt": "2026-10-02T05:15:04Z",
+      "openIssues": 19,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Democratizing AI scientists with ToolUniverse",
@@ -8614,7 +8647,7 @@
         "paperUrl": "https://doi.org/10.1016/j.cell.2026.08.004",
         "citations": 1
       },
-      "category": "benchmarks",
+      "category": "models",
       "tags": [
         "Cell"
       ],
@@ -8700,9 +8733,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "voyager",
@@ -8724,7 +8757,7 @@
       "category": "platforms",
       "tags": [],
       "language": "JavaScript",
-      "stars": 7235,
+      "stars": 7237,
       "pushedAt": "2024-04-03T18:51:36Z",
       "openIssues": 7,
       "archived": false,
@@ -8734,9 +8767,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "webthinker",
@@ -8770,9 +8803,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "why-machines-dont-speak-biology",
@@ -8819,9 +8852,9 @@
       "category": "bio-omics",
       "tags": [],
       "language": "Rust",
-      "stars": 1179,
-      "pushedAt": "2026-10-01T10:10:27Z",
-      "openIssues": 8,
+      "stars": 998,
+      "pushedAt": "2026-10-02T09:21:11Z",
+      "openIssues": 4,
       "archived": false,
       "license": "AGPL-3.0",
       "description": "Open-source, local-first desktop AI research workbench for scientific computing with Python/R, MCP bioinformatics tools, SSH/WSL/GPU runtimes, and OpenAI/Anthropic models.",
@@ -8921,9 +8954,9 @@
       "autoStableExempt": false,
       "source": "manual",
       "sourceUrl": null,
-      "listedAt": "2026-10-01",
       "retiredReason": null,
-      "retiredStars": null
+      "retiredStars": null,
+      "listedAt": "2026-10-01"
     },
     {
       "slug": "xunzi",
@@ -8971,9 +9004,9 @@
       "category": "platforms",
       "tags": [],
       "language": "Rust",
-      "stars": 32923,
-      "pushedAt": "2026-10-01T09:58:10Z",
-      "openIssues": 807,
+      "stars": 32928,
+      "pushedAt": "2026-10-02T04:26:28Z",
+      "openIssues": 861,
       "archived": false,
       "license": "Apache-2.0",
       "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",

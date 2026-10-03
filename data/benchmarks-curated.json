@@ -1,0 +1,25 @@
+{
+  "$comment": [
+    "AgentX-curated score observations — the agentx_curated partition.",
+    "For benchmarks the Benchmark Radar corpus does not cover (or covers without scores), transcribed by hand from primary documents (papers, leaderboards). Merged by scripts/refresh-benchmarks.mjs on every ingest, append-only by obsKey — same archive rules as BR rows: values may be corrected in place, first-ingest dates are kept, rows never drop.",
+    "Rules: (1) every score row MUST cite a document from this file's `documents` block via documentRef; (2) obsKey must be globally unique and stable — pick it once, never rename it (suggested: agentx_curated:<doc-short-id>:<subject>:<instrument>); (3) transcribe values verbatim from the source document — never round, convert, or estimate; (4) record the protocol conditions in comparableGroup when the source states them; (5) `series` describes how to read this partition's values; verify direction against the source before filling.",
+    "Score row shape: { obsKey, subjectName, value, unit?, instrument?, comparableGroup?, measurementKind? (reported_self_score | third_party_eval | independent_eval), measuredBy?, documentRef, reportedAt (YYYY-MM-DD), datePrecision? (default document_publication), agentRepo? }.",
+    "Once Benchmark Radar covers a benchmark with score rows, keep this entry anyway — partitions never merge, and both partitions stay visible on the benchmark page."
+  ],
+  "benchmarks": {
+    "bioagent-bench": {
+      "series": { "direction": "higher_is_better" },
+      "documents": [
+        {
+          "docId": "agentx_curated:bioagentbench-paper",
+          "docType": "paper",
+          "title": "BioAgent Bench: An AI Agent Evaluation Suite for Bioinformatics",
+          "organization": null,
+          "publishedAt": null,
+          "url": "https://arxiv.org/abs/2601.21800"
+        }
+      ],
+      "scores": []
+    }
+  }
+}
